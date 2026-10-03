@@ -535,36 +535,63 @@ function handlePickerKey(e) {
   }
 }
 
+const ENC_PREVIEW_ROWS = 6;
+
+// The Pokémon followed by each pre-evolution, nearest first (e.g. Charizard, Charmeleon, Charmander).
+function evolutionLine(p) {
+  const line = [p];
+  let cur = p;
+  while (cur.from && mon(cur.from) && line.length < 4) {
+    cur = mon(cur.from);
+    line.push(cur);
+  }
+  return line;
+}
+
 function renderEncounters(pid, p) {
   const g = game();
   if (!g.hasEncounters) return `<p class="empty">Encounter locations for ${esc(g.name)} aren't in the PokeAPI dataset yet, so they can't be shown here.</p>`;
-  const list = (g.pokemon[pid]?.e || []).filter(e => versionAllowed(e[4]));
-  if (!list.length) {
-    // Walk back through pre-evolutions to find something catchable.
-    let cur = p, chain = [];
-    while (cur.from && mon(cur.from)) {
-      cur = mon(cur.from);
-      const enc = (g.pokemon[cur.id]?.e || []).filter(e => versionAllowed(e[4]));
-      if (enc.length) {
-        return `<p class="muted">${esc(displayName(p))} isn't found in the wild. Catch <button class="link" data-action="jump" data-p="${cur.id}">${esc(cur.name)}</button> and evolve it:</p>` +
-          encounterTable(enc.slice(0, 8), cur);
-      }
-      chain.push(cur.name);
-    }
-    return `<p class="empty">${esc(displayName(p))} can't be caught in the wild in ${state.version < 0 ? esc(g.name) : esc(g.versions[state.version].name)}. It may be a gift, a trade, an event, or exclusive to the other version.</p>`;
-  }
-  return encounterTable(list);
+  const where = state.version < 0 ? g.name : g.versions[state.version].name;
+  const stages = evolutionLine(p).map((s, i) => ({
+    s, i, enc: (g.pokemon[i === 0 ? pid : s.id]?.e || []).filter(e => versionAllowed(e[4])),
+  }));
+
+  // Earliest catch anywhere in the line: lowest encounter level, so you know how soon you can start it.
+  let earliest = null;
+  for (const st of stages) for (const e of st.enc) if (!earliest || e[2] < earliest.e[2]) earliest = { st, e };
+  const summary = earliest
+    ? `<p class="enc-summary">Earliest catch in this line: <b>${esc(displayName(earliest.st.s))}</b> at <b>${esc(earliest.e[0])}</b>
+        <span class="muted">(${esc(earliest.e[1])}, Lv ${earliest.e[2]})</span>${earliest.st.i ? ` then evolve it into ${esc(displayName(p))}.` : '.'}</p>`
+    : `<p class="empty">Nothing in the ${esc(p.name)} line can be caught in the wild in ${esc(where)}. It may be a gift, a trade, an event, or exclusive to the other version.</p>`;
+
+  return summary + stages.map(({ s, i, enc }) => `
+    <div class="enc-stage">
+      <div class="enc-stage-head">
+        ${sprite(s.id, 40)}
+        <div>
+          ${i === 0 ? `<strong>${esc(displayName(s))}</strong>`
+            : `<button class="link" data-action="jump" data-p="${s.id}">${esc(displayName(s))}</button>`}
+          <span class="stage-tag">${i === 0 ? 'This Pokémon' : `Pre-evolution · evolves into ${esc(stages[i - 1].s.name)}`}</span>
+        </div>
+        <span class="muted small enc-count">${enc.length ? `${enc.length} location${enc.length === 1 ? '' : 's'}` : ''}</span>
+      </div>
+      ${enc.length ? encounterTable(enc, s.id) : `<p class="muted small enc-none">Not found in the wild in ${esc(where)}.</p>`}
+    </div>`).join('');
 }
-function encounterTable(list, via) {
+
+function encounterTable(list, key) {
   const g = game();
   const multi = g.versions.length > 1;
+  const open = state.encOpen?.has(key);
+  const rows = open ? list : list.slice(0, ENC_PREVIEW_ROWS);
   return `<div class="table-wrap"><table class="enc">
     <thead><tr><th>Location</th><th>Method</th><th class="r">Levels</th><th class="r">Rate</th>${multi ? '<th>Version</th>' : ''}<th>Conditions</th></tr></thead>
-    <tbody>${list.map(([loc, method, lo, hi, mask, rate, cond]) => `<tr>
+    <tbody>${rows.map(([loc, method, lo, hi, mask, rate, cond]) => `<tr>
       <td>${esc(loc)}</td><td>${esc(method)}</td><td class="num r">${lo === hi ? lo : lo + '–' + hi}</td>
       <td class="num r">${rate ? rate + '%' : '—'}</td>
       ${multi ? `<td>${g.versions.map((v, i) => mask & (1 << i) ? `<span class="ver v${i}">${esc(v.name)}</span>` : '').join(' ')}</td>` : ''}
-      <td class="small">${cond ? cond.map(esc).join(', ') : ''}</td></tr>`).join('')}</tbody></table></div>`;
+      <td class="small">${cond ? cond.map(esc).join(', ') : ''}</td></tr>`).join('')}</tbody></table></div>
+    ${list.length > ENC_PREVIEW_ROWS ? `<button class="btn sm ghost enc-more" data-action="enc-more" data-k="${key}">${open ? 'Show fewer' : `Show all ${list.length} locations`}</button>` : ''}`;
 }
 
 /* Battles tab */
@@ -736,6 +763,12 @@ function handleClick(e) {
   else if (a === 'unmove') {
     const m = t[state.slot];
     if (m) { m.moves = m.moves.filter(id => id !== Number(el.dataset.m)); save(); renderTeam(); renderWorkspace(); }
+  }
+  else if (a === 'enc-more') {
+    const k = Number(el.dataset.k);
+    state.encOpen ||= new Set();
+    state.encOpen.has(k) ? state.encOpen.delete(k) : state.encOpen.add(k);
+    renderWorkspace();
   }
   else if (a === 'learn-filter') { state.learnFilter = el.dataset.f; renderWorkspace(); }
   else if (a === 'battle-filter') { state.battleFilter = el.dataset.f; renderWorkspace(); }

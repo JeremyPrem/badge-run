@@ -243,6 +243,14 @@ table.moves tr.chosen td:nth-child(2) { font-weight: 700; }
 .cls-physical::before { background: #e0663a; }
 .cls-special::before { background: #4a78d8; border-radius: 50%; }
 .cls-status::before { background: var(--ink-3); transform: rotate(45deg) scale(.85); }
+.enc-summary { margin: 0; padding: 10px 12px; border-radius: 8px; background: var(--good-bg); color: var(--ink); }
+.enc-stage { display: grid; gap: 6px; padding-top: 10px; border-top: 1px solid var(--line); }
+.enc-stage-head { display: flex; align-items: center; gap: 10px; }
+.enc-stage-head strong, .enc-stage-head .link { font-family: var(--font-display); font-size: 16px; }
+.stage-tag { display: block; font-size: 11px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-3); }
+.enc-count { margin-left: auto; white-space: nowrap; }
+.enc-none { margin: 0 0 4px 50px; }
+.enc-more { justify-self: start; }
 .ver { display: inline-block; font-size: 11px; padding: 1px 6px; border-radius: 4px; background: var(--surface-2); border: 1px solid var(--line); white-space: nowrap; }
 
 /* ---- battles ---- */
