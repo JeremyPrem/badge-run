@@ -6,7 +6,9 @@ const el = () => ({ innerHTML: '', textContent: '', hidden: false, value: '', op
   setAttribute() {}, querySelector: () => el(), focus() {}, setSelectionRange() {}, dataset: {} });
 const els = {};
 global.document = { querySelector: s => (els[s] ||= el()), querySelectorAll: () => [], addEventListener() {} };
-global.window = { scrollTo() {} };
+global.window = { scrollTo() {}, addEventListener() {} };
+global.location = { search: '', pathname: '/', origin: 'http://localhost', hash: '', href: 'http://localhost/' };
+global.history = { replaceState() {} };
 global.localStorage = { getItem: () => null, setItem() {} };
 global.navigator = {};
 global.fetch = async url => ({ ok: true, json: async () => JSON.parse(fs.readFileSync(path.join(ROOT, url), 'utf8')) });

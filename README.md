@@ -24,6 +24,27 @@ Then open http://localhost:5173.
 
 The site is fully static, with relative paths, so it runs from any subfolder. It's published with GitHub Pages straight from the `main` branch root; `.nojekyll` stops Pages from running Jekyll over it. The built `data/` folder is committed so Pages can serve it as-is.
 
+## Accounts and saved teams
+
+Signed out, teams are kept in the browser. Signing in with GitHub (via [Supabase](https://supabase.com)) saves them to your account:
+several named teams per game (New, Rename, Duplicate, Delete), autosave about a second after each change, and share links
+(`?team=<id>`) that open a copy of the team for anyone. Teams built before signing in are moved into the account the first time you sign in.
+
+Setup, once per Supabase project:
+
+1. **Database:** in Supabase, open **SQL Editor → New query**, paste [`supabase/schema.sql`](supabase/schema.sql) and run it.
+   It creates the `teams` table with row-level security: you can only read and write your own teams, and anyone can read a team you've shared.
+2. **GitHub sign-in:** on GitHub, open **Settings → Developer settings → OAuth Apps → New OAuth App**.
+   Use `https://jeremyprem.github.io/badge-run/` as the homepage, and the callback URL shown in Supabase under
+   **Authentication → Sign In / Providers → GitHub** (`https://<project-ref>.supabase.co/auth/v1/callback`).
+   Paste the app's Client ID and a new Client Secret into that Supabase GitHub provider and enable it.
+3. **Redirect URLs:** in Supabase, open **Authentication → URL Configuration**. Set **Site URL** to `https://jeremyprem.github.io/badge-run/`
+   and add `http://localhost:5173/` under **Redirect URLs** for local testing.
+4. **Config:** put the project URL and publishable key in [`src/config.js`](src/config.js). The publishable key is designed to be public;
+   never put the secret key there.
+
+`node tools/cloud_test.js` tests sign-in, sync, sharing and deletion against an in-memory fake of Supabase.
+
 ## Data pipeline
 
 | Step | Command | Output |

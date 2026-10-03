@@ -27,31 +27,83 @@ const slug = s => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').repla
 const data = { core: null, sprites: null, games: {} };
 const state = {
   game: DEFAULT_GAME, version: -1, tab: 'dex', slot: 0,
-  teams: {}, example: {},
+  // Team library for whoever is using the page: { [gameKey]: { active: teamId, teams: [Team] } }
+  // Team = { id, name, members: [{ p, moves }], isPublic, updatedAt, example?, syncedAt? }
+  lib: {}, owner: 'anon',
   dex: { q: '', type: '', regional: true, wild: false, sort: 'dex' },
   learnFilter: 'L', openBattle: null, battleFilter: 'all',
   picker: null, // { slot, q, hi } while a moveset slot's search box is open
+  teamMenu: null, // 'rename' | 'share' while that team-bar panel is open
 };
 
-/* ---------- persistence ---------- */
+/* ---------- persistence ----------
+   Preferences live in STORE_KEY. Each library is stored separately: 'anon' for signed-out use,
+   and one per signed-in account, so signing out never shows another person's teams. */
+const libKey = owner => `badgerun.lib.${owner}`;
+const newId = () => crypto.randomUUID?.() ?? 'xxxxxxxx-xxxx-4xxx-8xxx-xxxxxxxxxxxx'.replace(/x/g, () => (Math.random() * 16 | 0).toString(16));
+
 function load() {
   try {
     const s = JSON.parse(localStorage.getItem(STORE_KEY) || 'null');
     if (s) {
-      Object.assign(state, { game: s.game || state.game, version: s.version ?? -1, teams: s.teams || {} });
+      Object.assign(state, { game: s.game || state.game, version: s.version ?? -1 });
       if (s.dex) Object.assign(state.dex, s.dex);
+    }
+    state.lib = readLib('anon');
+    // v1 kept a single unnamed team per game in prefs; move those into the library once.
+    if (s?.teams && !localStorage.getItem(libKey('anon'))) {
+      for (const [g, members] of Object.entries(s.teams)) {
+        if (Array.isArray(members) && members.length) {
+          const t = { id: newId(), name: 'My team', members, isPublic: false, updatedAt: new Date().toISOString() };
+          state.lib[g] = { active: t.id, teams: [t] };
+        }
+      }
+      saveLib();
     }
   } catch { /* storage unavailable: start fresh */ }
 }
+function readLib(owner) {
+  try { return JSON.parse(localStorage.getItem(libKey(owner)) || '{}') || {}; } catch { return {}; }
+}
+function saveLib() {
+  try { localStorage.setItem(libKey(state.owner), JSON.stringify(state.lib)); } catch { /* ignore */ }
+}
 function save() {
   try {
-    localStorage.setItem(STORE_KEY, JSON.stringify({ game: state.game, version: state.version, teams: state.teams, dex: state.dex }));
+    localStorage.setItem(STORE_KEY, JSON.stringify({ game: state.game, version: state.version, dex: state.dex }));
   } catch { /* ignore */ }
+  saveLib();
+}
+
+/* ---------- team library ---------- */
+function gameLib(key = state.game) {
+  const gl = (state.lib[key] ||= { active: null, teams: [] });
+  if (!gl.teams.length) gl.teams.push(blankTeam('Team 1'));
+  if (!gl.teams.some(t => t.id === gl.active)) gl.active = gl.teams[0].id;
+  return gl;
+}
+function blankTeam(name) {
+  return { id: newId(), name, members: [], isPublic: false, updatedAt: new Date().toISOString() };
+}
+const activeTeam = () => { const gl = gameLib(); return gl.teams.find(t => t.id === gl.active); };
+function uniqueTeamName(base, key = state.game) {
+  const names = new Set(gameLib(key).teams.map(t => t.name));
+  if (!names.has(base)) return base;
+  let n = 2;
+  while (names.has(`${base} ${n}`)) n++;
+  return `${base} ${n}`;
+}
+// Call after any change to the active team: saves locally and queues a cloud save when signed in.
+function teamChanged(t = activeTeam()) {
+  t.updatedAt = new Date().toISOString();
+  delete t.example;
+  save();
+  window.cloud?.queue(t, state.game);
 }
 
 /* ---------- data helpers ---------- */
 const game = () => data.games[state.game];
-const team = () => (state.teams[state.game] ||= []);
+const team = () => activeTeam().members;
 const mon = pid => data.core.pokemon[pid];
 const displayName = p => p.form ? `${p.name} (${p.form})` : p.name;
 
@@ -168,19 +220,22 @@ async function ensureGame(key) {
   if (!data.games[key]) data.games[key] = await getJSON(`data/games/${key}.json`);
   return data.games[key];
 }
+// A brand-new library gets the example team (never saved to an account until it's edited).
 function seedExample(key) {
   const g = data.games[key];
-  if (state.teams[key]?.length || !EXAMPLE_TEAMS[key]) return;
+  if (state.lib[key]?.teams?.length || !EXAMPLE_TEAMS[key]) return;
   const byKey = {};
-  for (const [pid, p] of Object.entries(data.core.pokemon)) byKey[p.key] = pid;
+  for (const [pid, p] of Object.entries(data.core.pokemon)) byKey[p.key] = Number(pid);
   const moveByKey = {};
   for (const [id, m] of Object.entries(g.moves)) moveByKey[slug(m.name)] = Number(id);
-  state.teams[key] = EXAMPLE_TEAMS[key].map(([k, mvs]) => {
+  const t = blankTeam('Example team');
+  t.example = true;
+  t.members = EXAMPLE_TEAMS[key].map(([k, mvs]) => {
     const pid = byKey[k];
     const learn = new Set((g.pokemon[pid]?.l || []).map(e => e[0]));
     return { p: pid, moves: mvs.map(mk => moveByKey[mk]).filter(id => id && learn.has(id)).slice(0, 4) };
-  }).filter(t => t.p);
-  state.example[key] = true;
+  }).filter(m => m.p);
+  state.lib[key] = { active: t.id, teams: [t] };
 }
 
 async function selectGame(key) {
@@ -201,6 +256,14 @@ async function selectGame(key) {
   state.slot = Math.min(state.slot, Math.max(0, team().length - 1));
   state.openBattle = null;
   state.picker = null;
+  state.teamMenu = null;
+  save();
+  renderAll();
+}
+
+function switchTeam(id) {
+  gameLib().active = id;
+  state.slot = 0; state.picker = null; state.teamMenu = null;
   save();
   renderAll();
 }
@@ -208,6 +271,7 @@ async function selectGame(key) {
 /* ---------- rendering ---------- */
 function renderAll() {
   renderControls();
+  renderAccount();
   renderTeam();
   renderTabs();
   renderWorkspace();
@@ -257,8 +321,71 @@ function renderTeam() {
   }
   $('#team-list').innerHTML = slots.join('');
   $('#team-count').textContent = `${t.length}/6`;
-  $('#example-note').hidden = !state.example[state.game];
+  $('#example-note').hidden = !activeTeam().example;
+  renderTeamBar();
   renderTeamWeakness();
+}
+
+function shareUrl(t) {
+  return `${location.origin}${location.pathname}?team=${t.id}`;
+}
+
+function renderTeamBar() {
+  const gl = gameLib();
+  const t = activeTeam();
+  const signedIn = !!window.cloud?.user;
+  let panel = '';
+  if (state.teamMenu === 'rename') {
+    panel = `<form class="team-panel" data-form="rename">
+      <label for="team-name" class="label">Team name</label>
+      <div class="row"><input id="team-name" type="text" maxlength="60" value="${esc(t.name)}" autocomplete="off" required>
+      <button class="btn sm" type="submit">Save</button><button class="btn sm ghost" type="button" data-action="team-menu" data-m="">Cancel</button></div>
+    </form>`;
+  } else if (state.teamMenu === 'share') {
+    panel = !signedIn
+      ? `<div class="team-panel"><p class="small">Sign in to get a share link for this team.</p>
+          <div class="row">${window.cloud?.enabled ? '<button class="btn sm" data-action="sign-in">Sign in with GitHub</button>' : ''}<button class="btn sm ghost" data-action="team-menu" data-m="">Close</button></div></div>`
+      : t.isPublic
+        ? `<div class="team-panel"><label for="share-link" class="label">Anyone with this link can view and copy the team</label>
+            <div class="row"><input id="share-link" type="text" readonly value="${esc(shareUrl(t))}">
+            <button class="btn sm" data-action="copy-link">Copy</button></div>
+            <div class="row"><button class="btn sm ghost" data-action="unshare">Stop sharing</button><button class="btn sm ghost" data-action="team-menu" data-m="">Close</button></div></div>`
+        : `<div class="team-panel"><p class="small">Make a link that anyone can open to view and copy “${esc(t.name)}”. You can turn it off any time.</p>
+            <div class="row"><button class="btn sm" data-action="share">Create share link</button><button class="btn sm ghost" data-action="team-menu" data-m="">Cancel</button></div></div>`;
+  }
+  $('#team-bar').innerHTML = `
+    <div class="team-switch">
+      <label for="team-select" class="sr">Saved teams for ${esc(game().name)}</label>
+      <select id="team-select">${gl.teams.map(x => `<option value="${x.id}" ${x.id === gl.active ? 'selected' : ''}>${esc(x.name)}${x.isPublic ? ' · shared' : ''} (${x.members.length})</option>`).join('')}</select>
+      <button class="btn sm ghost" data-action="team-new" title="Start a new empty team">New</button>
+    </div>
+    <div class="team-tools">
+      <button class="linkish" data-action="team-menu" data-m="rename">Rename</button>
+      <button class="linkish" data-action="team-dup">Duplicate</button>
+      <button class="linkish" data-action="team-menu" data-m="share">${t.isPublic ? 'Shared ✓' : 'Share'}</button>
+      <button class="linkish danger" data-action="team-delete">Delete</button>
+    </div>
+    ${panel}`;
+}
+
+function renderAccount() {
+  const el = $('#account');
+  const c = window.cloud;
+  if (!c?.enabled) { el.innerHTML = ''; return; }
+  if (!c.user) {
+    el.innerHTML = `<button class="btn sm" data-action="sign-in" title="Save your teams to your account and use them on any device">
+      <svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38v-1.33c-2.23.48-2.7-1.07-2.7-1.07-.36-.92-.89-1.17-.89-1.17-.73-.5.06-.49.06-.49.8.06 1.23.83 1.23.83.71 1.22 1.87.87 2.33.66.07-.52.28-.87.5-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.6 7.6 0 0 1 4 0c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48v2.2c0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+      Sign in to save teams</button>`;
+    return;
+  }
+  const u = c.user;
+  const name = u.user_metadata?.user_name || u.user_metadata?.full_name || u.email || 'Signed in';
+  const avatar = u.user_metadata?.avatar_url;
+  el.innerHTML = `<div class="who">
+      ${avatar ? `<img src="${esc(avatar)}" alt="" width="28" height="28">` : ''}
+      <div><strong>${esc(name)}</strong><span class="sync sync-${c.status}">${esc(c.statusText())}</span></div>
+      <button class="btn sm ghost" data-action="sign-out">Sign out</button>
+    </div>`;
 }
 
 function renderTeamWeakness() {
@@ -507,11 +634,10 @@ function pickMove(id) {
   const k = state.picker.slot;
   if (k < moves.length) moves[k] = id; else moves.push(id);
   m.moves = moves.slice(0, 4);
-  state.example[state.game] = false;
   // Move straight on to the next empty slot, so filling a set is type → Enter ×4.
   const next = m.moves.length < 4 ? m.moves.length : null;
   state.picker = null;
-  save();
+  teamChanged();
   renderTeam();
   if (next != null) openPicker(next); else renderWorkspace();
   toast(`${moveInfo(id).name} added`);
@@ -703,8 +829,7 @@ function addToTeam(pid) {
   const moves = lvl.slice(-4).map(e => e[0]);
   t.push({ p: Number(pid), moves });
   state.slot = t.length - 1;
-  state.example[state.game] = false;
-  save();
+  teamChanged();
   renderTeam(); renderTabs(); renderWorkspace();
   toast(`${displayName(mon(pid))} joined your team`);
 }
@@ -753,16 +878,15 @@ function handleClick(e) {
     const name = displayName(mon(t[i].p));
     t.splice(i, 1);
     state.slot = Math.max(0, Math.min(state.slot, t.length - 1));
-    state.example[state.game] = false;
-    save(); renderAll(); toast(`Removed ${name}`);
+    teamChanged(); renderAll(); toast(`Removed ${name}`);
   }
   else if (a === 'move') {
     const m = t[state.slot];
-    if (m && (m.moves ||= []).length < 4) { m.moves.push(Number(el.dataset.m)); save(); renderTeam(); renderWorkspace(); }
+    if (m && (m.moves ||= []).length < 4) { m.moves.push(Number(el.dataset.m)); teamChanged(); renderTeam(); renderWorkspace(); }
   }
   else if (a === 'unmove') {
     const m = t[state.slot];
-    if (m) { m.moves = m.moves.filter(id => id !== Number(el.dataset.m)); save(); renderTeam(); renderWorkspace(); }
+    if (m) { m.moves = m.moves.filter(id => id !== Number(el.dataset.m)); teamChanged(); renderTeam(); renderWorkspace(); }
   }
   else if (a === 'enc-more') {
     const k = Number(el.dataset.k);
@@ -784,13 +908,78 @@ function handleClick(e) {
       setTimeout(() => { el.dataset.confirm = ''; el.textContent = 'Clear team'; }, 3000);
       return;
     }
-    state.teams[state.game] = []; state.example[state.game] = false; state.slot = 0; save(); renderAll();
+    t.splice(0); state.slot = 0; teamChanged(); renderAll();
     el.dataset.confirm = ''; el.textContent = 'Clear team';
   }
   else if (a === 'copy') {
     const text = teamText();
     navigator.clipboard?.writeText(text).then(() => toast('Team copied as text'), () => showCopyFallback(text))
       ?? showCopyFallback(text);
+  }
+  else if (a === 'team-new') {
+    const nt = blankTeam(uniqueTeamName('New team'));
+    gameLib().teams.push(nt);
+    switchTeam(nt.id);
+    window.cloud?.queue(nt, state.game);
+    state.tab = 'dex'; renderTabs(); renderWorkspace();
+    toast('Started a new team');
+  }
+  else if (a === 'team-dup') {
+    const src = activeTeam();
+    const nt = { ...blankTeam(uniqueTeamName(`${src.name} copy`)), members: JSON.parse(JSON.stringify(src.members)) };
+    gameLib().teams.push(nt);
+    switchTeam(nt.id);
+    window.cloud?.queue(nt, state.game);
+    toast(`Duplicated as “${nt.name}”`);
+  }
+  else if (a === 'team-delete') {
+    if (el.dataset.confirm !== 'yes') {
+      el.dataset.confirm = 'yes'; el.textContent = 'Click again to delete';
+      setTimeout(() => { if (el.isConnected) { el.dataset.confirm = ''; el.textContent = 'Delete'; } }, 3000);
+      return;
+    }
+    const gl = gameLib();
+    const gone = activeTeam();
+    gl.teams = gl.teams.filter(x => x.id !== gone.id);
+    window.cloud?.remove(gone);
+    switchTeam(gameLib().active);
+    toast(`Deleted “${gone.name}”`);
+  }
+  else if (a === 'team-menu') {
+    state.teamMenu = el.dataset.m || null;
+    renderTeamBar();
+    if (state.teamMenu === 'rename') { const i = $('#team-name'); i.focus(); i.select(); }
+  }
+  else if (a === 'share' || a === 'unshare') {
+    const st = activeTeam();
+    st.isPublic = a === 'share';
+    teamChanged(st);
+    window.cloud?.flush();
+    renderTeamBar();
+    toast(st.isPublic ? 'Share link created' : 'Sharing turned off. The old link no longer works.');
+  }
+  else if (a === 'copy-link') {
+    const input = $('#share-link');
+    navigator.clipboard?.writeText(input.value).then(() => toast('Link copied'), () => { input.select(); toast('Press Ctrl+C to copy'); })
+      ?? input.select();
+  }
+  else if (a === 'sign-in') window.cloud?.signIn();
+  else if (a === 'sign-out') window.cloud?.signOut();
+}
+
+function handleSubmit(e) {
+  const form = e.target.closest('[data-form]');
+  if (!form) return;
+  e.preventDefault();
+  if (form.dataset.form === 'rename') {
+    const name = $('#team-name').value.trim().slice(0, 60);
+    if (!name) return;
+    const t = activeTeam();
+    t.name = name;
+    state.teamMenu = null;
+    teamChanged(t);
+    renderTeamBar();
+    toast(`Renamed to “${name}”`);
   }
 }
 function showCopyFallback(text) {
@@ -820,6 +1009,7 @@ function handleInput(e) {
 function handleChange(e) {
   const id = e.target.id;
   if (id === 'game') selectGame(e.target.value);
+  else if (id === 'team-select') switchTeam(e.target.value);
   else if (id === 'version') { state.version = Number(e.target.value); save(); renderTeam(); renderWorkspace(); }
   else if (id === 'dex-type') { state.dex.type = e.target.value; save(); renderWorkspace(); }
   else if (id === 'dex-sort') { state.dex.sort = e.target.value; save(); renderWorkspace(); }
@@ -827,9 +1017,38 @@ function handleChange(e) {
   else if (id === 'dex-wild') { state.dex.wild = e.target.checked; save(); renderWorkspace(); }
 }
 
+/* ---------- accounts (called by cloud.js) ---------- */
+// Swap to a different library: on sign-in, sign-out, or when the account's teams arrive.
+function useLibrary(owner, lib) {
+  state.owner = owner;
+  state.lib = lib;
+  state.slot = 0; state.picker = null; state.teamMenu = null;
+  if (data.games[state.game]) { seedExample(state.game); save(); renderAll(); }
+}
+
+// ?team=<id> opens a shared team: the owner just switches to it, anyone else gets a copy.
+async function openSharedTeam() {
+  const id = new URLSearchParams(location.search).get('team');
+  if (!id) return;
+  history.replaceState(null, '', location.pathname + location.hash);
+  const row = await window.cloud?.fetchShared(id);
+  if (!row) return toast('That share link is invalid or sharing was turned off.');
+  if (!data.core.games.some(g => g.key === row.game)) return toast('That team is for a game this site doesn’t cover.');
+  await selectGame(row.game);
+  const gl = gameLib(row.game);
+  const own = gl.teams.find(t => t.id === row.id);
+  if (own) return switchTeam(own.id);
+  const copy = { ...blankTeam(uniqueTeamName(`${row.name} (shared)`, row.game)), members: row.members };
+  gl.teams.push(copy);
+  switchTeam(copy.id);
+  window.cloud?.queue(copy, row.game);
+  toast(`Copied “${row.name}” into your teams`);
+}
+
 async function init() {
   load();
   document.addEventListener('click', handleClick);
+  document.addEventListener('submit', handleSubmit);
   document.addEventListener('input', handleInput);
   document.addEventListener('change', handleChange);
   document.addEventListener('keydown', e => {
@@ -845,5 +1064,7 @@ async function init() {
   }
   if (!data.core.games.some(g => g.key === state.game)) state.game = DEFAULT_GAME;
   await selectGame(state.game);
+  await window.cloud?.start();
+  await openSharedTeam();
 }
 init();

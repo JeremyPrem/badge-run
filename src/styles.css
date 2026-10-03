@@ -110,6 +110,32 @@ select, input[type="search"] {
 .slot .remove { position: absolute; top: 6px; right: 6px; }
 .team-weak { display: grid; gap: 10px; padding: 12px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
 .team-weak:empty { display: none; }
+/* team library bar */
+.team-bar { display: grid; gap: 6px; }
+.team-switch { display: flex; gap: 6px; }
+.team-switch select { flex: 1; min-width: 0; font-weight: 700; }
+.team-tools { display: flex; flex-wrap: wrap; gap: 2px 14px; }
+.linkish { border: 0; background: none; padding: 2px 0; font-size: 13px; color: var(--ink-2); cursor: pointer; text-decoration: underline; text-decoration-color: var(--line); text-underline-offset: 3px; }
+.linkish:hover { color: var(--ink); text-decoration-color: currentColor; }
+.linkish.danger:hover, .linkish.danger[data-confirm="yes"] { color: var(--bad); }
+.team-panel { display: grid; gap: 8px; padding: 10px 12px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
+.team-panel p { margin: 0; }
+.team-panel .row { display: flex; flex-wrap: wrap; gap: 6px; }
+.team-panel input { flex: 1 1 160px; min-width: 0; height: 32px; padding: 0 8px; border: 1px solid var(--line); border-radius: 6px; background: var(--surface-2); }
+#share-link { font-family: var(--font-data); font-size: 12px; }
+
+/* account */
+.account { display: flex; align-items: flex-end; padding-bottom: 2px; }
+.account:empty { display: none; }
+.account .btn svg { margin-right: 6px; }
+.who { display: flex; align-items: center; gap: 8px; }
+.who img { border-radius: 50%; }
+.who strong { display: block; font-size: 13px; line-height: 1.2; }
+.sync { display: block; font-size: 11px; color: var(--ink-3); }
+.sync-saving { color: var(--warn); }
+.sync-error { color: var(--bad); }
+.sync-saved { color: var(--good); }
+
 .copy-fallback textarea { width: 100%; font-family: var(--font-data); font-size: 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface-2); padding: 8px; }
 
 /* ---- shared bits ---- */

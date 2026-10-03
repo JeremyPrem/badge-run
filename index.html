@@ -23,6 +23,7 @@
       <label class="field"><span>Game</span><select id="game"></select></label>
       <label class="field"><span>Version</span><select id="version"></select></label>
       <span id="game-meta" class="game-meta"></span>
+      <div id="account" class="account"></div>
     </div>
   </header>
 
@@ -35,7 +36,8 @@
           <button class="btn sm ghost" data-action="clear">Clear team</button>
         </div>
       </div>
-      <p id="example-note" class="example-note" hidden>Example team. Add, remove or change moves to make it yours; it's saved in this browser.</p>
+      <div id="team-bar" class="team-bar"></div>
+      <p id="example-note" class="example-note" hidden>Example team. Add, remove or change moves to make it yours. It's saved once you edit it.</p>
       <ol id="team-list" class="team-list"></ol>
       <div id="team-weak" class="team-weak"></div>
       <div id="copy-fallback" class="copy-fallback" hidden>
@@ -61,7 +63,10 @@
   </footer>
   <div id="toast" class="toast" role="status" hidden></div>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.117.2/dist/umd/supabase.js"></script>
+<script src="src/config.js"></script>
 <script src="src/types.js"></script>
+<script src="src/cloud.js"></script>
 <script src="src/app.js"></script>
 </body>
 </html>
