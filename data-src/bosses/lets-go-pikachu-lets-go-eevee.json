@@ -1,0 +1,1171 @@
+{
+  "versionGroup": "lets-go-pikachu-lets-go-eevee",
+  "battles": [
+    {
+      "id": "brock",
+      "name": "Brock",
+      "title": "Pewter City Gym",
+      "category": "gym",
+      "type": "rock",
+      "badge": "Boulder Badge",
+      "levelCap": 12,
+      "team": [
+        {
+          "pokemon": "geodude",
+          "level": 11,
+          "moves": [
+            "tackle"
+          ]
+        },
+        {
+          "pokemon": "onix",
+          "level": 12,
+          "moves": [
+            "headbutt",
+            "bind",
+            "rock-throw"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "trace-cerulean-pikachu",
+      "name": "Trace",
+      "title": "Cerulean City",
+      "category": "rival",
+      "levelCap": 13,
+      "versions": [
+        "lets-go-pikachu"
+      ],
+      "team": [
+        {
+          "pokemon": "pidgey",
+          "level": 12,
+          "moves": [
+            "quick-attack",
+            "sand-attack",
+            "gust"
+          ]
+        },
+        {
+          "pokemon": "oddish",
+          "level": 12,
+          "moves": [
+            "absorb",
+            "acid",
+            "poison-powder"
+          ]
+        },
+        {
+          "pokemon": "eevee",
+          "level": 13,
+          "moves": [
+            "quick-attack",
+            "tail-whip",
+            "double-kick"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "trace-cerulean-eevee",
+      "name": "Trace",
+      "title": "Cerulean City",
+      "category": "rival",
+      "levelCap": 13,
+      "versions": [
+        "lets-go-eevee"
+      ],
+      "team": [
+        {
+          "pokemon": "pidgey",
+          "level": 12,
+          "moves": [
+            "quick-attack",
+            "sand-attack",
+            "gust"
+          ]
+        },
+        {
+          "pokemon": "oddish",
+          "level": 12,
+          "moves": [
+            "absorb",
+            "acid",
+            "poison-powder"
+          ]
+        },
+        {
+          "pokemon": "pikachu",
+          "level": 13,
+          "moves": [
+            "thunder-shock",
+            "quick-attack",
+            "double-team"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "misty",
+      "name": "Misty",
+      "title": "Cerulean City Gym",
+      "category": "gym",
+      "type": "water",
+      "badge": "Cascade Badge",
+      "levelCap": 19,
+      "team": [
+        {
+          "pokemon": "psyduck",
+          "level": 18,
+          "moves": [
+            "confusion",
+            "water-gun"
+          ]
+        },
+        {
+          "pokemon": "starmie",
+          "level": 19,
+          "moves": [
+            "scald",
+            "swift",
+            "psywave"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "lt-surge",
+      "name": "Lt. Surge",
+      "title": "Vermilion City Gym",
+      "category": "gym",
+      "type": "electric",
+      "badge": "Thunder Badge",
+      "levelCap": 26,
+      "team": [
+        {
+          "pokemon": "voltorb",
+          "level": 25,
+          "moves": [
+            "thunderbolt",
+            "swift",
+            "light-screen"
+          ]
+        },
+        {
+          "pokemon": "magnemite",
+          "level": 25,
+          "moves": [
+            "thunderbolt",
+            "sonic-boom"
+          ]
+        },
+        {
+          "pokemon": "raichu",
+          "level": 26,
+          "moves": [
+            "thunderbolt",
+            "quick-attack",
+            "double-kick"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "trace-pokemon-tower-pikachu",
+      "name": "Trace",
+      "title": "Pokémon Tower (Lavender Town)",
+      "category": "rival",
+      "levelCap": 28,
+      "versions": [
+        "lets-go-pikachu"
+      ],
+      "team": [
+        {
+          "pokemon": "pidgeotto",
+          "level": 27,
+          "moves": [
+            "quick-attack",
+            "wing-attack",
+            "sand-attack"
+          ]
+        },
+        {
+          "pokemon": "gloom",
+          "level": 27,
+          "moves": [
+            "razor-leaf",
+            "sleep-powder",
+            "acid"
+          ]
+        },
+        {
+          "pokemon": "jolteon",
+          "level": 28,
+          "moves": [
+            "thunder-shock",
+            "quick-attack",
+            "pin-missile"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "trace-pokemon-tower-eevee",
+      "name": "Trace",
+      "title": "Pokémon Tower (Lavender Town)",
+      "category": "rival",
+      "levelCap": 28,
+      "versions": [
+        "lets-go-eevee"
+      ],
+      "team": [
+        {
+          "pokemon": "pidgeotto",
+          "level": 27,
+          "moves": [
+            "quick-attack",
+            "wing-attack",
+            "sand-attack"
+          ]
+        },
+        {
+          "pokemon": "gloom",
+          "level": 27,
+          "moves": [
+            "razor-leaf",
+            "sleep-powder",
+            "acid"
+          ]
+        },
+        {
+          "pokemon": "raichu",
+          "level": 28,
+          "moves": [
+            "thunder-shock",
+            "quick-attack",
+            "thunder-punch"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "erika",
+      "name": "Erika",
+      "title": "Celadon City Gym",
+      "category": "gym",
+      "type": "grass",
+      "badge": "Rainbow Badge",
+      "levelCap": 34,
+      "team": [
+        {
+          "pokemon": "tangela",
+          "level": 33,
+          "moves": [
+            "mega-drain",
+            "sleep-powder",
+            "bind"
+          ]
+        },
+        {
+          "pokemon": "weepinbell",
+          "level": 33,
+          "moves": [
+            "mega-drain",
+            "poison-jab"
+          ]
+        },
+        {
+          "pokemon": "vileplume",
+          "level": 34,
+          "moves": [
+            "mega-drain",
+            "moonblast"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "giovanni-hideout",
+      "name": "Giovanni",
+      "title": "Team Rocket Hideout (Celadon City)",
+      "category": "villain",
+      "levelCap": 35,
+      "team": [
+        {
+          "pokemon": "persian",
+          "level": 35,
+          "moves": [
+            "slash",
+            "feint",
+            "fake-out"
+          ]
+        },
+        {
+          "pokemon": "rhyhorn",
+          "level": 35,
+          "moves": [
+            "drill-run",
+            "take-down",
+            "megahorn",
+            "rock-throw"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "giovanni-silph",
+      "name": "Giovanni",
+      "title": "Silph Co. (Saffron City)",
+      "category": "villain",
+      "levelCap": 39,
+      "team": [
+        {
+          "pokemon": "persian",
+          "level": 39,
+          "moves": [
+            "slash",
+            "feint",
+            "fake-out",
+            "play-rough"
+          ]
+        },
+        {
+          "pokemon": "rhyhorn",
+          "level": 39,
+          "moves": [
+            "drill-run",
+            "take-down",
+            "megahorn",
+            "rock-throw"
+          ]
+        },
+        {
+          "pokemon": "nidoqueen",
+          "level": 39,
+          "moves": [
+            "crunch",
+            "body-slam"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "koga",
+      "name": "Koga",
+      "title": "Fuchsia City Gym",
+      "category": "gym",
+      "type": "poison",
+      "badge": "Soul Badge",
+      "levelCap": 44,
+      "team": [
+        {
+          "pokemon": "weezing",
+          "level": 43,
+          "moves": [
+            "toxic",
+            "protect",
+            "sludge-bomb",
+            "explosion"
+          ]
+        },
+        {
+          "pokemon": "muk",
+          "level": 43,
+          "moves": [
+            "toxic",
+            "protect",
+            "sludge-bomb",
+            "moonblast"
+          ]
+        },
+        {
+          "pokemon": "golbat",
+          "level": 43,
+          "moves": [
+            "toxic",
+            "protect",
+            "fly",
+            "leech-life"
+          ]
+        },
+        {
+          "pokemon": "venomoth",
+          "level": 44,
+          "moves": [
+            "sludge-bomb",
+            "protect",
+            "psychic",
+            "bug-buzz"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "sabrina",
+      "name": "Sabrina",
+      "title": "Saffron City Gym",
+      "category": "gym",
+      "type": "psychic",
+      "badge": "Marsh Badge",
+      "levelCap": 44,
+      "team": [
+        {
+          "pokemon": "mr-mime",
+          "level": 43,
+          "moves": [
+            "psychic",
+            "reflect",
+            "light-screen",
+            "double-slap"
+          ]
+        },
+        {
+          "pokemon": "slowbro",
+          "level": 43,
+          "moves": [
+            "psychic",
+            "yawn",
+            "surf",
+            "calm-mind"
+          ]
+        },
+        {
+          "pokemon": "jynx",
+          "level": 43,
+          "moves": [
+            "psychic",
+            "lovely-kiss",
+            "ice-punch"
+          ]
+        },
+        {
+          "pokemon": "alakazam",
+          "level": 44,
+          "moves": [
+            "psychic",
+            "night-shade"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "blaine",
+      "name": "Blaine",
+      "title": "Cinnabar Island Gym",
+      "category": "gym",
+      "type": "fire",
+      "badge": "Volcano Badge",
+      "levelCap": 48,
+      "team": [
+        {
+          "pokemon": "magmar",
+          "level": 47,
+          "moves": [
+            "flamethrower",
+            "low-kick",
+            "confuse-ray"
+          ]
+        },
+        {
+          "pokemon": "rapidash",
+          "level": 47,
+          "moves": [
+            "flare-blitz",
+            "quick-attack",
+            "fury-attack"
+          ]
+        },
+        {
+          "pokemon": "ninetales",
+          "level": 47,
+          "moves": [
+            "fire-blast",
+            "quick-attack"
+          ]
+        },
+        {
+          "pokemon": "arcanine",
+          "level": 48,
+          "moves": [
+            "flare-blitz",
+            "outrage",
+            "crunch"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "giovanni-gym",
+      "name": "Giovanni",
+      "title": "Viridian City Gym",
+      "category": "gym",
+      "type": "ground",
+      "badge": "Earth Badge",
+      "levelCap": 50,
+      "team": [
+        {
+          "pokemon": "dugtrio",
+          "level": 49,
+          "moves": [
+            "slash",
+            "sucker-punch",
+            "earthquake"
+          ]
+        },
+        {
+          "pokemon": "nidoqueen",
+          "level": 49,
+          "moves": [
+            "super-fang",
+            "earthquake",
+            "crunch"
+          ]
+        },
+        {
+          "pokemon": "nidoking",
+          "level": 49,
+          "moves": [
+            "megahorn",
+            "earthquake",
+            "poison-jab",
+            "horn-drill"
+          ]
+        },
+        {
+          "pokemon": "rhydon",
+          "level": 50,
+          "moves": [
+            "earthquake",
+            "rock-slide",
+            "megahorn"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "trace-route-22-pikachu",
+      "name": "Trace",
+      "title": "Route 22",
+      "category": "rival",
+      "levelCap": 51,
+      "versions": [
+        "lets-go-pikachu"
+      ],
+      "team": [
+        {
+          "pokemon": "pidgeot",
+          "level": 50,
+          "moves": [
+            "quick-attack",
+            "air-slash",
+            "sand-attack",
+            "roost"
+          ]
+        },
+        {
+          "pokemon": "vileplume",
+          "level": 50,
+          "moves": [
+            "petal-dance",
+            "toxic",
+            "acid"
+          ]
+        },
+        {
+          "pokemon": "marowak",
+          "level": 50,
+          "moves": [
+            "focus-energy",
+            "bonemerang",
+            "thrash",
+            "swords-dance"
+          ]
+        },
+        {
+          "pokemon": "jolteon",
+          "level": 51,
+          "moves": [
+            "thunder",
+            "quick-attack",
+            "pin-missile",
+            "double-kick"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "trace-route-22-eevee",
+      "name": "Trace",
+      "title": "Route 22",
+      "category": "rival",
+      "levelCap": 51,
+      "versions": [
+        "lets-go-eevee"
+      ],
+      "team": [
+        {
+          "pokemon": "pidgeot",
+          "level": 50,
+          "moves": [
+            "quick-attack",
+            "air-slash",
+            "sand-attack",
+            "roost"
+          ]
+        },
+        {
+          "pokemon": "vileplume",
+          "level": 50,
+          "moves": [
+            "petal-dance",
+            "toxic",
+            "acid"
+          ]
+        },
+        {
+          "pokemon": "marowak",
+          "level": 50,
+          "moves": [
+            "focus-energy",
+            "bonemerang",
+            "thrash",
+            "swords-dance"
+          ]
+        },
+        {
+          "pokemon": "raichu",
+          "level": 51,
+          "moves": [
+            "thunder",
+            "quick-attack",
+            "thunder-punch",
+            "slam"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "lorelei",
+      "name": "Lorelei",
+      "title": "Elite Four",
+      "category": "elite4",
+      "type": "ice",
+      "levelCap": 52,
+      "team": [
+        {
+          "pokemon": "dewgong",
+          "level": 51,
+          "moves": [
+            "aqua-jet",
+            "ice-shard",
+            "waterfall"
+          ]
+        },
+        {
+          "pokemon": "jynx",
+          "level": 51,
+          "moves": [
+            "lovely-kiss",
+            "psychic",
+            "blizzard"
+          ]
+        },
+        {
+          "pokemon": "cloyster",
+          "level": 51,
+          "moves": [
+            "ice-beam",
+            "spike-cannon",
+            "hydro-pump"
+          ]
+        },
+        {
+          "pokemon": "slowbro",
+          "level": 51,
+          "moves": [
+            "surf",
+            "flamethrower",
+            "psychic"
+          ]
+        },
+        {
+          "pokemon": "lapras",
+          "level": 52,
+          "moves": [
+            "blizzard",
+            "dragon-pulse",
+            "hydro-pump"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "bruno",
+      "name": "Bruno",
+      "title": "Elite Four",
+      "category": "elite4",
+      "type": "fighting",
+      "levelCap": 53,
+      "team": [
+        {
+          "pokemon": "onix",
+          "level": 52,
+          "moves": [
+            "stealth-rock",
+            "iron-tail",
+            "earthquake"
+          ]
+        },
+        {
+          "pokemon": "hitmonchan",
+          "level": 52,
+          "moves": [
+            "fire-punch",
+            "ice-punch",
+            "thunder-punch"
+          ]
+        },
+        {
+          "pokemon": "hitmonlee",
+          "level": 52,
+          "moves": [
+            "brick-break",
+            "feint",
+            "rock-slide"
+          ]
+        },
+        {
+          "pokemon": "poliwrath",
+          "level": 52,
+          "moves": [
+            "waterfall",
+            "body-slam",
+            "superpower"
+          ]
+        },
+        {
+          "pokemon": "machamp",
+          "level": 53,
+          "moves": [
+            "earthquake",
+            "rock-slide",
+            "superpower"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "agatha",
+      "name": "Agatha",
+      "title": "Elite Four",
+      "category": "elite4",
+      "type": "ghost",
+      "levelCap": 54,
+      "team": [
+        {
+          "pokemon": "arbok",
+          "level": 53,
+          "moves": [
+            "glare",
+            "crunch",
+            "poison-jab"
+          ]
+        },
+        {
+          "pokemon": "gengar",
+          "level": 53,
+          "moves": [
+            "shadow-ball",
+            "will-o-wisp",
+            "sludge-bomb"
+          ]
+        },
+        {
+          "pokemon": "golbat",
+          "level": 53,
+          "moves": [
+            "air-slash",
+            "crunch",
+            "quick-attack"
+          ]
+        },
+        {
+          "pokemon": "weezing",
+          "level": 53,
+          "moves": [
+            "sludge-bomb",
+            "shadow-ball",
+            "thunderbolt"
+          ]
+        },
+        {
+          "pokemon": "gengar",
+          "level": 54,
+          "moves": [
+            "shadow-ball",
+            "sludge-bomb",
+            "dazzling-gleam"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "lance",
+      "name": "Lance",
+      "title": "Elite Four",
+      "category": "elite4",
+      "type": "dragon",
+      "levelCap": 55,
+      "team": [
+        {
+          "pokemon": "seadra",
+          "level": 54,
+          "moves": [
+            "hydro-pump",
+            "dragon-pulse",
+            "hyper-beam"
+          ]
+        },
+        {
+          "pokemon": "aerodactyl",
+          "level": 54,
+          "moves": [
+            "rock-slide",
+            "earthquake",
+            "hyper-beam"
+          ]
+        },
+        {
+          "pokemon": "gyarados",
+          "level": 54,
+          "moves": [
+            "waterfall",
+            "iron-tail",
+            "hyper-beam"
+          ]
+        },
+        {
+          "pokemon": "charizard",
+          "level": 54,
+          "moves": [
+            "air-slash",
+            "dragon-pulse",
+            "hyper-beam"
+          ]
+        },
+        {
+          "pokemon": "dragonite",
+          "level": 55,
+          "moves": [
+            "outrage",
+            "fire-punch",
+            "hyper-beam"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "trace-champion-pikachu",
+      "name": "Trace",
+      "title": "Champion (Indigo Plateau)",
+      "category": "champion",
+      "levelCap": 57,
+      "versions": [
+        "lets-go-pikachu"
+      ],
+      "team": [
+        {
+          "pokemon": "pidgeot",
+          "level": 56,
+          "item": "Pidgeotite",
+          "mega": true,
+          "moves": [
+            "quick-attack",
+            "air-slash",
+            "heat-wave"
+          ]
+        },
+        {
+          "pokemon": "vileplume",
+          "level": 56,
+          "moves": [
+            "solar-beam",
+            "reflect",
+            "sludge-bomb"
+          ]
+        },
+        {
+          "pokemon": "marowak",
+          "level": 56,
+          "moves": [
+            "fire-punch",
+            "bonemerang",
+            "brick-break"
+          ]
+        },
+        {
+          "pokemon": "rapidash",
+          "level": 56,
+          "moves": [
+            "flare-blitz",
+            "quick-attack",
+            "poison-jab"
+          ]
+        },
+        {
+          "pokemon": "slowbro",
+          "level": 56,
+          "moves": [
+            "psychic",
+            "surf",
+            "light-screen"
+          ]
+        },
+        {
+          "pokemon": "jolteon",
+          "level": 57,
+          "moves": [
+            "thunder",
+            "quick-attack",
+            "pin-missile"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "trace-champion-eevee",
+      "name": "Trace",
+      "title": "Champion (Indigo Plateau)",
+      "category": "champion",
+      "levelCap": 57,
+      "versions": [
+        "lets-go-eevee"
+      ],
+      "team": [
+        {
+          "pokemon": "pidgeot",
+          "level": 56,
+          "item": "Pidgeotite",
+          "mega": true,
+          "moves": [
+            "quick-attack",
+            "air-slash",
+            "heat-wave"
+          ]
+        },
+        {
+          "pokemon": "vileplume",
+          "level": 56,
+          "moves": [
+            "solar-beam",
+            "reflect",
+            "sludge-bomb"
+          ]
+        },
+        {
+          "pokemon": "marowak",
+          "level": 56,
+          "moves": [
+            "fire-punch",
+            "bonemerang",
+            "brick-break"
+          ]
+        },
+        {
+          "pokemon": "rapidash",
+          "level": 56,
+          "moves": [
+            "flare-blitz",
+            "quick-attack",
+            "poison-jab"
+          ]
+        },
+        {
+          "pokemon": "slowbro",
+          "level": 56,
+          "moves": [
+            "psychic",
+            "surf",
+            "light-screen"
+          ]
+        },
+        {
+          "pokemon": "raichu",
+          "level": 57,
+          "moves": [
+            "thunder",
+            "quick-attack",
+            "iron-tail"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "green",
+      "name": "Green",
+      "title": "Cerulean Cave",
+      "category": "postgame",
+      "levelCap": 68,
+      "team": [
+        {
+          "pokemon": "clefable",
+          "level": 66,
+          "moves": [
+            "moonblast",
+            "light-screen",
+            "reflect",
+            "tri-attack"
+          ]
+        },
+        {
+          "pokemon": "gengar",
+          "level": 66,
+          "moves": [
+            "dark-pulse",
+            "shadow-ball",
+            "sludge-bomb",
+            "will-o-wisp"
+          ]
+        },
+        {
+          "pokemon": "victreebel",
+          "level": 66,
+          "moves": [
+            "power-whip",
+            "poison-jab",
+            "sucker-punch",
+            "leech-life"
+          ]
+        },
+        {
+          "pokemon": "ninetales",
+          "level": 66,
+          "moves": [
+            "fire-blast",
+            "dark-pulse",
+            "foul-play",
+            "hyper-beam"
+          ]
+        },
+        {
+          "pokemon": "kangaskhan",
+          "level": 66,
+          "moves": [
+            "dizzy-punch",
+            "sucker-punch",
+            "thunder-punch",
+            "brick-break"
+          ]
+        },
+        {
+          "pokemon": "blastoise",
+          "level": 68,
+          "item": "Blastoisinite",
+          "mega": true,
+          "moves": [
+            "hydro-pump",
+            "flash-cannon",
+            "ice-beam",
+            "fake-out"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "red",
+      "name": "Red",
+      "title": "Indigo Plateau (after beating 6 Master Trainers)",
+      "category": "postgame",
+      "levelCap": 85,
+      "team": [
+        {
+          "pokemon": "pikachu",
+          "level": 85,
+          "moves": [
+            "thunderbolt",
+            "brick-break",
+            "iron-tail",
+            "reflect"
+          ]
+        },
+        {
+          "pokemon": "machamp",
+          "level": 85,
+          "moves": [
+            "superpower",
+            "fire-blast",
+            "earthquake",
+            "hyper-beam"
+          ]
+        },
+        {
+          "pokemon": "arcanine",
+          "level": 85,
+          "moves": [
+            "heat-wave",
+            "crunch",
+            "will-o-wisp",
+            "roar"
+          ]
+        },
+        {
+          "pokemon": "lapras",
+          "level": 85,
+          "moves": [
+            "ice-shard",
+            "waterfall",
+            "body-slam",
+            "megahorn"
+          ]
+        },
+        {
+          "pokemon": "snorlax",
+          "level": 85,
+          "moves": [
+            "toxic",
+            "protect",
+            "rest",
+            "body-slam"
+          ]
+        },
+        {
+          "pokemon": "venusaur",
+          "level": 85,
+          "item": "Venusaurite",
+          "mega": true,
+          "moves": [
+            "sludge-bomb",
+            "mega-drain",
+            "leech-seed",
+            "amnesia"
+          ],
+          "ace": true
+        }
+      ]
+    }
+  ]
+}

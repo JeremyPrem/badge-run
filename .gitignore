@@ -1,0 +1,7 @@
+# Source downloads: re-fetch to rebuild data (see README)
+tools/csv/
+tools/sprite-cache/
+# Claude artifact build output
+artifact.html
+.claude/
+__pycache__/

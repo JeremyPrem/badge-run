@@ -1,0 +1,1485 @@
+{
+  "versionGroup": "scarlet-violet",
+  "battles": [
+    {
+      "id": "katy",
+      "name": "Katy",
+      "title": "Cortondo Gym",
+      "category": "gym",
+      "type": "bug",
+      "badge": "Bug Badge",
+      "levelCap": 15,
+      "team": [
+        {
+          "pokemon": "nymble",
+          "level": 14,
+          "moves": [
+            "struggle-bug",
+            "double-kick"
+          ]
+        },
+        {
+          "pokemon": "tarountula",
+          "level": 14,
+          "moves": [
+            "bug-bite",
+            "assurance"
+          ]
+        },
+        {
+          "pokemon": "teddiursa",
+          "level": 15,
+          "moves": [
+            "fury-cutter",
+            "fury-swipes"
+          ],
+          "ace": true,
+          "tera": "bug"
+        }
+      ]
+    },
+    {
+      "id": "titan-klawf",
+      "name": "Klawf",
+      "title": "Stony Cliff Titan, South Province (Area Three)",
+      "category": "other",
+      "type": "rock",
+      "levelCap": 16,
+      "team": [
+        {
+          "pokemon": "klawf",
+          "level": 16,
+          "moves": [
+            "vice-grip",
+            "rock-smash",
+            "block"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "brassius",
+      "name": "Brassius",
+      "title": "Artazon Gym",
+      "category": "gym",
+      "type": "grass",
+      "badge": "Grass Badge",
+      "levelCap": 17,
+      "team": [
+        {
+          "pokemon": "petilil",
+          "level": 16,
+          "moves": [
+            "sleep-powder",
+            "mega-drain"
+          ]
+        },
+        {
+          "pokemon": "smoliv",
+          "level": 16,
+          "moves": [
+            "tackle",
+            "razor-leaf"
+          ]
+        },
+        {
+          "pokemon": "sudowoodo",
+          "level": 17,
+          "moves": [
+            "trailblaze",
+            "rock-throw"
+          ],
+          "ace": true,
+          "tera": "grass"
+        }
+      ]
+    },
+    {
+      "id": "giacomo",
+      "name": "Giacomo",
+      "title": "Team Star Dark Crew (Segin Squad) Base",
+      "category": "villain",
+      "type": "dark",
+      "levelCap": 21,
+      "team": [
+        {
+          "pokemon": "pawniard",
+          "level": 21,
+          "moves": [
+            "metal-claw",
+            "fury-cutter",
+            "aerial-ace",
+            "snarl"
+          ],
+          "ace": true,
+          "tera": "dark"
+        }
+      ]
+    },
+    {
+      "id": "titan-bombirdier",
+      "name": "Bombirdier",
+      "title": "Open Sky Titan, West Province (Area One)",
+      "category": "other",
+      "type": "flying",
+      "levelCap": 20,
+      "team": [
+        {
+          "pokemon": "bombirdier",
+          "level": 20,
+          "moves": [
+            "rock-throw",
+            "wing-attack",
+            "pluck"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "iono",
+      "name": "Iono",
+      "title": "Levincia Gym",
+      "category": "gym",
+      "type": "electric",
+      "badge": "Electric Badge",
+      "levelCap": 24,
+      "team": [
+        {
+          "pokemon": "wattrel",
+          "level": 23,
+          "moves": [
+            "pluck",
+            "quick-attack",
+            "spark"
+          ]
+        },
+        {
+          "pokemon": "bellibolt",
+          "level": 23,
+          "moves": [
+            "water-gun",
+            "spark"
+          ]
+        },
+        {
+          "pokemon": "luxio",
+          "level": 23,
+          "moves": [
+            "spark",
+            "bite"
+          ]
+        },
+        {
+          "pokemon": "mismagius",
+          "level": 24,
+          "moves": [
+            "charge-beam",
+            "hex",
+            "confuse-ray"
+          ],
+          "ace": true,
+          "tera": "electric"
+        }
+      ]
+    },
+    {
+      "id": "mela",
+      "name": "Mela",
+      "title": "Team Star Fire Crew (Schedar Squad) Base",
+      "category": "villain",
+      "type": "fire",
+      "levelCap": 27,
+      "team": [
+        {
+          "pokemon": "torkoal",
+          "level": 27,
+          "moves": [
+            "flame-wheel",
+            "clear-smog"
+          ],
+          "ace": true,
+          "tera": "fire"
+        }
+      ]
+    },
+    {
+      "id": "kofu",
+      "name": "Kofu",
+      "title": "Cascarrafa Gym",
+      "category": "gym",
+      "type": "water",
+      "badge": "Water Badge",
+      "levelCap": 30,
+      "team": [
+        {
+          "pokemon": "veluza",
+          "level": 29,
+          "moves": [
+            "slash",
+            "pluck",
+            "aqua-cutter"
+          ]
+        },
+        {
+          "pokemon": "wugtrio",
+          "level": 29,
+          "moves": [
+            "mud-slap",
+            "water-pulse",
+            "headbutt"
+          ]
+        },
+        {
+          "pokemon": "crabominable",
+          "level": 30,
+          "moves": [
+            "crabhammer",
+            "rock-smash",
+            "slam"
+          ],
+          "ace": true,
+          "tera": "water"
+        }
+      ]
+    },
+    {
+      "id": "titan-orthworm",
+      "name": "Orthworm",
+      "title": "Lurking Steel Titan, East Province (Area Three)",
+      "category": "other",
+      "type": "steel",
+      "levelCap": 29,
+      "team": [
+        {
+          "pokemon": "orthworm",
+          "level": 29,
+          "moves": [
+            "iron-tail",
+            "headbutt",
+            "wrap"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "atticus",
+      "name": "Atticus",
+      "title": "Team Star Poison Crew (Navi Squad) Base",
+      "category": "villain",
+      "type": "poison",
+      "levelCap": 33,
+      "team": [
+        {
+          "pokemon": "skuntank",
+          "level": 32,
+          "moves": [
+            "sucker-punch",
+            "toxic",
+            "venoshock"
+          ]
+        },
+        {
+          "pokemon": "muk",
+          "level": 32,
+          "moves": [
+            "sludge-wave",
+            "mud-slap"
+          ]
+        },
+        {
+          "pokemon": "revavroom",
+          "level": 33,
+          "moves": [
+            "iron-head",
+            "sludge",
+            "assurance",
+            "bulldoze"
+          ],
+          "ace": true,
+          "tera": "poison"
+        }
+      ]
+    },
+    {
+      "id": "larry",
+      "name": "Larry",
+      "title": "Medali Gym",
+      "category": "gym",
+      "type": "normal",
+      "badge": "Normal Badge",
+      "levelCap": 36,
+      "team": [
+        {
+          "pokemon": "komala",
+          "level": 35,
+          "moves": [
+            "yawn",
+            "sucker-punch",
+            "slam"
+          ]
+        },
+        {
+          "pokemon": "dudunsparce-two-segment",
+          "level": 35,
+          "moves": [
+            "hyper-drill",
+            "drill-run",
+            "glare"
+          ]
+        },
+        {
+          "pokemon": "staraptor",
+          "level": 36,
+          "moves": [
+            "facade",
+            "aerial-ace"
+          ],
+          "ace": true,
+          "tera": "normal"
+        }
+      ]
+    },
+    {
+      "id": "ryme",
+      "name": "Ryme",
+      "title": "Montenevera Gym (Double Battle)",
+      "category": "gym",
+      "type": "ghost",
+      "badge": "Ghost Badge",
+      "levelCap": 42,
+      "team": [
+        {
+          "pokemon": "banette",
+          "level": 41,
+          "moves": [
+            "icy-wind",
+            "sucker-punch",
+            "shadow-sneak"
+          ]
+        },
+        {
+          "pokemon": "mimikyu-disguised",
+          "level": 41,
+          "moves": [
+            "light-screen",
+            "shadow-sneak",
+            "slash"
+          ]
+        },
+        {
+          "pokemon": "houndstone",
+          "level": 41,
+          "moves": [
+            "play-rough",
+            "crunch",
+            "phantom-force"
+          ]
+        },
+        {
+          "pokemon": "toxtricity-low-key",
+          "level": 42,
+          "moves": [
+            "discharge",
+            "hex",
+            "hyper-voice"
+          ],
+          "ace": true,
+          "tera": "ghost"
+        }
+      ]
+    },
+    {
+      "id": "tulip",
+      "name": "Tulip",
+      "title": "Alfornada Gym",
+      "category": "gym",
+      "type": "psychic",
+      "badge": "Psychic Badge",
+      "levelCap": 45,
+      "team": [
+        {
+          "pokemon": "farigiraf",
+          "level": 44,
+          "moves": [
+            "crunch",
+            "zen-headbutt",
+            "reflect"
+          ]
+        },
+        {
+          "pokemon": "gardevoir",
+          "level": 44,
+          "moves": [
+            "psychic",
+            "dazzling-gleam",
+            "energy-ball"
+          ]
+        },
+        {
+          "pokemon": "espathra",
+          "level": 44,
+          "moves": [
+            "psychic",
+            "quick-attack",
+            "shadow-ball"
+          ]
+        },
+        {
+          "pokemon": "florges",
+          "level": 45,
+          "moves": [
+            "psychic",
+            "moonblast",
+            "petal-blizzard"
+          ],
+          "ace": true,
+          "tera": "psychic"
+        }
+      ]
+    },
+    {
+      "id": "titan-great-tusk",
+      "name": "Great Tusk",
+      "title": "Quaking Earth Titan, Asado Desert",
+      "category": "other",
+      "type": "ground",
+      "levelCap": 45,
+      "versions": [
+        "scarlet"
+      ],
+      "team": [
+        {
+          "pokemon": "great-tusk",
+          "level": 45,
+          "moves": [
+            "rapid-spin",
+            "brick-break",
+            "knock-off"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "titan-iron-treads",
+      "name": "Iron Treads",
+      "title": "Quaking Earth Titan, Asado Desert",
+      "category": "other",
+      "type": "ground",
+      "levelCap": 45,
+      "versions": [
+        "violet"
+      ],
+      "team": [
+        {
+          "pokemon": "iron-treads",
+          "level": 45,
+          "moves": [
+            "rapid-spin",
+            "iron-head",
+            "knock-off"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "grusha",
+      "name": "Grusha",
+      "title": "Glaseado Gym",
+      "category": "gym",
+      "type": "ice",
+      "badge": "Ice Badge",
+      "levelCap": 48,
+      "team": [
+        {
+          "pokemon": "frosmoth",
+          "level": 47,
+          "moves": [
+            "blizzard",
+            "bug-buzz",
+            "tailwind"
+          ]
+        },
+        {
+          "pokemon": "beartic",
+          "level": 47,
+          "moves": [
+            "aqua-jet",
+            "icicle-crash",
+            "earthquake"
+          ]
+        },
+        {
+          "pokemon": "cetitan",
+          "level": 47,
+          "moves": [
+            "ice-spinner",
+            "liquidation",
+            "ice-shard"
+          ]
+        },
+        {
+          "pokemon": "altaria",
+          "level": 48,
+          "moves": [
+            "ice-beam",
+            "dragon-pulse",
+            "moonblast",
+            "hurricane"
+          ],
+          "ace": true,
+          "tera": "ice"
+        }
+      ]
+    },
+    {
+      "id": "ortega",
+      "name": "Ortega",
+      "title": "Team Star Fairy Crew (Ruchbah Squad) Base",
+      "category": "villain",
+      "type": "fairy",
+      "levelCap": 51,
+      "team": [
+        {
+          "pokemon": "azumarill",
+          "level": 50,
+          "moves": [
+            "aqua-tail",
+            "play-rough",
+            "bounce",
+            "charm"
+          ]
+        },
+        {
+          "pokemon": "wigglytuff",
+          "level": 50,
+          "moves": [
+            "body-slam",
+            "play-rough",
+            "gyro-ball",
+            "charm"
+          ]
+        },
+        {
+          "pokemon": "dachsbun",
+          "level": 51,
+          "moves": [
+            "crunch",
+            "play-rough",
+            "baby-doll-eyes",
+            "mud-slap"
+          ],
+          "ace": true,
+          "tera": "fairy"
+        }
+      ]
+    },
+    {
+      "id": "eri",
+      "name": "Eri",
+      "title": "Team Star Fighting Crew (Caph Squad) Base",
+      "category": "villain",
+      "type": "fighting",
+      "levelCap": 56,
+      "team": [
+        {
+          "pokemon": "toxicroak",
+          "level": 55,
+          "moves": [
+            "poison-jab",
+            "brick-break",
+            "sucker-punch"
+          ]
+        },
+        {
+          "pokemon": "passimian",
+          "level": 55,
+          "moves": [
+            "close-combat",
+            "rock-tomb",
+            "seed-bomb"
+          ]
+        },
+        {
+          "pokemon": "lucario",
+          "level": 55,
+          "moves": [
+            "dragon-pulse",
+            "aura-sphere",
+            "dark-pulse"
+          ]
+        },
+        {
+          "pokemon": "annihilape",
+          "level": 56,
+          "moves": [
+            "rage-fist",
+            "close-combat",
+            "ice-punch",
+            "fire-punch"
+          ],
+          "ace": true,
+          "tera": "fighting"
+        }
+      ]
+    },
+    {
+      "id": "titan-dondozo-tatsugiri",
+      "name": "Dondozo & Tatsugiri",
+      "title": "False Dragon Titan, Casseroya Lake",
+      "category": "other",
+      "type": "dragon",
+      "levelCap": 57,
+      "team": [
+        {
+          "pokemon": "dondozo",
+          "level": 56,
+          "moves": [
+            "aqua-tail",
+            "body-slam",
+            "knock-off"
+          ]
+        },
+        {
+          "pokemon": "tatsugiri-curly",
+          "level": 57,
+          "moves": [
+            "muddy-water",
+            "icy-wind",
+            "taunt"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "rika",
+      "name": "Rika",
+      "title": "Elite Four, Pokémon League",
+      "category": "elite4",
+      "type": "ground",
+      "levelCap": 58,
+      "team": [
+        {
+          "pokemon": "whiscash",
+          "level": 57,
+          "moves": [
+            "muddy-water",
+            "earth-power",
+            "blizzard",
+            "future-sight"
+          ]
+        },
+        {
+          "pokemon": "camerupt",
+          "level": 57,
+          "moves": [
+            "earth-power",
+            "fire-blast",
+            "flash-cannon",
+            "yawn"
+          ]
+        },
+        {
+          "pokemon": "donphan",
+          "level": 57,
+          "moves": [
+            "earthquake",
+            "stone-edge",
+            "iron-head",
+            "poison-jab"
+          ]
+        },
+        {
+          "pokemon": "dugtrio",
+          "level": 57,
+          "moves": [
+            "earthquake",
+            "rock-slide",
+            "sucker-punch",
+            "sandstorm"
+          ]
+        },
+        {
+          "pokemon": "clodsire",
+          "level": 58,
+          "moves": [
+            "earthquake",
+            "liquidation",
+            "toxic",
+            "protect"
+          ],
+          "ace": true,
+          "tera": "ground"
+        }
+      ]
+    },
+    {
+      "id": "poppy",
+      "name": "Poppy",
+      "title": "Elite Four, Pokémon League",
+      "category": "elite4",
+      "type": "steel",
+      "levelCap": 59,
+      "team": [
+        {
+          "pokemon": "copperajah",
+          "level": 58,
+          "moves": [
+            "high-horsepower",
+            "play-rough",
+            "heavy-slam",
+            "stealth-rock"
+          ]
+        },
+        {
+          "pokemon": "magnezone",
+          "level": 58,
+          "moves": [
+            "discharge",
+            "flash-cannon",
+            "light-screen",
+            "tri-attack"
+          ]
+        },
+        {
+          "pokemon": "bronzong",
+          "level": 58,
+          "moves": [
+            "iron-head",
+            "zen-headbutt",
+            "rock-blast",
+            "earthquake"
+          ]
+        },
+        {
+          "pokemon": "corviknight",
+          "level": 58,
+          "moves": [
+            "brave-bird",
+            "iron-head",
+            "body-press",
+            "iron-defense"
+          ]
+        },
+        {
+          "pokemon": "tinkaton",
+          "level": 59,
+          "moves": [
+            "play-rough",
+            "gigaton-hammer",
+            "brick-break",
+            "stone-edge"
+          ],
+          "ace": true,
+          "tera": "steel"
+        }
+      ]
+    },
+    {
+      "id": "larry-elite4",
+      "name": "Larry",
+      "title": "Elite Four, Pokémon League",
+      "category": "elite4",
+      "type": "flying",
+      "levelCap": 60,
+      "team": [
+        {
+          "pokemon": "tropius",
+          "level": 59,
+          "moves": [
+            "air-slash",
+            "solar-beam",
+            "dragon-pulse",
+            "sunny-day"
+          ]
+        },
+        {
+          "pokemon": "oricorio-pau",
+          "level": 59,
+          "moves": [
+            "revelation-dance",
+            "air-slash",
+            "teeter-dance",
+            "icy-wind"
+          ]
+        },
+        {
+          "pokemon": "altaria",
+          "level": 59,
+          "moves": [
+            "moonblast",
+            "flamethrower",
+            "ice-beam",
+            "dragon-pulse"
+          ]
+        },
+        {
+          "pokemon": "staraptor",
+          "level": 59,
+          "moves": [
+            "facade",
+            "brave-bird",
+            "close-combat",
+            "thief"
+          ]
+        },
+        {
+          "pokemon": "flamigo",
+          "level": 60,
+          "moves": [
+            "brave-bird",
+            "close-combat",
+            "throat-chop",
+            "liquidation"
+          ],
+          "ace": true,
+          "tera": "flying"
+        }
+      ]
+    },
+    {
+      "id": "hassel",
+      "name": "Hassel",
+      "title": "Elite Four, Pokémon League",
+      "category": "elite4",
+      "type": "dragon",
+      "levelCap": 61,
+      "team": [
+        {
+          "pokemon": "noivern",
+          "level": 60,
+          "moves": [
+            "air-slash",
+            "dragon-pulse",
+            "super-fang",
+            "hyper-voice"
+          ]
+        },
+        {
+          "pokemon": "haxorus",
+          "level": 60,
+          "moves": [
+            "dragon-claw",
+            "crunch",
+            "iron-head",
+            "rock-tomb"
+          ]
+        },
+        {
+          "pokemon": "dragalge",
+          "level": 60,
+          "moves": [
+            "sludge-bomb",
+            "dragon-pulse",
+            "hydro-pump",
+            "thunderbolt"
+          ]
+        },
+        {
+          "pokemon": "flapple",
+          "level": 60,
+          "moves": [
+            "dragon-rush",
+            "seed-bomb",
+            "aerial-ace",
+            "leech-seed"
+          ]
+        },
+        {
+          "pokemon": "baxcalibur",
+          "level": 61,
+          "moves": [
+            "icicle-crash",
+            "brick-break",
+            "glaive-rush"
+          ],
+          "ace": true,
+          "tera": "dragon"
+        }
+      ]
+    },
+    {
+      "id": "geeta",
+      "name": "Geeta",
+      "title": "Top Champion, Pokémon League",
+      "category": "champion",
+      "levelCap": 62,
+      "team": [
+        {
+          "pokemon": "espathra",
+          "level": 61,
+          "moves": [
+            "lumina-crash",
+            "dazzling-gleam",
+            "quick-attack",
+            "reflect"
+          ]
+        },
+        {
+          "pokemon": "gogoat",
+          "level": 61,
+          "moves": [
+            "horn-leech",
+            "zen-headbutt",
+            "play-rough",
+            "bulk-up"
+          ]
+        },
+        {
+          "pokemon": "veluza",
+          "level": 61,
+          "moves": [
+            "aqua-jet",
+            "liquidation",
+            "psycho-cut",
+            "ice-fang"
+          ]
+        },
+        {
+          "pokemon": "avalugg",
+          "level": 61,
+          "moves": [
+            "avalanche",
+            "crunch",
+            "earthquake",
+            "body-press"
+          ]
+        },
+        {
+          "pokemon": "kingambit",
+          "level": 61,
+          "moves": [
+            "iron-head",
+            "kowtow-cleave",
+            "zen-headbutt",
+            "stone-edge"
+          ]
+        },
+        {
+          "pokemon": "glimmora",
+          "level": 62,
+          "moves": [
+            "tera-blast",
+            "sludge-wave",
+            "earth-power",
+            "dazzling-gleam"
+          ],
+          "ace": true,
+          "tera": "rock"
+        }
+      ]
+    },
+    {
+      "id": "nemona-sprigatito",
+      "name": "Nemona",
+      "title": "Victory Road finale (Champion Nemona)",
+      "category": "rival",
+      "levelCap": 66,
+      "variant": "If you chose Sprigatito",
+      "team": [
+        {
+          "pokemon": "lycanroc-midday",
+          "level": 65,
+          "moves": [
+            "accelerock",
+            "drill-run",
+            "stone-edge",
+            "stealth-rock"
+          ]
+        },
+        {
+          "pokemon": "goodra",
+          "level": 65,
+          "moves": [
+            "dragon-pulse",
+            "muddy-water",
+            "ice-beam",
+            "sludge-bomb"
+          ]
+        },
+        {
+          "pokemon": "dudunsparce-two-segment",
+          "level": 65,
+          "moves": [
+            "hyper-drill",
+            "drill-run",
+            "dragon-rush",
+            "coil"
+          ]
+        },
+        {
+          "pokemon": "orthworm",
+          "level": 65,
+          "moves": [
+            "iron-tail",
+            "body-press",
+            "earthquake",
+            "rock-blast"
+          ]
+        },
+        {
+          "pokemon": "pawmot",
+          "level": 65,
+          "moves": [
+            "double-shock",
+            "close-combat",
+            "ice-punch",
+            "quick-attack"
+          ]
+        },
+        {
+          "pokemon": "quaquaval",
+          "level": 66,
+          "moves": [
+            "aqua-step",
+            "brick-break",
+            "aerial-ace",
+            "ice-spinner"
+          ],
+          "ace": true,
+          "tera": "water"
+        }
+      ]
+    },
+    {
+      "id": "nemona-fuecoco",
+      "name": "Nemona",
+      "title": "Victory Road finale (Champion Nemona)",
+      "category": "rival",
+      "levelCap": 66,
+      "variant": "If you chose Fuecoco",
+      "team": [
+        {
+          "pokemon": "lycanroc-midday",
+          "level": 65,
+          "moves": [
+            "accelerock",
+            "drill-run",
+            "stone-edge",
+            "stealth-rock"
+          ]
+        },
+        {
+          "pokemon": "goodra",
+          "level": 65,
+          "moves": [
+            "dragon-pulse",
+            "muddy-water",
+            "ice-beam",
+            "sludge-bomb"
+          ]
+        },
+        {
+          "pokemon": "dudunsparce-two-segment",
+          "level": 65,
+          "moves": [
+            "hyper-drill",
+            "drill-run",
+            "dragon-rush",
+            "coil"
+          ]
+        },
+        {
+          "pokemon": "orthworm",
+          "level": 65,
+          "moves": [
+            "iron-tail",
+            "body-press",
+            "earthquake",
+            "rock-blast"
+          ]
+        },
+        {
+          "pokemon": "pawmot",
+          "level": 65,
+          "moves": [
+            "double-shock",
+            "close-combat",
+            "ice-punch",
+            "quick-attack"
+          ]
+        },
+        {
+          "pokemon": "meowscarada",
+          "level": 66,
+          "moves": [
+            "flower-trick",
+            "thunder-punch",
+            "shadow-claw",
+            "play-rough"
+          ],
+          "ace": true,
+          "tera": "grass"
+        }
+      ]
+    },
+    {
+      "id": "nemona-quaxly",
+      "name": "Nemona",
+      "title": "Victory Road finale (Champion Nemona)",
+      "category": "rival",
+      "levelCap": 66,
+      "variant": "If you chose Quaxly",
+      "team": [
+        {
+          "pokemon": "lycanroc-midday",
+          "level": 65,
+          "moves": [
+            "accelerock",
+            "drill-run",
+            "stone-edge",
+            "stealth-rock"
+          ]
+        },
+        {
+          "pokemon": "goodra",
+          "level": 65,
+          "moves": [
+            "dragon-pulse",
+            "muddy-water",
+            "ice-beam",
+            "sludge-bomb"
+          ]
+        },
+        {
+          "pokemon": "dudunsparce-two-segment",
+          "level": 65,
+          "moves": [
+            "hyper-drill",
+            "drill-run",
+            "dragon-rush",
+            "coil"
+          ]
+        },
+        {
+          "pokemon": "orthworm",
+          "level": 65,
+          "moves": [
+            "iron-tail",
+            "body-press",
+            "earthquake",
+            "rock-blast"
+          ]
+        },
+        {
+          "pokemon": "pawmot",
+          "level": 65,
+          "moves": [
+            "double-shock",
+            "close-combat",
+            "ice-punch",
+            "quick-attack"
+          ]
+        },
+        {
+          "pokemon": "skeledirge",
+          "level": 66,
+          "moves": [
+            "torch-song",
+            "earth-power",
+            "shadow-ball",
+            "snarl"
+          ],
+          "ace": true,
+          "tera": "fire"
+        }
+      ]
+    },
+    {
+      "id": "arven",
+      "name": "Arven",
+      "title": "Path of Legends finale",
+      "category": "rival",
+      "levelCap": 63,
+      "team": [
+        {
+          "pokemon": "greedent",
+          "level": 58,
+          "moves": [
+            "bullet-seed",
+            "body-slam",
+            "psychic-fangs",
+            "earthquake"
+          ]
+        },
+        {
+          "pokemon": "cloyster",
+          "level": 59,
+          "moves": [
+            "rock-blast",
+            "icicle-spear",
+            "liquidation",
+            "light-screen"
+          ]
+        },
+        {
+          "pokemon": "scovillain",
+          "level": 60,
+          "moves": [
+            "fire-blast",
+            "energy-ball",
+            "zen-headbutt",
+            "crunch"
+          ]
+        },
+        {
+          "pokemon": "toedscruel",
+          "level": 61,
+          "moves": [
+            "power-whip",
+            "earth-power",
+            "spore",
+            "sludge-bomb"
+          ]
+        },
+        {
+          "pokemon": "garganacl",
+          "level": 62,
+          "moves": [
+            "stone-edge",
+            "earthquake",
+            "body-press",
+            "stealth-rock"
+          ]
+        },
+        {
+          "pokemon": "mabosstiff",
+          "level": 63,
+          "moves": [
+            "crunch",
+            "psychic-fangs",
+            "fire-fang",
+            "play-rough"
+          ],
+          "ace": true,
+          "tera": "dark"
+        }
+      ]
+    },
+    {
+      "id": "penny",
+      "name": "Penny",
+      "title": "Starfall Street finale (Cassiopeia)",
+      "category": "villain",
+      "type": "fairy",
+      "levelCap": 63,
+      "team": [
+        {
+          "pokemon": "umbreon",
+          "level": 62,
+          "moves": [
+            "dark-pulse",
+            "quick-attack",
+            "baby-doll-eyes",
+            "psychic"
+          ]
+        },
+        {
+          "pokemon": "vaporeon",
+          "level": 62,
+          "moves": [
+            "hydro-pump",
+            "quick-attack",
+            "baby-doll-eyes",
+            "aurora-beam"
+          ]
+        },
+        {
+          "pokemon": "jolteon",
+          "level": 62,
+          "moves": [
+            "thunder",
+            "quick-attack",
+            "baby-doll-eyes",
+            "pin-missile"
+          ]
+        },
+        {
+          "pokemon": "flareon",
+          "level": 62,
+          "moves": [
+            "flare-blitz",
+            "quick-attack",
+            "baby-doll-eyes",
+            "fire-spin"
+          ]
+        },
+        {
+          "pokemon": "leafeon",
+          "level": 62,
+          "moves": [
+            "leaf-blade",
+            "quick-attack",
+            "baby-doll-eyes",
+            "x-scissor"
+          ]
+        },
+        {
+          "pokemon": "sylveon",
+          "level": 63,
+          "moves": [
+            "moonblast",
+            "quick-attack",
+            "baby-doll-eyes",
+            "shadow-ball"
+          ],
+          "ace": true,
+          "tera": "fairy"
+        }
+      ]
+    },
+    {
+      "id": "ai-sada",
+      "name": "AI Professor Sada",
+      "title": "Zero Lab, Area Zero",
+      "category": "postgame",
+      "levelCap": 67,
+      "versions": [
+        "scarlet"
+      ],
+      "team": [
+        {
+          "pokemon": "slither-wing",
+          "level": 66,
+          "moves": [
+            "lunge",
+            "leech-life",
+            "low-sweep",
+            "zen-headbutt"
+          ]
+        },
+        {
+          "pokemon": "scream-tail",
+          "level": 66,
+          "moves": [
+            "play-rough",
+            "drain-punch",
+            "ice-punch",
+            "zen-headbutt"
+          ]
+        },
+        {
+          "pokemon": "brute-bonnet",
+          "level": 66,
+          "moves": [
+            "earth-power",
+            "giga-drain",
+            "payback",
+            "sucker-punch"
+          ]
+        },
+        {
+          "pokemon": "flutter-mane",
+          "level": 66,
+          "moves": [
+            "power-gem",
+            "mystical-fire",
+            "shadow-ball",
+            "thunderbolt"
+          ]
+        },
+        {
+          "pokemon": "sandy-shocks",
+          "level": 66,
+          "moves": [
+            "discharge",
+            "earth-power",
+            "flash-cannon",
+            "power-gem"
+          ]
+        },
+        {
+          "pokemon": "roaring-moon",
+          "level": 67,
+          "moves": [
+            "dragon-claw",
+            "night-slash",
+            "stone-edge",
+            "earthquake"
+          ],
+          "item": "Booster Energy",
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "ai-turo",
+      "name": "AI Professor Turo",
+      "title": "Zero Lab, Area Zero",
+      "category": "postgame",
+      "levelCap": 67,
+      "versions": [
+        "violet"
+      ],
+      "team": [
+        {
+          "pokemon": "iron-moth",
+          "level": 66,
+          "moves": [
+            "sludge-wave",
+            "fiery-dance",
+            "discharge",
+            "air-slash"
+          ]
+        },
+        {
+          "pokemon": "iron-bundle",
+          "level": 66,
+          "moves": [
+            "drill-peck",
+            "water-pulse",
+            "freeze-dry",
+            "snowscape"
+          ]
+        },
+        {
+          "pokemon": "iron-hands",
+          "level": 66,
+          "moves": [
+            "thunder-punch",
+            "drain-punch",
+            "iron-head",
+            "fake-out"
+          ]
+        },
+        {
+          "pokemon": "iron-jugulis",
+          "level": 66,
+          "moves": [
+            "air-slash",
+            "dark-pulse",
+            "flamethrower",
+            "flash-cannon"
+          ]
+        },
+        {
+          "pokemon": "iron-thorns",
+          "level": 66,
+          "moves": [
+            "thunder-punch",
+            "brick-break",
+            "stone-edge",
+            "earthquake"
+          ]
+        },
+        {
+          "pokemon": "iron-valiant",
+          "level": 67,
+          "moves": [
+            "psycho-cut",
+            "brick-break",
+            "spirit-break",
+            "poison-jab"
+          ],
+          "item": "Booster Energy",
+          "ace": true
+        }
+      ]
+    }
+  ]
+}

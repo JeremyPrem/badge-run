@@ -1,0 +1,1550 @@
+{
+  "versionGroup": "black-white",
+  "battles": [
+    {
+      "id": "cheren-striaton-snivy",
+      "name": "Cheren",
+      "title": "Striaton City Trainer School",
+      "category": "rival",
+      "levelCap": 8,
+      "variant": "If you chose Snivy",
+      "team": [
+        {
+          "pokemon": "tepig",
+          "level": 8,
+          "moves": [
+            "tackle",
+            "tail-whip",
+            "ember"
+          ],
+          "item": "Oran Berry"
+        },
+        {
+          "pokemon": "purrloin",
+          "level": 8,
+          "moves": [
+            "scratch",
+            "growl",
+            "assist"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "cheren-striaton-tepig",
+      "name": "Cheren",
+      "title": "Striaton City Trainer School",
+      "category": "rival",
+      "levelCap": 8,
+      "variant": "If you chose Tepig",
+      "team": [
+        {
+          "pokemon": "oshawott",
+          "level": 8,
+          "moves": [
+            "tackle",
+            "tail-whip",
+            "water-gun"
+          ],
+          "item": "Oran Berry"
+        },
+        {
+          "pokemon": "purrloin",
+          "level": 8,
+          "moves": [
+            "scratch",
+            "growl",
+            "assist"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "cheren-striaton-oshawott",
+      "name": "Cheren",
+      "title": "Striaton City Trainer School",
+      "category": "rival",
+      "levelCap": 8,
+      "variant": "If you chose Oshawott",
+      "team": [
+        {
+          "pokemon": "snivy",
+          "level": 8,
+          "moves": [
+            "tackle",
+            "leer",
+            "vine-whip"
+          ],
+          "item": "Oran Berry"
+        },
+        {
+          "pokemon": "purrloin",
+          "level": 8,
+          "moves": [
+            "scratch",
+            "growl",
+            "assist"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "chili",
+      "name": "Chili",
+      "title": "Striaton City Gym",
+      "category": "gym",
+      "type": "fire",
+      "badge": "Trio Badge",
+      "levelCap": 14,
+      "variant": "If you chose Snivy",
+      "team": [
+        {
+          "pokemon": "lillipup",
+          "level": 12,
+          "moves": [
+            "bite",
+            "work-up",
+            "odor-sleuth",
+            "helping-hand"
+          ]
+        },
+        {
+          "pokemon": "pansear",
+          "level": 14,
+          "moves": [
+            "incinerate",
+            "work-up",
+            "lick",
+            "fury-swipes"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "cress",
+      "name": "Cress",
+      "title": "Striaton City Gym",
+      "category": "gym",
+      "type": "water",
+      "badge": "Trio Badge",
+      "levelCap": 14,
+      "variant": "If you chose Tepig",
+      "team": [
+        {
+          "pokemon": "lillipup",
+          "level": 12,
+          "moves": [
+            "bite",
+            "work-up",
+            "odor-sleuth",
+            "helping-hand"
+          ]
+        },
+        {
+          "pokemon": "panpour",
+          "level": 14,
+          "moves": [
+            "water-gun",
+            "work-up",
+            "lick",
+            "fury-swipes"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "cilan",
+      "name": "Cilan",
+      "title": "Striaton City Gym",
+      "category": "gym",
+      "type": "grass",
+      "badge": "Trio Badge",
+      "levelCap": 14,
+      "variant": "If you chose Oshawott",
+      "team": [
+        {
+          "pokemon": "lillipup",
+          "level": 12,
+          "moves": [
+            "bite",
+            "work-up",
+            "odor-sleuth",
+            "helping-hand"
+          ]
+        },
+        {
+          "pokemon": "pansage",
+          "level": 14,
+          "moves": [
+            "vine-whip",
+            "work-up",
+            "lick",
+            "fury-swipes"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "lenora",
+      "name": "Lenora",
+      "title": "Nacrene City Gym",
+      "category": "gym",
+      "type": "normal",
+      "badge": "Basic Badge",
+      "levelCap": 20,
+      "team": [
+        {
+          "pokemon": "herdier",
+          "level": 18,
+          "moves": [
+            "take-down",
+            "bite",
+            "retaliate",
+            "leer"
+          ]
+        },
+        {
+          "pokemon": "watchog",
+          "level": 20,
+          "moves": [
+            "leer",
+            "crunch",
+            "retaliate",
+            "hypnosis"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "n-nacrene",
+      "name": "N",
+      "title": "Nacrene City",
+      "category": "villain",
+      "levelCap": 13,
+      "team": [
+        {
+          "pokemon": "pidove",
+          "level": 13,
+          "moves": [
+            "gust",
+            "growl",
+            "leer",
+            "quick-attack"
+          ]
+        },
+        {
+          "pokemon": "tympole",
+          "level": 13,
+          "moves": [
+            "growl",
+            "supersonic",
+            "round",
+            "bubble-beam"
+          ]
+        },
+        {
+          "pokemon": "timburr",
+          "level": 13,
+          "moves": [
+            "leer",
+            "focus-energy",
+            "bide",
+            "low-kick"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "burgh",
+      "name": "Burgh",
+      "title": "Castelia City Gym",
+      "category": "gym",
+      "type": "bug",
+      "badge": "Insect Badge",
+      "levelCap": 23,
+      "team": [
+        {
+          "pokemon": "whirlipede",
+          "level": 21,
+          "moves": [
+            "poison-tail",
+            "struggle-bug",
+            "pursuit",
+            "screech"
+          ]
+        },
+        {
+          "pokemon": "dwebble",
+          "level": 21,
+          "moves": [
+            "smack-down",
+            "struggle-bug",
+            "feint-attack",
+            "sand-attack"
+          ]
+        },
+        {
+          "pokemon": "leavanny",
+          "level": 23,
+          "moves": [
+            "razor-leaf",
+            "struggle-bug",
+            "string-shot",
+            "protect"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "n-nimbasa",
+      "name": "N",
+      "title": "Nimbasa City (Ferris Wheel)",
+      "category": "villain",
+      "levelCap": 22,
+      "team": [
+        {
+          "pokemon": "sandile",
+          "level": 22,
+          "moves": [
+            "sand-tomb",
+            "assurance",
+            "mud-slap",
+            "embargo"
+          ]
+        },
+        {
+          "pokemon": "darumaka",
+          "level": 22,
+          "moves": [
+            "headbutt",
+            "uproar",
+            "facade",
+            "fire-punch"
+          ]
+        },
+        {
+          "pokemon": "scraggy",
+          "level": 22,
+          "moves": [
+            "feint-attack",
+            "headbutt",
+            "swagger",
+            "brick-break"
+          ]
+        },
+        {
+          "pokemon": "sigilyph",
+          "level": 22,
+          "moves": [
+            "tailwind",
+            "whirlwind",
+            "psybeam",
+            "air-cutter"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "elesa",
+      "name": "Elesa",
+      "title": "Nimbasa City Gym",
+      "category": "gym",
+      "type": "electric",
+      "badge": "Bolt Badge",
+      "levelCap": 27,
+      "team": [
+        {
+          "pokemon": "emolga",
+          "level": 25,
+          "moves": [
+            "pursuit",
+            "quick-attack",
+            "volt-switch",
+            "aerial-ace"
+          ]
+        },
+        {
+          "pokemon": "emolga",
+          "level": 25,
+          "moves": [
+            "pursuit",
+            "quick-attack",
+            "volt-switch",
+            "aerial-ace"
+          ]
+        },
+        {
+          "pokemon": "zebstrika",
+          "level": 27,
+          "moves": [
+            "quick-attack",
+            "spark",
+            "volt-switch",
+            "flame-charge"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "cheren-route5-snivy",
+      "name": "Cheren",
+      "title": "Route 5",
+      "category": "rival",
+      "levelCap": 26,
+      "variant": "If you chose Snivy",
+      "team": [
+        {
+          "pokemon": "liepard",
+          "level": 24,
+          "moves": [
+            "fury-swipes",
+            "pursuit",
+            "torment",
+            "fake-out"
+          ]
+        },
+        {
+          "pokemon": "pansage",
+          "level": 24,
+          "moves": [
+            "fury-swipes",
+            "leech-seed",
+            "bite",
+            "seed-bomb"
+          ],
+          "item": "Miracle Seed"
+        },
+        {
+          "pokemon": "tranquill",
+          "level": 24,
+          "moves": [
+            "quick-attack",
+            "air-cutter",
+            "roost",
+            "detect"
+          ]
+        },
+        {
+          "pokemon": "pignite",
+          "level": 26,
+          "moves": [
+            "flame-charge",
+            "arm-thrust",
+            "smog",
+            "rollout"
+          ],
+          "item": "Sitrus Berry",
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "cheren-route5-tepig",
+      "name": "Cheren",
+      "title": "Route 5",
+      "category": "rival",
+      "levelCap": 26,
+      "variant": "If you chose Tepig",
+      "team": [
+        {
+          "pokemon": "liepard",
+          "level": 24,
+          "moves": [
+            "fury-swipes",
+            "pursuit",
+            "torment",
+            "fake-out"
+          ]
+        },
+        {
+          "pokemon": "pansear",
+          "level": 24,
+          "moves": [
+            "fury-swipes",
+            "yawn",
+            "bite",
+            "flame-burst"
+          ],
+          "item": "Charcoal"
+        },
+        {
+          "pokemon": "tranquill",
+          "level": 24,
+          "moves": [
+            "quick-attack",
+            "air-cutter",
+            "roost",
+            "detect"
+          ]
+        },
+        {
+          "pokemon": "dewott",
+          "level": 26,
+          "moves": [
+            "focus-energy",
+            "razor-shell",
+            "fury-cutter",
+            "water-pulse"
+          ],
+          "item": "Sitrus Berry",
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "cheren-route5-oshawott",
+      "name": "Cheren",
+      "title": "Route 5",
+      "category": "rival",
+      "levelCap": 26,
+      "variant": "If you chose Oshawott",
+      "team": [
+        {
+          "pokemon": "liepard",
+          "level": 24,
+          "moves": [
+            "fury-swipes",
+            "pursuit",
+            "torment",
+            "fake-out"
+          ]
+        },
+        {
+          "pokemon": "panpour",
+          "level": 24,
+          "moves": [
+            "fury-swipes",
+            "water-sport",
+            "bite",
+            "scald"
+          ],
+          "item": "Mystic Water"
+        },
+        {
+          "pokemon": "tranquill",
+          "level": 24,
+          "moves": [
+            "quick-attack",
+            "air-cutter",
+            "roost",
+            "detect"
+          ]
+        },
+        {
+          "pokemon": "servine",
+          "level": 26,
+          "moves": [
+            "growth",
+            "leaf-tornado",
+            "leech-seed",
+            "mega-drain"
+          ],
+          "item": "Sitrus Berry",
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "clay",
+      "name": "Clay",
+      "title": "Driftveil City Gym",
+      "category": "gym",
+      "type": "ground",
+      "badge": "Quake Badge",
+      "levelCap": 31,
+      "team": [
+        {
+          "pokemon": "krokorok",
+          "level": 29,
+          "moves": [
+            "crunch",
+            "swagger",
+            "bulldoze",
+            "torment"
+          ]
+        },
+        {
+          "pokemon": "palpitoad",
+          "level": 29,
+          "moves": [
+            "muddy-water",
+            "aqua-ring",
+            "bulldoze",
+            "bubble-beam"
+          ]
+        },
+        {
+          "pokemon": "excadrill",
+          "level": 31,
+          "moves": [
+            "slash",
+            "rock-slide",
+            "bulldoze",
+            "hone-claws"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "n-chargestone",
+      "name": "N",
+      "title": "Chargestone Cave",
+      "category": "villain",
+      "levelCap": 28,
+      "team": [
+        {
+          "pokemon": "boldore",
+          "level": 28,
+          "moves": [
+            "mud-slap",
+            "iron-defense",
+            "smack-down",
+            "power-gem"
+          ]
+        },
+        {
+          "pokemon": "ferroseed",
+          "level": 28,
+          "moves": [
+            "metal-claw",
+            "pin-missile",
+            "gyro-ball",
+            "iron-defense"
+          ]
+        },
+        {
+          "pokemon": "joltik",
+          "level": 28,
+          "moves": [
+            "electroweb",
+            "bug-bite",
+            "gastro-acid",
+            "slash"
+          ]
+        },
+        {
+          "pokemon": "klink",
+          "level": 28,
+          "moves": [
+            "thunder-shock",
+            "gear-grind",
+            "bind",
+            "charge-beam"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "skyla",
+      "name": "Skyla",
+      "title": "Mistralton City Gym",
+      "category": "gym",
+      "type": "flying",
+      "badge": "Jet Badge",
+      "levelCap": 35,
+      "team": [
+        {
+          "pokemon": "swoobat",
+          "level": 33,
+          "moves": [
+            "heart-stamp",
+            "amnesia",
+            "acrobatics",
+            "assurance"
+          ]
+        },
+        {
+          "pokemon": "unfezant",
+          "level": 33,
+          "moves": [
+            "quick-attack",
+            "air-slash",
+            "leer",
+            "razor-wind"
+          ]
+        },
+        {
+          "pokemon": "swanna",
+          "level": 35,
+          "moves": [
+            "aqua-ring",
+            "aerial-ace",
+            "air-slash",
+            "bubble-beam"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "brycen",
+      "name": "Brycen",
+      "title": "Icirrus City Gym",
+      "category": "gym",
+      "type": "ice",
+      "badge": "Freeze Badge",
+      "levelCap": 39,
+      "team": [
+        {
+          "pokemon": "vanillish",
+          "level": 37,
+          "moves": [
+            "mirror-shot",
+            "acid-armor",
+            "frost-breath",
+            "astonish"
+          ]
+        },
+        {
+          "pokemon": "cryogonal",
+          "level": 37,
+          "moves": [
+            "reflect",
+            "aurora-beam",
+            "frost-breath",
+            "rapid-spin"
+          ]
+        },
+        {
+          "pokemon": "beartic",
+          "level": 39,
+          "moves": [
+            "slash",
+            "brine",
+            "icicle-crash",
+            "swagger"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "drayden",
+      "name": "Drayden",
+      "title": "Opelucid City Gym",
+      "category": "gym",
+      "type": "dragon",
+      "badge": "Legend Badge",
+      "levelCap": 43,
+      "versions": [
+        "black"
+      ],
+      "team": [
+        {
+          "pokemon": "fraxure",
+          "level": 41,
+          "moves": [
+            "dragon-dance",
+            "dragon-rage",
+            "dragon-tail",
+            "assurance"
+          ]
+        },
+        {
+          "pokemon": "druddigon",
+          "level": 41,
+          "moves": [
+            "chip-away",
+            "revenge",
+            "dragon-tail",
+            "night-slash"
+          ]
+        },
+        {
+          "pokemon": "haxorus",
+          "level": 43,
+          "moves": [
+            "dragon-dance",
+            "slash",
+            "dragon-tail",
+            "assurance"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "iris",
+      "name": "Iris",
+      "title": "Opelucid City Gym",
+      "category": "gym",
+      "type": "dragon",
+      "badge": "Legend Badge",
+      "levelCap": 43,
+      "versions": [
+        "white"
+      ],
+      "team": [
+        {
+          "pokemon": "fraxure",
+          "level": 41,
+          "moves": [
+            "dragon-dance",
+            "dragon-rage",
+            "dragon-tail",
+            "assurance"
+          ]
+        },
+        {
+          "pokemon": "druddigon",
+          "level": 41,
+          "moves": [
+            "chip-away",
+            "revenge",
+            "dragon-tail",
+            "night-slash"
+          ]
+        },
+        {
+          "pokemon": "haxorus",
+          "level": 43,
+          "moves": [
+            "dragon-dance",
+            "slash",
+            "dragon-tail",
+            "assurance"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "cheren-route10-snivy",
+      "name": "Cheren",
+      "title": "Route 10",
+      "category": "rival",
+      "levelCap": 45,
+      "variant": "If you chose Snivy",
+      "team": [
+        {
+          "pokemon": "unfezant",
+          "level": 43,
+          "moves": [
+            "detect",
+            "taunt",
+            "air-slash",
+            "razor-wind"
+          ],
+          "item": "Scope Lens"
+        },
+        {
+          "pokemon": "liepard",
+          "level": 43,
+          "moves": [
+            "assurance",
+            "slash",
+            "taunt",
+            "night-slash"
+          ],
+          "item": "Sitrus Berry"
+        },
+        {
+          "pokemon": "simisage",
+          "level": 43,
+          "moves": [
+            "leer",
+            "lick",
+            "fury-swipes",
+            "seed-bomb"
+          ],
+          "item": "Miracle Seed"
+        },
+        {
+          "pokemon": "emboar",
+          "level": 45,
+          "moves": [
+            "take-down",
+            "heat-crash",
+            "assurance",
+            "flamethrower"
+          ],
+          "item": "Leftovers",
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "cheren-route10-tepig",
+      "name": "Cheren",
+      "title": "Route 10",
+      "category": "rival",
+      "levelCap": 45,
+      "variant": "If you chose Tepig",
+      "team": [
+        {
+          "pokemon": "unfezant",
+          "level": 43,
+          "moves": [
+            "detect",
+            "taunt",
+            "air-slash",
+            "razor-wind"
+          ],
+          "item": "Scope Lens"
+        },
+        {
+          "pokemon": "liepard",
+          "level": 43,
+          "moves": [
+            "assurance",
+            "slash",
+            "taunt",
+            "night-slash"
+          ],
+          "item": "Sitrus Berry"
+        },
+        {
+          "pokemon": "simisear",
+          "level": 43,
+          "moves": [
+            "leer",
+            "lick",
+            "fury-swipes",
+            "flame-burst"
+          ],
+          "item": "Charcoal"
+        },
+        {
+          "pokemon": "samurott",
+          "level": 45,
+          "moves": [
+            "aqua-jet",
+            "slash",
+            "encore",
+            "aqua-tail"
+          ],
+          "item": "Leftovers",
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "cheren-route10-oshawott",
+      "name": "Cheren",
+      "title": "Route 10",
+      "category": "rival",
+      "levelCap": 45,
+      "variant": "If you chose Oshawott",
+      "team": [
+        {
+          "pokemon": "unfezant",
+          "level": 43,
+          "moves": [
+            "detect",
+            "taunt",
+            "air-slash",
+            "razor-wind"
+          ],
+          "item": "Scope Lens"
+        },
+        {
+          "pokemon": "liepard",
+          "level": 43,
+          "moves": [
+            "assurance",
+            "slash",
+            "taunt",
+            "night-slash"
+          ],
+          "item": "Sitrus Berry"
+        },
+        {
+          "pokemon": "simipour",
+          "level": 43,
+          "moves": [
+            "leer",
+            "lick",
+            "fury-swipes",
+            "scald"
+          ],
+          "item": "Mystic Water"
+        },
+        {
+          "pokemon": "serperior",
+          "level": 45,
+          "moves": [
+            "slam",
+            "leaf-blade",
+            "coil",
+            "giga-drain"
+          ],
+          "item": "Leftovers",
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "shauntal",
+      "name": "Shauntal",
+      "title": "Elite Four",
+      "category": "elite4",
+      "type": "ghost",
+      "levelCap": 50,
+      "team": [
+        {
+          "pokemon": "cofagrigus",
+          "level": 48,
+          "moves": [
+            "will-o-wisp",
+            "grass-knot",
+            "psychic",
+            "shadow-ball"
+          ]
+        },
+        {
+          "pokemon": "jellicent-male",
+          "level": 48,
+          "moves": [
+            "energy-ball",
+            "brine",
+            "surf",
+            "shadow-ball"
+          ]
+        },
+        {
+          "pokemon": "golurk",
+          "level": 48,
+          "moves": [
+            "curse",
+            "earthquake",
+            "brick-break",
+            "shadow-punch"
+          ]
+        },
+        {
+          "pokemon": "chandelure",
+          "level": 50,
+          "moves": [
+            "payback",
+            "fire-blast",
+            "psychic",
+            "shadow-ball"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "grimsley",
+      "name": "Grimsley",
+      "title": "Elite Four",
+      "category": "elite4",
+      "type": "dark",
+      "levelCap": 50,
+      "team": [
+        {
+          "pokemon": "scrafty",
+          "level": 48,
+          "moves": [
+            "crunch",
+            "brick-break",
+            "poison-jab",
+            "sand-attack"
+          ]
+        },
+        {
+          "pokemon": "liepard",
+          "level": 48,
+          "moves": [
+            "night-slash",
+            "fake-out",
+            "aerial-ace",
+            "attract"
+          ]
+        },
+        {
+          "pokemon": "krookodile",
+          "level": 48,
+          "moves": [
+            "crunch",
+            "dragon-claw",
+            "earthquake",
+            "foul-play"
+          ]
+        },
+        {
+          "pokemon": "bisharp",
+          "level": 50,
+          "moves": [
+            "night-slash",
+            "x-scissor",
+            "metal-claw",
+            "aerial-ace"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "caitlin",
+      "name": "Caitlin",
+      "title": "Elite Four",
+      "category": "elite4",
+      "type": "psychic",
+      "levelCap": 50,
+      "team": [
+        {
+          "pokemon": "reuniclus",
+          "level": 48,
+          "moves": [
+            "psychic",
+            "energy-ball",
+            "focus-blast",
+            "thunder"
+          ]
+        },
+        {
+          "pokemon": "musharna",
+          "level": 48,
+          "moves": [
+            "psychic",
+            "shadow-ball",
+            "charge-beam",
+            "reflect"
+          ]
+        },
+        {
+          "pokemon": "sigilyph",
+          "level": 48,
+          "moves": [
+            "psychic",
+            "shadow-ball",
+            "ice-beam",
+            "air-slash"
+          ]
+        },
+        {
+          "pokemon": "gothitelle",
+          "level": 50,
+          "moves": [
+            "psychic",
+            "shadow-ball",
+            "thunderbolt",
+            "calm-mind"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "marshal",
+      "name": "Marshal",
+      "title": "Elite Four",
+      "category": "elite4",
+      "type": "fighting",
+      "levelCap": 50,
+      "team": [
+        {
+          "pokemon": "throh",
+          "level": 48,
+          "moves": [
+            "storm-throw",
+            "bulldoze",
+            "stone-edge",
+            "payback"
+          ]
+        },
+        {
+          "pokemon": "sawk",
+          "level": 48,
+          "moves": [
+            "karate-chop",
+            "grass-knot",
+            "stone-edge",
+            "retaliate"
+          ]
+        },
+        {
+          "pokemon": "conkeldurr",
+          "level": 48,
+          "moves": [
+            "hammer-arm",
+            "grass-knot",
+            "stone-edge",
+            "retaliate"
+          ]
+        },
+        {
+          "pokemon": "mienshao",
+          "level": 50,
+          "moves": [
+            "jump-kick",
+            "u-turn",
+            "rock-slide",
+            "retaliate"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "n-castle-black",
+      "name": "N",
+      "title": "N's Castle",
+      "category": "villain",
+      "levelCap": 52,
+      "versions": [
+        "black"
+      ],
+      "team": [
+        {
+          "pokemon": "zekrom",
+          "level": 52,
+          "moves": [
+            "zen-headbutt",
+            "giga-impact",
+            "light-screen",
+            "fusion-bolt"
+          ]
+        },
+        {
+          "pokemon": "carracosta",
+          "level": 50,
+          "moves": [
+            "aqua-jet",
+            "waterfall",
+            "stone-edge",
+            "crunch"
+          ]
+        },
+        {
+          "pokemon": "vanilluxe",
+          "level": 50,
+          "moves": [
+            "frost-breath",
+            "blizzard",
+            "hail",
+            "flash-cannon"
+          ]
+        },
+        {
+          "pokemon": "archeops",
+          "level": 50,
+          "moves": [
+            "dragon-claw",
+            "acrobatics",
+            "stone-edge",
+            "crunch"
+          ]
+        },
+        {
+          "pokemon": "zoroark",
+          "level": 50,
+          "moves": [
+            "night-slash",
+            "flamethrower",
+            "focus-blast",
+            "retaliate"
+          ]
+        },
+        {
+          "pokemon": "klinklang",
+          "level": 50,
+          "moves": [
+            "thunderbolt",
+            "flash-cannon",
+            "hyper-beam",
+            "metal-sound"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "n-castle-white",
+      "name": "N",
+      "title": "N's Castle",
+      "category": "villain",
+      "levelCap": 52,
+      "versions": [
+        "white"
+      ],
+      "team": [
+        {
+          "pokemon": "reshiram",
+          "level": 52,
+          "moves": [
+            "extrasensory",
+            "hyper-beam",
+            "reflect",
+            "fusion-flare"
+          ]
+        },
+        {
+          "pokemon": "carracosta",
+          "level": 50,
+          "moves": [
+            "aqua-jet",
+            "waterfall",
+            "stone-edge",
+            "crunch"
+          ]
+        },
+        {
+          "pokemon": "vanilluxe",
+          "level": 50,
+          "moves": [
+            "frost-breath",
+            "blizzard",
+            "hail",
+            "flash-cannon"
+          ]
+        },
+        {
+          "pokemon": "archeops",
+          "level": 50,
+          "moves": [
+            "dragon-claw",
+            "acrobatics",
+            "stone-edge",
+            "crunch"
+          ]
+        },
+        {
+          "pokemon": "zoroark",
+          "level": 50,
+          "moves": [
+            "night-slash",
+            "flamethrower",
+            "focus-blast",
+            "retaliate"
+          ]
+        },
+        {
+          "pokemon": "klinklang",
+          "level": 50,
+          "moves": [
+            "thunderbolt",
+            "flash-cannon",
+            "hyper-beam",
+            "metal-sound"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "ghetsis",
+      "name": "Ghetsis",
+      "title": "N's Castle",
+      "category": "villain",
+      "levelCap": 54,
+      "team": [
+        {
+          "pokemon": "cofagrigus",
+          "level": 52,
+          "moves": [
+            "protect",
+            "shadow-ball",
+            "psychic",
+            "toxic"
+          ]
+        },
+        {
+          "pokemon": "bouffalant",
+          "level": 52,
+          "moves": [
+            "head-charge",
+            "wild-charge",
+            "earthquake",
+            "poison-jab"
+          ]
+        },
+        {
+          "pokemon": "seismitoad",
+          "level": 52,
+          "moves": [
+            "muddy-water",
+            "sludge-wave",
+            "earthquake",
+            "rain-dance"
+          ]
+        },
+        {
+          "pokemon": "bisharp",
+          "level": 52,
+          "moves": [
+            "night-slash",
+            "x-scissor",
+            "stone-edge",
+            "metal-burst"
+          ]
+        },
+        {
+          "pokemon": "eelektross",
+          "level": 52,
+          "moves": [
+            "crunch",
+            "wild-charge",
+            "flamethrower",
+            "acrobatics"
+          ]
+        },
+        {
+          "pokemon": "hydreigon",
+          "level": 54,
+          "moves": [
+            "dragon-pulse",
+            "surf",
+            "fire-blast",
+            "focus-blast"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "alder",
+      "name": "Alder",
+      "title": "Champion (Pokémon League, post-game)",
+      "category": "postgame",
+      "levelCap": 77,
+      "team": [
+        {
+          "pokemon": "accelgor",
+          "level": 75,
+          "moves": [
+            "focus-blast",
+            "bug-buzz",
+            "me-first",
+            "energy-ball"
+          ]
+        },
+        {
+          "pokemon": "bouffalant",
+          "level": 75,
+          "moves": [
+            "head-charge",
+            "megahorn",
+            "earthquake",
+            "stone-edge"
+          ]
+        },
+        {
+          "pokemon": "druddigon",
+          "level": 75,
+          "moves": [
+            "outrage",
+            "superpower",
+            "night-slash",
+            "payback"
+          ]
+        },
+        {
+          "pokemon": "vanilluxe",
+          "level": 75,
+          "moves": [
+            "blizzard",
+            "flash-cannon",
+            "light-screen",
+            "acid-armor"
+          ]
+        },
+        {
+          "pokemon": "escavalier",
+          "level": 75,
+          "moves": [
+            "x-scissor",
+            "iron-head",
+            "aerial-ace",
+            "giga-impact"
+          ]
+        },
+        {
+          "pokemon": "volcarona",
+          "level": 77,
+          "moves": [
+            "overheat",
+            "quiver-dance",
+            "bug-buzz",
+            "hyper-beam"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "cynthia",
+      "name": "Cynthia",
+      "title": "Undella Town",
+      "category": "postgame",
+      "levelCap": 77,
+      "team": [
+        {
+          "pokemon": "spiritomb",
+          "level": 75,
+          "moves": [
+            "sucker-punch",
+            "shadow-ball",
+            "will-o-wisp",
+            "double-team"
+          ]
+        },
+        {
+          "pokemon": "eelektross",
+          "level": 75,
+          "moves": [
+            "crunch",
+            "wild-charge",
+            "dragon-claw",
+            "flamethrower"
+          ]
+        },
+        {
+          "pokemon": "milotic",
+          "level": 75,
+          "moves": [
+            "hydro-pump",
+            "blizzard",
+            "bulldoze",
+            "dragon-tail"
+          ]
+        },
+        {
+          "pokemon": "braviary",
+          "level": 75,
+          "moves": [
+            "brave-bird",
+            "crush-claw",
+            "shadow-claw",
+            "retaliate"
+          ]
+        },
+        {
+          "pokemon": "lucario",
+          "level": 75,
+          "moves": [
+            "extreme-speed",
+            "dragon-pulse",
+            "close-combat",
+            "aura-sphere"
+          ]
+        },
+        {
+          "pokemon": "garchomp",
+          "level": 77,
+          "moves": [
+            "dragon-rush",
+            "crunch",
+            "earthquake",
+            "stone-edge"
+          ],
+          "ace": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1450 @@
+{
+  "versionGroup": "firered-leafgreen",
+  "battles": [
+    {
+      "id": "brock",
+      "name": "Brock",
+      "title": "Pewter City Gym",
+      "category": "gym",
+      "type": "rock",
+      "badge": "Boulder Badge",
+      "levelCap": 14,
+      "team": [
+        {
+          "pokemon": "geodude",
+          "level": 12,
+          "moves": [
+            "tackle",
+            "defense-curl"
+          ]
+        },
+        {
+          "pokemon": "onix",
+          "level": 14,
+          "moves": [
+            "tackle",
+            "bind",
+            "rock-tomb"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "rival-cerulean-charmander",
+      "name": "Blue",
+      "title": "Rival battle: Cerulean City (Nugget Bridge)",
+      "category": "rival",
+      "levelCap": 18,
+      "variant": "If you chose Charmander",
+      "team": [
+        {
+          "pokemon": "pidgeotto",
+          "level": 17,
+          "moves": [
+            "tackle",
+            "sand-attack",
+            "gust",
+            "quick-attack"
+          ]
+        },
+        {
+          "pokemon": "abra",
+          "level": 16,
+          "moves": [
+            "teleport"
+          ]
+        },
+        {
+          "pokemon": "rattata",
+          "level": 15,
+          "moves": [
+            "tackle",
+            "tail-whip",
+            "quick-attack"
+          ]
+        },
+        {
+          "pokemon": "squirtle",
+          "level": 18,
+          "moves": [
+            "tackle",
+            "tail-whip",
+            "withdraw",
+            "water-gun"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rival-cerulean-squirtle",
+      "name": "Blue",
+      "title": "Rival battle: Cerulean City (Nugget Bridge)",
+      "category": "rival",
+      "levelCap": 18,
+      "variant": "If you chose Squirtle",
+      "team": [
+        {
+          "pokemon": "pidgeotto",
+          "level": 17,
+          "moves": [
+            "tackle",
+            "sand-attack",
+            "gust",
+            "quick-attack"
+          ]
+        },
+        {
+          "pokemon": "abra",
+          "level": 16,
+          "moves": [
+            "teleport"
+          ]
+        },
+        {
+          "pokemon": "rattata",
+          "level": 15,
+          "moves": [
+            "tackle",
+            "tail-whip",
+            "quick-attack"
+          ]
+        },
+        {
+          "pokemon": "bulbasaur",
+          "level": 18,
+          "moves": [
+            "sleep-powder",
+            "poison-powder",
+            "vine-whip",
+            "leech-seed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rival-cerulean-bulbasaur",
+      "name": "Blue",
+      "title": "Rival battle: Cerulean City (Nugget Bridge)",
+      "category": "rival",
+      "levelCap": 18,
+      "variant": "If you chose Bulbasaur",
+      "team": [
+        {
+          "pokemon": "pidgeotto",
+          "level": 17,
+          "moves": [
+            "tackle",
+            "sand-attack",
+            "gust",
+            "quick-attack"
+          ]
+        },
+        {
+          "pokemon": "abra",
+          "level": 16,
+          "moves": [
+            "teleport"
+          ]
+        },
+        {
+          "pokemon": "rattata",
+          "level": 15,
+          "moves": [
+            "tackle",
+            "tail-whip",
+            "quick-attack"
+          ]
+        },
+        {
+          "pokemon": "charmander",
+          "level": 18,
+          "moves": [
+            "metal-claw",
+            "ember",
+            "growl",
+            "scratch"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "misty",
+      "name": "Misty",
+      "title": "Cerulean City Gym",
+      "category": "gym",
+      "type": "water",
+      "badge": "Cascade Badge",
+      "levelCap": 21,
+      "team": [
+        {
+          "pokemon": "staryu",
+          "level": 18,
+          "moves": [
+            "tackle",
+            "harden",
+            "recover",
+            "water-pulse"
+          ]
+        },
+        {
+          "pokemon": "starmie",
+          "level": 21,
+          "moves": [
+            "swift",
+            "recover",
+            "rapid-spin",
+            "water-pulse"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "lt-surge",
+      "name": "Lt. Surge",
+      "title": "Vermilion City Gym",
+      "category": "gym",
+      "type": "electric",
+      "badge": "Thunder Badge",
+      "levelCap": 24,
+      "team": [
+        {
+          "pokemon": "voltorb",
+          "level": 21,
+          "moves": [
+            "sonic-boom",
+            "tackle",
+            "screech",
+            "shock-wave"
+          ]
+        },
+        {
+          "pokemon": "pikachu",
+          "level": 18,
+          "moves": [
+            "quick-attack",
+            "thunder-wave",
+            "double-team",
+            "shock-wave"
+          ]
+        },
+        {
+          "pokemon": "raichu",
+          "level": 24,
+          "moves": [
+            "quick-attack",
+            "thunder-wave",
+            "double-team",
+            "shock-wave"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "erika",
+      "name": "Erika",
+      "title": "Celadon City Gym",
+      "category": "gym",
+      "type": "grass",
+      "badge": "Rainbow Badge",
+      "levelCap": 29,
+      "team": [
+        {
+          "pokemon": "victreebel",
+          "level": 29,
+          "moves": [
+            "stun-spore",
+            "acid",
+            "poison-powder",
+            "giga-drain"
+          ]
+        },
+        {
+          "pokemon": "tangela",
+          "level": 24,
+          "moves": [
+            "poison-powder",
+            "constrict",
+            "ingrain",
+            "giga-drain"
+          ]
+        },
+        {
+          "pokemon": "vileplume",
+          "level": 29,
+          "moves": [
+            "sleep-powder",
+            "acid",
+            "stun-spore",
+            "giga-drain"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "giovanni-rocket-hideout",
+      "name": "Giovanni",
+      "title": "Team Rocket Boss: Rocket Hideout B4F",
+      "category": "villain",
+      "levelCap": 29,
+      "team": [
+        {
+          "pokemon": "onix",
+          "level": 25,
+          "moves": [
+            "bind",
+            "rock-throw",
+            "harden",
+            "rage"
+          ]
+        },
+        {
+          "pokemon": "rhyhorn",
+          "level": 24,
+          "moves": [
+            "tail-whip",
+            "stomp",
+            "fury-attack",
+            "scary-face"
+          ]
+        },
+        {
+          "pokemon": "kangaskhan",
+          "level": 29,
+          "moves": [
+            "bite",
+            "tail-whip",
+            "fake-out",
+            "mega-punch"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "koga",
+      "name": "Koga",
+      "title": "Fuchsia City Gym",
+      "category": "gym",
+      "type": "poison",
+      "badge": "Soul Badge",
+      "levelCap": 43,
+      "team": [
+        {
+          "pokemon": "koffing",
+          "level": 37,
+          "moves": [
+            "self-destruct",
+            "sludge",
+            "smokescreen",
+            "toxic"
+          ]
+        },
+        {
+          "pokemon": "muk",
+          "level": 39,
+          "moves": [
+            "minimize",
+            "sludge",
+            "acid-armor",
+            "toxic"
+          ]
+        },
+        {
+          "pokemon": "koffing",
+          "level": 37,
+          "moves": [
+            "self-destruct",
+            "sludge",
+            "smokescreen",
+            "toxic"
+          ]
+        },
+        {
+          "pokemon": "weezing",
+          "level": 43,
+          "moves": [
+            "tackle",
+            "sludge",
+            "smokescreen",
+            "toxic"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "rival-silph-charmander",
+      "name": "Blue",
+      "title": "Rival battle: Silph Co. 7F",
+      "category": "rival",
+      "levelCap": 40,
+      "variant": "If you chose Charmander",
+      "team": [
+        {
+          "pokemon": "pidgeot",
+          "level": 37,
+          "moves": [
+            "quick-attack",
+            "whirlwind",
+            "wing-attack",
+            "feather-dance"
+          ]
+        },
+        {
+          "pokemon": "growlithe",
+          "level": 38,
+          "moves": [
+            "odor-sleuth",
+            "take-down",
+            "flame-wheel",
+            "helping-hand"
+          ]
+        },
+        {
+          "pokemon": "exeggcute",
+          "level": 35,
+          "moves": [
+            "leech-seed",
+            "confusion",
+            "stun-spore",
+            "poison-powder"
+          ]
+        },
+        {
+          "pokemon": "alakazam",
+          "level": 35,
+          "moves": [
+            "reflect",
+            "recover",
+            "future-sight",
+            "calm-mind"
+          ]
+        },
+        {
+          "pokemon": "blastoise",
+          "level": 40,
+          "moves": [
+            "water-gun",
+            "bite",
+            "rapid-spin",
+            "protect"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rival-silph-squirtle",
+      "name": "Blue",
+      "title": "Rival battle: Silph Co. 7F",
+      "category": "rival",
+      "levelCap": 40,
+      "variant": "If you chose Squirtle",
+      "team": [
+        {
+          "pokemon": "pidgeot",
+          "level": 37,
+          "moves": [
+            "quick-attack",
+            "whirlwind",
+            "wing-attack",
+            "feather-dance"
+          ]
+        },
+        {
+          "pokemon": "gyarados",
+          "level": 38,
+          "moves": [
+            "bite",
+            "dragon-rage",
+            "leer",
+            "twister"
+          ]
+        },
+        {
+          "pokemon": "growlithe",
+          "level": 35,
+          "moves": [
+            "leer",
+            "odor-sleuth",
+            "take-down",
+            "flame-wheel"
+          ]
+        },
+        {
+          "pokemon": "alakazam",
+          "level": 35,
+          "moves": [
+            "reflect",
+            "recover",
+            "future-sight",
+            "calm-mind"
+          ]
+        },
+        {
+          "pokemon": "venusaur",
+          "level": 40,
+          "moves": [
+            "sleep-powder",
+            "poison-powder",
+            "razor-leaf",
+            "sweet-scent"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rival-silph-bulbasaur",
+      "name": "Blue",
+      "title": "Rival battle: Silph Co. 7F",
+      "category": "rival",
+      "levelCap": 40,
+      "variant": "If you chose Bulbasaur",
+      "team": [
+        {
+          "pokemon": "pidgeot",
+          "level": 37,
+          "moves": [
+            "quick-attack",
+            "whirlwind",
+            "wing-attack",
+            "feather-dance"
+          ]
+        },
+        {
+          "pokemon": "exeggcute",
+          "level": 38,
+          "moves": [
+            "confusion",
+            "stun-spore",
+            "poison-powder",
+            "sleep-powder"
+          ]
+        },
+        {
+          "pokemon": "gyarados",
+          "level": 35,
+          "moves": [
+            "bite",
+            "dragon-rage",
+            "leer",
+            "twister"
+          ]
+        },
+        {
+          "pokemon": "alakazam",
+          "level": 35,
+          "moves": [
+            "reflect",
+            "recover",
+            "future-sight",
+            "calm-mind"
+          ]
+        },
+        {
+          "pokemon": "charizard",
+          "level": 40,
+          "moves": [
+            "smokescreen",
+            "scary-face",
+            "flamethrower",
+            "wing-attack"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "giovanni-silph-co",
+      "name": "Giovanni",
+      "title": "Team Rocket Boss: Silph Co. 11F",
+      "category": "villain",
+      "levelCap": 41,
+      "team": [
+        {
+          "pokemon": "nidorino",
+          "level": 37,
+          "moves": [
+            "poison-sting",
+            "horn-attack",
+            "helping-hand",
+            "fury-attack"
+          ]
+        },
+        {
+          "pokemon": "kangaskhan",
+          "level": 35,
+          "moves": [
+            "tail-whip",
+            "fake-out",
+            "mega-punch",
+            "rage"
+          ]
+        },
+        {
+          "pokemon": "rhyhorn",
+          "level": 37,
+          "moves": [
+            "stomp",
+            "fury-attack",
+            "scary-face",
+            "rock-blast"
+          ]
+        },
+        {
+          "pokemon": "nidoqueen",
+          "level": 41,
+          "moves": [
+            "tail-whip",
+            "double-kick",
+            "poison-sting",
+            "body-slam"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "sabrina",
+      "name": "Sabrina",
+      "title": "Saffron City Gym",
+      "category": "gym",
+      "type": "psychic",
+      "badge": "Marsh Badge",
+      "levelCap": 43,
+      "team": [
+        {
+          "pokemon": "kadabra",
+          "level": 38,
+          "moves": [
+            "psybeam",
+            "reflect",
+            "future-sight",
+            "calm-mind"
+          ]
+        },
+        {
+          "pokemon": "mr-mime",
+          "level": 37,
+          "moves": [
+            "barrier",
+            "psybeam",
+            "baton-pass",
+            "calm-mind"
+          ]
+        },
+        {
+          "pokemon": "venomoth",
+          "level": 38,
+          "moves": [
+            "psybeam",
+            "gust",
+            "leech-life",
+            "supersonic"
+          ]
+        },
+        {
+          "pokemon": "alakazam",
+          "level": 43,
+          "moves": [
+            "psychic",
+            "recover",
+            "future-sight",
+            "calm-mind"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "blaine",
+      "name": "Blaine",
+      "title": "Cinnabar Island Gym",
+      "category": "gym",
+      "type": "fire",
+      "badge": "Volcano Badge",
+      "levelCap": 47,
+      "team": [
+        {
+          "pokemon": "growlithe",
+          "level": 42,
+          "moves": [
+            "bite",
+            "roar",
+            "take-down",
+            "fire-blast"
+          ]
+        },
+        {
+          "pokemon": "ponyta",
+          "level": 40,
+          "moves": [
+            "stomp",
+            "bounce",
+            "fire-spin",
+            "fire-blast"
+          ]
+        },
+        {
+          "pokemon": "rapidash",
+          "level": 42,
+          "moves": [
+            "stomp",
+            "bounce",
+            "fire-spin",
+            "fire-blast"
+          ]
+        },
+        {
+          "pokemon": "arcanine",
+          "level": 47,
+          "moves": [
+            "bite",
+            "roar",
+            "take-down",
+            "fire-blast"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "giovanni",
+      "name": "Giovanni",
+      "title": "Viridian City Gym",
+      "category": "gym",
+      "type": "ground",
+      "badge": "Earth Badge",
+      "levelCap": 50,
+      "team": [
+        {
+          "pokemon": "rhyhorn",
+          "level": 45,
+          "moves": [
+            "take-down",
+            "rock-blast",
+            "scary-face",
+            "earthquake"
+          ]
+        },
+        {
+          "pokemon": "dugtrio",
+          "level": 42,
+          "moves": [
+            "slash",
+            "sand-tomb",
+            "mud-slap",
+            "earthquake"
+          ]
+        },
+        {
+          "pokemon": "nidoqueen",
+          "level": 44,
+          "moves": [
+            "body-slam",
+            "double-kick",
+            "poison-sting",
+            "earthquake"
+          ]
+        },
+        {
+          "pokemon": "nidoking",
+          "level": 45,
+          "moves": [
+            "thrash",
+            "double-kick",
+            "poison-sting",
+            "earthquake"
+          ]
+        },
+        {
+          "pokemon": "rhyhorn",
+          "level": 50,
+          "moves": [
+            "take-down",
+            "rock-blast",
+            "scary-face",
+            "earthquake"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "rival-route-22-charmander",
+      "name": "Blue",
+      "title": "Rival battle: Route 22 (before Victory Road)",
+      "category": "rival",
+      "levelCap": 53,
+      "variant": "If you chose Charmander",
+      "team": [
+        {
+          "pokemon": "pidgeot",
+          "level": 47,
+          "moves": [
+            "feather-dance",
+            "wing-attack",
+            "gust",
+            "quick-attack"
+          ]
+        },
+        {
+          "pokemon": "rhyhorn",
+          "level": 45,
+          "moves": [
+            "take-down",
+            "horn-drill",
+            "rock-blast",
+            "fury-attack"
+          ]
+        },
+        {
+          "pokemon": "growlithe",
+          "level": 45,
+          "moves": [
+            "flame-wheel",
+            "take-down",
+            "leer",
+            "agility"
+          ]
+        },
+        {
+          "pokemon": "exeggcute",
+          "level": 45,
+          "moves": [
+            "solar-beam",
+            "sleep-powder",
+            "poison-powder",
+            "stun-spore"
+          ]
+        },
+        {
+          "pokemon": "alakazam",
+          "level": 47,
+          "moves": [
+            "psychic",
+            "calm-mind",
+            "future-sight",
+            "disable"
+          ]
+        },
+        {
+          "pokemon": "blastoise",
+          "level": 53,
+          "moves": [
+            "water-gun",
+            "rain-dance",
+            "bite",
+            "rapid-spin"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rival-route-22-squirtle",
+      "name": "Blue",
+      "title": "Rival battle: Route 22 (before Victory Road)",
+      "category": "rival",
+      "levelCap": 53,
+      "variant": "If you chose Squirtle",
+      "team": [
+        {
+          "pokemon": "pidgeot",
+          "level": 47,
+          "moves": [
+            "feather-dance",
+            "wing-attack",
+            "gust",
+            "quick-attack"
+          ]
+        },
+        {
+          "pokemon": "rhyhorn",
+          "level": 45,
+          "moves": [
+            "take-down",
+            "horn-drill",
+            "rock-blast",
+            "fury-attack"
+          ]
+        },
+        {
+          "pokemon": "gyarados",
+          "level": 45,
+          "moves": [
+            "hydro-pump",
+            "twister",
+            "leer",
+            "rain-dance"
+          ]
+        },
+        {
+          "pokemon": "growlithe",
+          "level": 45,
+          "moves": [
+            "flame-wheel",
+            "take-down",
+            "leer",
+            "agility"
+          ]
+        },
+        {
+          "pokemon": "alakazam",
+          "level": 47,
+          "moves": [
+            "psychic",
+            "calm-mind",
+            "future-sight",
+            "disable"
+          ]
+        },
+        {
+          "pokemon": "venusaur",
+          "level": 53,
+          "moves": [
+            "razor-leaf",
+            "sweet-scent",
+            "growth",
+            "synthesis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rival-route-22-bulbasaur",
+      "name": "Blue",
+      "title": "Rival battle: Route 22 (before Victory Road)",
+      "category": "rival",
+      "levelCap": 53,
+      "variant": "If you chose Bulbasaur",
+      "team": [
+        {
+          "pokemon": "pidgeot",
+          "level": 47,
+          "moves": [
+            "feather-dance",
+            "wing-attack",
+            "gust",
+            "quick-attack"
+          ]
+        },
+        {
+          "pokemon": "rhyhorn",
+          "level": 45,
+          "moves": [
+            "take-down",
+            "horn-drill",
+            "rock-blast",
+            "fury-attack"
+          ]
+        },
+        {
+          "pokemon": "exeggcute",
+          "level": 45,
+          "moves": [
+            "solar-beam",
+            "sleep-powder",
+            "poison-powder",
+            "stun-spore"
+          ]
+        },
+        {
+          "pokemon": "gyarados",
+          "level": 45,
+          "moves": [
+            "hydro-pump",
+            "twister",
+            "leer",
+            "rain-dance"
+          ]
+        },
+        {
+          "pokemon": "alakazam",
+          "level": 47,
+          "moves": [
+            "psychic",
+            "calm-mind",
+            "future-sight",
+            "disable"
+          ]
+        },
+        {
+          "pokemon": "charizard",
+          "level": 53,
+          "moves": [
+            "flamethrower",
+            "wing-attack",
+            "slash",
+            "scary-face"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lorelei",
+      "name": "Lorelei",
+      "title": "Elite Four",
+      "category": "elite4",
+      "type": "ice",
+      "levelCap": 54,
+      "team": [
+        {
+          "pokemon": "dewgong",
+          "level": 52,
+          "moves": [
+            "ice-beam",
+            "surf",
+            "hail",
+            "safeguard"
+          ]
+        },
+        {
+          "pokemon": "cloyster",
+          "level": 51,
+          "moves": [
+            "spikes",
+            "protect",
+            "hail",
+            "dive"
+          ]
+        },
+        {
+          "pokemon": "slowbro",
+          "level": 52,
+          "moves": [
+            "ice-beam",
+            "surf",
+            "amnesia",
+            "yawn"
+          ]
+        },
+        {
+          "pokemon": "jynx",
+          "level": 54,
+          "moves": [
+            "ice-punch",
+            "double-slap",
+            "lovely-kiss",
+            "attract"
+          ]
+        },
+        {
+          "pokemon": "lapras",
+          "level": 54,
+          "moves": [
+            "confuse-ray",
+            "ice-beam",
+            "surf",
+            "body-slam"
+          ],
+          "item": "Sitrus Berry",
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "bruno",
+      "name": "Bruno",
+      "title": "Elite Four",
+      "category": "elite4",
+      "type": "fighting",
+      "levelCap": 56,
+      "team": [
+        {
+          "pokemon": "onix",
+          "level": 51,
+          "moves": [
+            "earthquake",
+            "rock-tomb",
+            "iron-tail",
+            "roar"
+          ]
+        },
+        {
+          "pokemon": "hitmonchan",
+          "level": 53,
+          "moves": [
+            "sky-uppercut",
+            "mach-punch",
+            "rock-tomb",
+            "counter"
+          ]
+        },
+        {
+          "pokemon": "hitmonlee",
+          "level": 53,
+          "moves": [
+            "mega-kick",
+            "foresight",
+            "brick-break",
+            "facade"
+          ]
+        },
+        {
+          "pokemon": "onix",
+          "level": 54,
+          "moves": [
+            "double-edge",
+            "earthquake",
+            "iron-tail",
+            "sand-tomb"
+          ]
+        },
+        {
+          "pokemon": "machamp",
+          "level": 56,
+          "moves": [
+            "cross-chop",
+            "bulk-up",
+            "scary-face",
+            "rock-tomb"
+          ],
+          "item": "Sitrus Berry",
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "agatha",
+      "name": "Agatha",
+      "title": "Elite Four",
+      "category": "elite4",
+      "type": "ghost",
+      "levelCap": 58,
+      "team": [
+        {
+          "pokemon": "gengar",
+          "level": 54,
+          "moves": [
+            "shadow-punch",
+            "confuse-ray",
+            "toxic",
+            "double-team"
+          ]
+        },
+        {
+          "pokemon": "golbat",
+          "level": 54,
+          "moves": [
+            "confuse-ray",
+            "poison-fang",
+            "air-cutter",
+            "bite"
+          ]
+        },
+        {
+          "pokemon": "haunter",
+          "level": 53,
+          "moves": [
+            "hypnosis",
+            "dream-eater",
+            "curse",
+            "mean-look"
+          ]
+        },
+        {
+          "pokemon": "arbok",
+          "level": 56,
+          "moves": [
+            "sludge-bomb",
+            "screech",
+            "iron-tail",
+            "bite"
+          ]
+        },
+        {
+          "pokemon": "gengar",
+          "level": 58,
+          "moves": [
+            "shadow-ball",
+            "sludge-bomb",
+            "hypnosis",
+            "nightmare"
+          ],
+          "item": "Sitrus Berry",
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "lance",
+      "name": "Lance",
+      "title": "Elite Four",
+      "category": "elite4",
+      "type": "dragon",
+      "levelCap": 60,
+      "team": [
+        {
+          "pokemon": "gyarados",
+          "level": 56,
+          "moves": [
+            "hyper-beam",
+            "dragon-rage",
+            "twister",
+            "bite"
+          ]
+        },
+        {
+          "pokemon": "dragonair",
+          "level": 54,
+          "moves": [
+            "hyper-beam",
+            "safeguard",
+            "dragon-rage",
+            "outrage"
+          ]
+        },
+        {
+          "pokemon": "dragonair",
+          "level": 54,
+          "moves": [
+            "hyper-beam",
+            "safeguard",
+            "thunder-wave",
+            "outrage"
+          ]
+        },
+        {
+          "pokemon": "aerodactyl",
+          "level": 58,
+          "moves": [
+            "hyper-beam",
+            "ancient-power",
+            "wing-attack",
+            "scary-face"
+          ]
+        },
+        {
+          "pokemon": "dragonite",
+          "level": 60,
+          "moves": [
+            "hyper-beam",
+            "safeguard",
+            "outrage",
+            "wing-attack"
+          ],
+          "item": "Sitrus Berry",
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "champion-charmander",
+      "name": "Blue",
+      "title": "Pokémon League Champion",
+      "category": "champion",
+      "levelCap": 63,
+      "variant": "If you chose Charmander",
+      "team": [
+        {
+          "pokemon": "pidgeot",
+          "level": 59,
+          "moves": [
+            "aerial-ace",
+            "feather-dance",
+            "sand-attack",
+            "whirlwind"
+          ]
+        },
+        {
+          "pokemon": "alakazam",
+          "level": 57,
+          "moves": [
+            "psychic",
+            "future-sight",
+            "recover",
+            "reflect"
+          ]
+        },
+        {
+          "pokemon": "rhydon",
+          "level": 59,
+          "moves": [
+            "take-down",
+            "earthquake",
+            "rock-tomb",
+            "scary-face"
+          ]
+        },
+        {
+          "pokemon": "arcanine",
+          "level": 59,
+          "moves": [
+            "extreme-speed",
+            "flamethrower",
+            "roar",
+            "bite"
+          ]
+        },
+        {
+          "pokemon": "exeggutor",
+          "level": 61,
+          "moves": [
+            "giga-drain",
+            "egg-bomb",
+            "sleep-powder",
+            "light-screen"
+          ]
+        },
+        {
+          "pokemon": "blastoise",
+          "level": 63,
+          "moves": [
+            "hydro-pump",
+            "rain-dance",
+            "skull-bash",
+            "bite"
+          ],
+          "item": "Sitrus Berry",
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "champion-squirtle",
+      "name": "Blue",
+      "title": "Pokémon League Champion",
+      "category": "champion",
+      "levelCap": 63,
+      "variant": "If you chose Squirtle",
+      "team": [
+        {
+          "pokemon": "pidgeot",
+          "level": 59,
+          "moves": [
+            "aerial-ace",
+            "feather-dance",
+            "sand-attack",
+            "whirlwind"
+          ]
+        },
+        {
+          "pokemon": "alakazam",
+          "level": 57,
+          "moves": [
+            "psychic",
+            "future-sight",
+            "recover",
+            "reflect"
+          ]
+        },
+        {
+          "pokemon": "rhydon",
+          "level": 59,
+          "moves": [
+            "take-down",
+            "earthquake",
+            "rock-tomb",
+            "scary-face"
+          ]
+        },
+        {
+          "pokemon": "gyarados",
+          "level": 59,
+          "moves": [
+            "hydro-pump",
+            "dragon-rage",
+            "bite",
+            "thrash"
+          ]
+        },
+        {
+          "pokemon": "arcanine",
+          "level": 61,
+          "moves": [
+            "extreme-speed",
+            "flamethrower",
+            "roar",
+            "bite"
+          ]
+        },
+        {
+          "pokemon": "venusaur",
+          "level": 63,
+          "moves": [
+            "solar-beam",
+            "synthesis",
+            "sunny-day",
+            "growth"
+          ],
+          "item": "Sitrus Berry",
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "champion-bulbasaur",
+      "name": "Blue",
+      "title": "Pokémon League Champion",
+      "category": "champion",
+      "levelCap": 63,
+      "variant": "If you chose Bulbasaur",
+      "team": [
+        {
+          "pokemon": "pidgeot",
+          "level": 59,
+          "moves": [
+            "aerial-ace",
+            "feather-dance",
+            "sand-attack",
+            "whirlwind"
+          ]
+        },
+        {
+          "pokemon": "alakazam",
+          "level": 57,
+          "moves": [
+            "psychic",
+            "future-sight",
+            "recover",
+            "reflect"
+          ]
+        },
+        {
+          "pokemon": "rhydon",
+          "level": 59,
+          "moves": [
+            "take-down",
+            "earthquake",
+            "rock-tomb",
+            "scary-face"
+          ]
+        },
+        {
+          "pokemon": "exeggutor",
+          "level": 59,
+          "moves": [
+            "giga-drain",
+            "egg-bomb",
+            "sleep-powder",
+            "light-screen"
+          ]
+        },
+        {
+          "pokemon": "gyarados",
+          "level": 61,
+          "moves": [
+            "hydro-pump",
+            "dragon-rage",
+            "bite",
+            "thrash"
+          ]
+        },
+        {
+          "pokemon": "charizard",
+          "level": 63,
+          "moves": [
+            "fire-blast",
+            "aerial-ace",
+            "slash",
+            "fire-spin"
+          ],
+          "item": "Sitrus Berry",
+          "ace": true
+        }
+      ]
+    }
+  ]
+}

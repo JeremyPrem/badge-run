@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Badge Run</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=Atkinson+Hyperlegible:wght@400;700&family=JetBrains+Mono:wght@400;600&display=swap">
+<link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+<div id="app">
+  <header class="topbar">
+    <div class="brand">
+      <svg class="mark" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="14" fill="none" stroke="currentColor" stroke-width="3"/><path d="M2 16h9M21 16h9" stroke="currentColor" stroke-width="3"/><circle cx="16" cy="16" r="4.5" fill="none" stroke="currentColor" stroke-width="3"/><path d="M4 13 A13 13 0 0 1 28 13" fill="var(--accent)" stroke="none" opacity=".9"/></svg>
+      <div>
+        <h1>Badge Run</h1>
+        <p class="tagline">Plan a team for every gym, trial and champion</p>
+      </div>
+    </div>
+    <div class="controls">
+      <label class="field"><span>Game</span><select id="game"></select></label>
+      <label class="field"><span>Version</span><select id="version"></select></label>
+      <span id="game-meta" class="game-meta"></span>
+    </div>
+  </header>
+
+  <main class="layout">
+    <aside class="team-col" aria-label="Your team">
+      <div class="team-head">
+        <h2>Your team <span id="team-count" class="count"></span></h2>
+        <div class="team-actions">
+          <button class="btn sm ghost" data-action="copy">Copy as text</button>
+          <button class="btn sm ghost" data-action="clear">Clear team</button>
+        </div>
+      </div>
+      <p id="example-note" class="example-note" hidden>Example team. Add, remove or change moves to make it yours; it's saved in this browser.</p>
+      <ol id="team-list" class="team-list"></ol>
+      <div id="team-weak" class="team-weak"></div>
+      <div id="copy-fallback" class="copy-fallback" hidden>
+        <label for="copy-text" class="small">Copy this text:</label>
+        <textarea id="copy-text" rows="8" readonly></textarea>
+      </div>
+    </aside>
+
+    <section class="work-col">
+      <nav class="tabs" role="tablist" aria-label="Workspace">
+        <button class="tab" role="tab" data-action="tab" data-tab="dex">Pokédex</button>
+        <button class="tab" role="tab" data-action="tab" data-tab="member">Moves &amp; locations</button>
+        <button class="tab" role="tab" data-action="tab" data-tab="battles">Battles</button>
+        <button class="tab" role="tab" data-action="tab" data-tab="coverage">Coverage</button>
+      </nav>
+      <div id="workspace" class="workspace"><p class="empty">Loading Pokédex…</p></div>
+    </section>
+  </main>
+
+  <footer class="foot small muted">
+    Data from <a href="https://pokeapi.co" target="_blank" rel="noopener">PokeAPI</a>; boss teams compiled from Bulbapedia, Serebii and the pret decompilations.
+    Pokémon and its names are trademarks of Nintendo, Creatures and Game Freak. Fan-made planner, not affiliated.
+  </footer>
+  <div id="toast" class="toast" role="status" hidden></div>
+</div>
+<script src="src/types.js"></script>
+<script src="src/app.js"></script>
+</body>
+</html>

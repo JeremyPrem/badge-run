@@ -1,0 +1,1626 @@
+{
+  "versionGroup": "sword-shield",
+  "battles": [
+    {
+      "id": "hop-motostoke-grookey",
+      "name": "Hop",
+      "title": "Motostoke (before the Gym Challenge)",
+      "category": "rival",
+      "levelCap": 14,
+      "variant": "If you chose Grookey",
+      "team": [
+        {
+          "pokemon": "wooloo",
+          "level": 11,
+          "moves": [
+            "tackle",
+            "growl"
+          ]
+        },
+        {
+          "pokemon": "rookidee",
+          "level": 12,
+          "moves": [
+            "peck",
+            "leer"
+          ]
+        },
+        {
+          "pokemon": "sobble",
+          "level": 14,
+          "moves": [
+            "pound",
+            "growl",
+            "water-gun",
+            "bind"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "hop-motostoke-scorbunny",
+      "name": "Hop",
+      "title": "Motostoke (before the Gym Challenge)",
+      "category": "rival",
+      "levelCap": 14,
+      "variant": "If you chose Scorbunny",
+      "team": [
+        {
+          "pokemon": "wooloo",
+          "level": 11,
+          "moves": [
+            "tackle",
+            "growl"
+          ]
+        },
+        {
+          "pokemon": "rookidee",
+          "level": 12,
+          "moves": [
+            "peck",
+            "leer"
+          ]
+        },
+        {
+          "pokemon": "grookey",
+          "level": 14,
+          "moves": [
+            "scratch",
+            "growl",
+            "branch-poke",
+            "taunt"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "hop-motostoke-sobble",
+      "name": "Hop",
+      "title": "Motostoke (before the Gym Challenge)",
+      "category": "rival",
+      "levelCap": 14,
+      "variant": "If you chose Sobble",
+      "team": [
+        {
+          "pokemon": "wooloo",
+          "level": 11,
+          "moves": [
+            "tackle",
+            "growl"
+          ]
+        },
+        {
+          "pokemon": "rookidee",
+          "level": 12,
+          "moves": [
+            "peck",
+            "leer"
+          ]
+        },
+        {
+          "pokemon": "scorbunny",
+          "level": 14,
+          "moves": [
+            "tackle",
+            "growl",
+            "ember",
+            "quick-attack"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "milo",
+      "name": "Milo",
+      "title": "Turffield Stadium",
+      "category": "gym",
+      "type": "grass",
+      "badge": "Grass Badge",
+      "levelCap": 20,
+      "team": [
+        {
+          "pokemon": "gossifleur",
+          "level": 19,
+          "moves": [
+            "magical-leaf",
+            "round",
+            "rapid-spin"
+          ]
+        },
+        {
+          "pokemon": "eldegoss",
+          "level": 20,
+          "moves": [
+            "magical-leaf",
+            "leafage",
+            "round"
+          ],
+          "ace": true,
+          "dynamax": true
+        }
+      ]
+    },
+    {
+      "id": "nessa",
+      "name": "Nessa",
+      "title": "Hulbury Stadium",
+      "category": "gym",
+      "type": "water",
+      "badge": "Water Badge",
+      "levelCap": 24,
+      "team": [
+        {
+          "pokemon": "goldeen",
+          "level": 22,
+          "moves": [
+            "water-pulse",
+            "whirlpool",
+            "horn-attack",
+            "agility"
+          ]
+        },
+        {
+          "pokemon": "arrokuda",
+          "level": 23,
+          "moves": [
+            "aqua-jet",
+            "bite",
+            "whirlpool",
+            "fury-attack"
+          ]
+        },
+        {
+          "pokemon": "drednaw",
+          "level": 24,
+          "moves": [
+            "razor-shell",
+            "water-gun",
+            "bite",
+            "headbutt"
+          ],
+          "ace": true,
+          "dynamax": true
+        }
+      ]
+    },
+    {
+      "id": "kabu",
+      "name": "Kabu",
+      "title": "Motostoke Stadium",
+      "category": "gym",
+      "type": "fire",
+      "badge": "Fire Badge",
+      "levelCap": 27,
+      "team": [
+        {
+          "pokemon": "ninetales",
+          "level": 25,
+          "moves": [
+            "will-o-wisp",
+            "fire-spin",
+            "quick-attack",
+            "ember"
+          ]
+        },
+        {
+          "pokemon": "arcanine",
+          "level": 25,
+          "moves": [
+            "will-o-wisp",
+            "flame-wheel",
+            "bite",
+            "agility"
+          ]
+        },
+        {
+          "pokemon": "centiskorch",
+          "level": 27,
+          "moves": [
+            "flame-wheel",
+            "coil",
+            "bug-bite",
+            "smokescreen"
+          ],
+          "ace": true,
+          "dynamax": true,
+          "gmax": true
+        }
+      ]
+    },
+    {
+      "id": "bea",
+      "name": "Bea",
+      "title": "Stow-on-Side Stadium",
+      "category": "gym",
+      "type": "fighting",
+      "badge": "Fighting Badge",
+      "levelCap": 36,
+      "versions": [
+        "sword"
+      ],
+      "team": [
+        {
+          "pokemon": "hitmontop",
+          "level": 34,
+          "moves": [
+            "triple-kick",
+            "quick-attack",
+            "counter",
+            "revenge"
+          ]
+        },
+        {
+          "pokemon": "pangoro",
+          "level": 34,
+          "moves": [
+            "bullet-punch",
+            "circle-throw",
+            "night-slash",
+            "work-up"
+          ]
+        },
+        {
+          "pokemon": "sirfetchd",
+          "level": 35,
+          "moves": [
+            "detect",
+            "swords-dance",
+            "brutal-swing",
+            "revenge"
+          ]
+        },
+        {
+          "pokemon": "machamp",
+          "level": 36,
+          "moves": [
+            "scary-face",
+            "revenge",
+            "knock-off",
+            "strength"
+          ],
+          "ace": true,
+          "dynamax": true,
+          "gmax": true
+        }
+      ]
+    },
+    {
+      "id": "allister",
+      "name": "Allister",
+      "title": "Stow-on-Side Stadium",
+      "category": "gym",
+      "type": "ghost",
+      "badge": "Ghost Badge",
+      "levelCap": 36,
+      "versions": [
+        "shield"
+      ],
+      "team": [
+        {
+          "pokemon": "yamask-galar",
+          "level": 34,
+          "moves": [
+            "brutal-swing",
+            "hex",
+            "disable"
+          ]
+        },
+        {
+          "pokemon": "mimikyu-disguised",
+          "level": 34,
+          "moves": [
+            "shadow-sneak",
+            "baby-doll-eyes",
+            "hone-claws",
+            "slash"
+          ]
+        },
+        {
+          "pokemon": "cursola",
+          "level": 35,
+          "moves": [
+            "ancient-power",
+            "curse",
+            "hex"
+          ]
+        },
+        {
+          "pokemon": "gengar",
+          "level": 36,
+          "moves": [
+            "venoshock",
+            "hex",
+            "hypnosis",
+            "payback"
+          ],
+          "ace": true,
+          "dynamax": true,
+          "gmax": true
+        }
+      ]
+    },
+    {
+      "id": "opal",
+      "name": "Opal",
+      "title": "Ballonlea Stadium",
+      "category": "gym",
+      "type": "fairy",
+      "badge": "Fairy Badge",
+      "levelCap": 38,
+      "team": [
+        {
+          "pokemon": "weezing-galar",
+          "level": 36,
+          "moves": [
+            "sludge",
+            "fairy-wind",
+            "tackle"
+          ]
+        },
+        {
+          "pokemon": "mawile",
+          "level": 36,
+          "moves": [
+            "draining-kiss",
+            "crunch",
+            "iron-defense",
+            "astonish"
+          ]
+        },
+        {
+          "pokemon": "togekiss",
+          "level": 37,
+          "moves": [
+            "air-slash",
+            "draining-kiss",
+            "ancient-power"
+          ]
+        },
+        {
+          "pokemon": "alcremie",
+          "level": 38,
+          "moves": [
+            "draining-kiss",
+            "acid-armor",
+            "sweet-kiss"
+          ],
+          "ace": true,
+          "dynamax": true,
+          "gmax": true
+        }
+      ]
+    },
+    {
+      "id": "hop-hammerlocke-grookey",
+      "name": "Hop",
+      "title": "Hammerlocke",
+      "category": "rival",
+      "levelCap": 37,
+      "variant": "If you chose Grookey",
+      "team": [
+        {
+          "pokemon": "trevenant",
+          "level": 34,
+          "moves": [
+            "horn-leech",
+            "shadow-claw",
+            "confuse-ray"
+          ]
+        },
+        {
+          "pokemon": "heatmor",
+          "level": 34,
+          "moves": [
+            "fire-lash",
+            "bug-bite",
+            "slash",
+            "lick"
+          ]
+        },
+        {
+          "pokemon": "snorlax",
+          "level": 35,
+          "moves": [
+            "body-slam",
+            "stockpile",
+            "heavy-slam"
+          ]
+        },
+        {
+          "pokemon": "boltund",
+          "level": 35,
+          "moves": [
+            "spark",
+            "crunch",
+            "roar",
+            "nuzzle"
+          ]
+        },
+        {
+          "pokemon": "inteleon",
+          "level": 37,
+          "moves": [
+            "snipe-shot",
+            "sucker-punch",
+            "tearful-look",
+            "whirlpool"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "hop-hammerlocke-scorbunny",
+      "name": "Hop",
+      "title": "Hammerlocke",
+      "category": "rival",
+      "levelCap": 37,
+      "variant": "If you chose Scorbunny",
+      "team": [
+        {
+          "pokemon": "trevenant",
+          "level": 34,
+          "moves": [
+            "horn-leech",
+            "shadow-claw",
+            "confuse-ray"
+          ]
+        },
+        {
+          "pokemon": "heatmor",
+          "level": 34,
+          "moves": [
+            "fire-lash",
+            "bug-bite",
+            "slash",
+            "lick"
+          ]
+        },
+        {
+          "pokemon": "snorlax",
+          "level": 35,
+          "moves": [
+            "body-slam",
+            "stockpile",
+            "heavy-slam"
+          ]
+        },
+        {
+          "pokemon": "boltund",
+          "level": 35,
+          "moves": [
+            "spark",
+            "crunch",
+            "roar",
+            "nuzzle"
+          ]
+        },
+        {
+          "pokemon": "rillaboom",
+          "level": 37,
+          "moves": [
+            "drum-beating",
+            "knock-off",
+            "slam",
+            "brutal-swing"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "hop-hammerlocke-sobble",
+      "name": "Hop",
+      "title": "Hammerlocke",
+      "category": "rival",
+      "levelCap": 37,
+      "variant": "If you chose Sobble",
+      "team": [
+        {
+          "pokemon": "trevenant",
+          "level": 34,
+          "moves": [
+            "horn-leech",
+            "shadow-claw",
+            "confuse-ray"
+          ]
+        },
+        {
+          "pokemon": "heatmor",
+          "level": 34,
+          "moves": [
+            "fire-lash",
+            "bug-bite",
+            "slash",
+            "lick"
+          ]
+        },
+        {
+          "pokemon": "snorlax",
+          "level": 35,
+          "moves": [
+            "body-slam",
+            "stockpile",
+            "heavy-slam"
+          ]
+        },
+        {
+          "pokemon": "boltund",
+          "level": 35,
+          "moves": [
+            "spark",
+            "crunch",
+            "roar",
+            "nuzzle"
+          ]
+        },
+        {
+          "pokemon": "cinderace",
+          "level": 37,
+          "moves": [
+            "pyro-ball",
+            "headbutt",
+            "acrobatics",
+            "agility"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "gordie",
+      "name": "Gordie",
+      "title": "Circhester Stadium",
+      "category": "gym",
+      "type": "rock",
+      "badge": "Rock Badge",
+      "levelCap": 42,
+      "versions": [
+        "sword"
+      ],
+      "team": [
+        {
+          "pokemon": "barbaracle",
+          "level": 40,
+          "moves": [
+            "shell-smash",
+            "rock-tomb",
+            "razor-shell"
+          ]
+        },
+        {
+          "pokemon": "shuckle",
+          "level": 40,
+          "moves": [
+            "power-split",
+            "stone-edge",
+            "struggle-bug",
+            "rock-tomb"
+          ]
+        },
+        {
+          "pokemon": "stonjourner",
+          "level": 41,
+          "moves": [
+            "stealth-rock",
+            "rock-tomb",
+            "body-slam",
+            "wonder-room"
+          ]
+        },
+        {
+          "pokemon": "coalossal",
+          "level": 42,
+          "moves": [
+            "tar-shot",
+            "stealth-rock",
+            "heat-crash",
+            "rock-tomb"
+          ],
+          "ace": true,
+          "dynamax": true,
+          "gmax": true
+        }
+      ]
+    },
+    {
+      "id": "melony",
+      "name": "Melony",
+      "title": "Circhester Stadium",
+      "category": "gym",
+      "type": "ice",
+      "badge": "Ice Badge",
+      "levelCap": 42,
+      "versions": [
+        "shield"
+      ],
+      "team": [
+        {
+          "pokemon": "frosmoth",
+          "level": 40,
+          "moves": [
+            "icy-wind",
+            "feather-dance",
+            "bug-buzz",
+            "hail"
+          ]
+        },
+        {
+          "pokemon": "darmanitan-galar-standard",
+          "level": 40,
+          "moves": [
+            "icicle-crash",
+            "headbutt",
+            "taunt",
+            "fire-fang"
+          ]
+        },
+        {
+          "pokemon": "eiscue-ice",
+          "level": 41,
+          "moves": [
+            "amnesia",
+            "freeze-dry",
+            "hail",
+            "icy-wind"
+          ]
+        },
+        {
+          "pokemon": "lapras",
+          "level": 42,
+          "moves": [
+            "icy-wind",
+            "ice-beam",
+            "surf",
+            "sing"
+          ],
+          "ace": true,
+          "dynamax": true,
+          "gmax": true
+        }
+      ]
+    },
+    {
+      "id": "piers",
+      "name": "Piers",
+      "title": "Spikemuth",
+      "category": "gym",
+      "type": "dark",
+      "badge": "Dark Badge",
+      "levelCap": 46,
+      "team": [
+        {
+          "pokemon": "scrafty",
+          "level": 44,
+          "moves": [
+            "fake-out",
+            "sand-attack",
+            "brick-break",
+            "payback"
+          ]
+        },
+        {
+          "pokemon": "malamar",
+          "level": 45,
+          "moves": [
+            "night-slash",
+            "foul-play",
+            "psycho-cut",
+            "payback"
+          ]
+        },
+        {
+          "pokemon": "skuntank",
+          "level": 45,
+          "moves": [
+            "sucker-punch",
+            "screech",
+            "toxic",
+            "snarl"
+          ]
+        },
+        {
+          "pokemon": "obstagoon",
+          "level": 46,
+          "moves": [
+            "obstruct",
+            "throat-chop",
+            "counter",
+            "shadow-claw"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "raihan",
+      "name": "Raihan",
+      "title": "Hammerlocke Stadium (Double Battle)",
+      "category": "gym",
+      "type": "dragon",
+      "badge": "Dragon Badge",
+      "levelCap": 48,
+      "team": [
+        {
+          "pokemon": "gigalith",
+          "level": 46,
+          "moves": [
+            "stealth-rock",
+            "sand-tomb",
+            "rock-blast",
+            "body-press"
+          ]
+        },
+        {
+          "pokemon": "flygon",
+          "level": 47,
+          "moves": [
+            "thunder-punch",
+            "breaking-swipe",
+            "crunch",
+            "steel-wing"
+          ]
+        },
+        {
+          "pokemon": "sandaconda",
+          "level": 46,
+          "moves": [
+            "protect",
+            "glare",
+            "fire-fang",
+            "earth-power"
+          ]
+        },
+        {
+          "pokemon": "duraludon",
+          "level": 48,
+          "moves": [
+            "breaking-swipe",
+            "body-press",
+            "stone-edge",
+            "iron-head"
+          ],
+          "ace": true,
+          "dynamax": true,
+          "gmax": true
+        }
+      ]
+    },
+    {
+      "id": "marnie-semifinal",
+      "name": "Marnie",
+      "title": "Champion Cup Semifinal, Wyndon Stadium",
+      "category": "rival",
+      "type": "dark",
+      "levelCap": 49,
+      "team": [
+        {
+          "pokemon": "liepard",
+          "level": 47,
+          "moves": [
+            "fake-out",
+            "torment",
+            "nasty-plot",
+            "snarl"
+          ]
+        },
+        {
+          "pokemon": "toxicroak",
+          "level": 47,
+          "moves": [
+            "venoshock",
+            "sucker-punch",
+            "swagger",
+            "toxic"
+          ]
+        },
+        {
+          "pokemon": "scrafty",
+          "level": 47,
+          "moves": [
+            "swagger",
+            "scary-face",
+            "brick-break",
+            "crunch"
+          ]
+        },
+        {
+          "pokemon": "morpeko-full-belly",
+          "level": 48,
+          "moves": [
+            "bullet-seed",
+            "torment",
+            "spark",
+            "bite"
+          ]
+        },
+        {
+          "pokemon": "grimmsnarl",
+          "level": 49,
+          "moves": [
+            "spirit-break",
+            "darkest-lariat",
+            "bulk-up",
+            "torment"
+          ],
+          "ace": true,
+          "dynamax": true,
+          "gmax": true
+        }
+      ]
+    },
+    {
+      "id": "hop-semifinal-grookey",
+      "name": "Hop",
+      "title": "Champion Cup Semifinal, Wyndon Stadium",
+      "category": "rival",
+      "levelCap": 49,
+      "variant": "If you chose Grookey",
+      "team": [
+        {
+          "pokemon": "dubwool",
+          "level": 48,
+          "moves": [
+            "cotton-guard",
+            "reversal",
+            "body-slam",
+            "zen-headbutt"
+          ]
+        },
+        {
+          "pokemon": "corviknight",
+          "level": 48,
+          "moves": [
+            "steel-wing",
+            "drill-peck",
+            "scary-face",
+            "swagger"
+          ]
+        },
+        {
+          "pokemon": "pincurchin",
+          "level": 47,
+          "moves": [
+            "thunderbolt",
+            "poison-jab",
+            "curse"
+          ]
+        },
+        {
+          "pokemon": "snorlax",
+          "level": 47,
+          "moves": [
+            "heavy-slam",
+            "high-horsepower",
+            "hammer-arm"
+          ]
+        },
+        {
+          "pokemon": "inteleon",
+          "level": 49,
+          "moves": [
+            "snipe-shot",
+            "mud-shot",
+            "icy-wind",
+            "dark-pulse"
+          ],
+          "ace": true,
+          "dynamax": true
+        }
+      ]
+    },
+    {
+      "id": "hop-semifinal-scorbunny",
+      "name": "Hop",
+      "title": "Champion Cup Semifinal, Wyndon Stadium",
+      "category": "rival",
+      "levelCap": 49,
+      "variant": "If you chose Scorbunny",
+      "team": [
+        {
+          "pokemon": "dubwool",
+          "level": 48,
+          "moves": [
+            "cotton-guard",
+            "reversal",
+            "body-slam",
+            "zen-headbutt"
+          ]
+        },
+        {
+          "pokemon": "corviknight",
+          "level": 48,
+          "moves": [
+            "steel-wing",
+            "drill-peck",
+            "scary-face",
+            "swagger"
+          ]
+        },
+        {
+          "pokemon": "pincurchin",
+          "level": 47,
+          "moves": [
+            "thunderbolt",
+            "poison-jab",
+            "curse"
+          ]
+        },
+        {
+          "pokemon": "snorlax",
+          "level": 47,
+          "moves": [
+            "heavy-slam",
+            "high-horsepower",
+            "hammer-arm"
+          ]
+        },
+        {
+          "pokemon": "rillaboom",
+          "level": 49,
+          "moves": [
+            "drum-beating",
+            "high-horsepower",
+            "snarl",
+            "uproar"
+          ],
+          "ace": true,
+          "dynamax": true
+        }
+      ]
+    },
+    {
+      "id": "hop-semifinal-sobble",
+      "name": "Hop",
+      "title": "Champion Cup Semifinal, Wyndon Stadium",
+      "category": "rival",
+      "levelCap": 49,
+      "variant": "If you chose Sobble",
+      "team": [
+        {
+          "pokemon": "dubwool",
+          "level": 48,
+          "moves": [
+            "cotton-guard",
+            "reversal",
+            "body-slam",
+            "zen-headbutt"
+          ]
+        },
+        {
+          "pokemon": "corviknight",
+          "level": 48,
+          "moves": [
+            "steel-wing",
+            "drill-peck",
+            "scary-face",
+            "swagger"
+          ]
+        },
+        {
+          "pokemon": "pincurchin",
+          "level": 47,
+          "moves": [
+            "thunderbolt",
+            "poison-jab",
+            "curse"
+          ]
+        },
+        {
+          "pokemon": "snorlax",
+          "level": 47,
+          "moves": [
+            "heavy-slam",
+            "high-horsepower",
+            "hammer-arm"
+          ]
+        },
+        {
+          "pokemon": "cinderace",
+          "level": 49,
+          "moves": [
+            "pyro-ball",
+            "counter",
+            "gunk-shot",
+            "bounce"
+          ],
+          "ace": true,
+          "dynamax": true
+        }
+      ]
+    },
+    {
+      "id": "bede-final",
+      "name": "Bede",
+      "title": "Champion Cup Finals (Bede interrupts), Wyndon Stadium",
+      "category": "gym",
+      "type": "fairy",
+      "levelCap": 53,
+      "team": [
+        {
+          "pokemon": "mawile",
+          "level": 51,
+          "moves": [
+            "play-rough",
+            "iron-head",
+            "crunch"
+          ]
+        },
+        {
+          "pokemon": "gardevoir",
+          "level": 51,
+          "moves": [
+            "dazzling-gleam",
+            "psychic",
+            "calm-mind",
+            "wish"
+          ]
+        },
+        {
+          "pokemon": "rapidash-galar",
+          "level": 52,
+          "moves": [
+            "psycho-cut",
+            "take-down",
+            "dazzling-gleam",
+            "quick-attack"
+          ]
+        },
+        {
+          "pokemon": "hatterene",
+          "level": 53,
+          "moves": [
+            "psychic",
+            "dazzling-gleam",
+            "calm-mind",
+            "mystical-fire"
+          ],
+          "ace": true,
+          "dynamax": true,
+          "gmax": true
+        }
+      ]
+    },
+    {
+      "id": "nessa-final",
+      "name": "Nessa",
+      "title": "Champion Cup Final, Wyndon Stadium",
+      "category": "gym",
+      "type": "water",
+      "levelCap": 53,
+      "team": [
+        {
+          "pokemon": "golisopod",
+          "level": 51,
+          "moves": [
+            "first-impression",
+            "liquidation",
+            "swords-dance",
+            "shadow-claw"
+          ]
+        },
+        {
+          "pokemon": "pelipper",
+          "level": 51,
+          "moves": [
+            "roost",
+            "air-slash",
+            "water-pulse",
+            "tailwind"
+          ]
+        },
+        {
+          "pokemon": "barraskewda",
+          "level": 52,
+          "moves": [
+            "liquidation",
+            "throat-chop",
+            "ice-fang",
+            "drill-run"
+          ]
+        },
+        {
+          "pokemon": "seaking",
+          "level": 52,
+          "moves": [
+            "smart-strike",
+            "megahorn",
+            "aqua-ring",
+            "waterfall"
+          ]
+        },
+        {
+          "pokemon": "drednaw",
+          "level": 53,
+          "moves": [
+            "liquidation",
+            "jaw-lock",
+            "rock-tomb",
+            "crunch"
+          ],
+          "ace": true,
+          "dynamax": true,
+          "gmax": true
+        }
+      ]
+    },
+    {
+      "id": "bea-final",
+      "name": "Bea",
+      "title": "Champion Cup Final, Wyndon Stadium",
+      "category": "gym",
+      "type": "fighting",
+      "levelCap": 54,
+      "versions": [
+        "sword"
+      ],
+      "team": [
+        {
+          "pokemon": "hawlucha",
+          "level": 52,
+          "moves": [
+            "flying-press",
+            "high-jump-kick",
+            "bounce"
+          ]
+        },
+        {
+          "pokemon": "grapploct",
+          "level": 52,
+          "moves": [
+            "octolock",
+            "submission",
+            "bind",
+            "mega-punch"
+          ]
+        },
+        {
+          "pokemon": "sirfetchd",
+          "level": 53,
+          "moves": [
+            "leaf-blade",
+            "slam",
+            "brick-break",
+            "brutal-swing"
+          ]
+        },
+        {
+          "pokemon": "falinks",
+          "level": 53,
+          "moves": [
+            "no-retreat",
+            "bulk-up",
+            "close-combat",
+            "rock-tomb"
+          ]
+        },
+        {
+          "pokemon": "machamp",
+          "level": 54,
+          "moves": [
+            "cross-chop",
+            "revenge",
+            "fire-punch",
+            "strength"
+          ],
+          "ace": true,
+          "dynamax": true,
+          "gmax": true
+        }
+      ]
+    },
+    {
+      "id": "allister-final",
+      "name": "Allister",
+      "title": "Champion Cup Final, Wyndon Stadium",
+      "category": "gym",
+      "type": "ghost",
+      "levelCap": 54,
+      "versions": [
+        "shield"
+      ],
+      "team": [
+        {
+          "pokemon": "dusknoir",
+          "level": 52,
+          "moves": [
+            "shadow-punch",
+            "thunder-punch",
+            "rock-tomb",
+            "disable"
+          ]
+        },
+        {
+          "pokemon": "chandelure",
+          "level": 52,
+          "moves": [
+            "shadow-ball",
+            "mystical-fire",
+            "will-o-wisp"
+          ]
+        },
+        {
+          "pokemon": "cursola",
+          "level": 53,
+          "moves": [
+            "hex",
+            "strength-sap",
+            "ancient-power",
+            "amnesia"
+          ]
+        },
+        {
+          "pokemon": "polteageist",
+          "level": 53,
+          "moves": [
+            "shadow-ball",
+            "protect",
+            "nasty-plot",
+            "giga-drain"
+          ]
+        },
+        {
+          "pokemon": "gengar",
+          "level": 54,
+          "moves": [
+            "shadow-ball",
+            "sludge-bomb",
+            "dark-pulse",
+            "hypnosis"
+          ],
+          "ace": true,
+          "dynamax": true,
+          "gmax": true
+        }
+      ]
+    },
+    {
+      "id": "raihan-final",
+      "name": "Raihan",
+      "title": "Champion Cup Final, Wyndon Stadium",
+      "category": "gym",
+      "type": "dragon",
+      "levelCap": 55,
+      "team": [
+        {
+          "pokemon": "torkoal",
+          "level": 53,
+          "moves": [
+            "lava-plume",
+            "body-press",
+            "solar-beam",
+            "yawn"
+          ]
+        },
+        {
+          "pokemon": "goodra",
+          "level": 54,
+          "moves": [
+            "rain-dance",
+            "surf",
+            "thunder",
+            "muddy-water"
+          ]
+        },
+        {
+          "pokemon": "turtonator",
+          "level": 54,
+          "moves": [
+            "sunny-day",
+            "dragon-pulse",
+            "shell-trap",
+            "fire-blast"
+          ]
+        },
+        {
+          "pokemon": "flygon",
+          "level": 54,
+          "moves": [
+            "sandstorm",
+            "dragon-claw",
+            "earthquake",
+            "crunch"
+          ]
+        },
+        {
+          "pokemon": "duraludon",
+          "level": 55,
+          "moves": [
+            "dragon-claw",
+            "body-press",
+            "stone-edge",
+            "iron-head"
+          ],
+          "ace": true,
+          "dynamax": true,
+          "gmax": true
+        }
+      ]
+    },
+    {
+      "id": "rose",
+      "name": "Chairman Rose",
+      "title": "Energy Plant, Hammerlocke",
+      "category": "villain",
+      "type": "steel",
+      "levelCap": 57,
+      "team": [
+        {
+          "pokemon": "escavalier",
+          "level": 55,
+          "moves": [
+            "drill-run",
+            "iron-head",
+            "megahorn",
+            "swords-dance"
+          ]
+        },
+        {
+          "pokemon": "ferrothorn",
+          "level": 55,
+          "moves": [
+            "gyro-ball",
+            "power-whip",
+            "body-press",
+            "curse"
+          ]
+        },
+        {
+          "pokemon": "perrserker",
+          "level": 55,
+          "moves": [
+            "iron-head",
+            "screech",
+            "shadow-claw",
+            "throat-chop"
+          ]
+        },
+        {
+          "pokemon": "klinklang",
+          "level": 56,
+          "moves": [
+            "gear-grind",
+            "shift-gear",
+            "wild-charge",
+            "assurance"
+          ]
+        },
+        {
+          "pokemon": "copperajah",
+          "level": 57,
+          "moves": [
+            "heavy-slam",
+            "iron-head",
+            "high-horsepower",
+            "zen-headbutt"
+          ],
+          "ace": true,
+          "dynamax": true,
+          "gmax": true
+        }
+      ]
+    },
+    {
+      "id": "leon-grookey",
+      "name": "Leon",
+      "title": "Champion Cup, Wyndon Stadium",
+      "category": "champion",
+      "levelCap": 65,
+      "variant": "If you chose Grookey",
+      "team": [
+        {
+          "pokemon": "aegislash-shield",
+          "level": 62,
+          "moves": [
+            "kings-shield",
+            "shadow-ball",
+            "sacred-sword",
+            "flash-cannon"
+          ]
+        },
+        {
+          "pokemon": "dragapult",
+          "level": 62,
+          "moves": [
+            "shadow-ball",
+            "flamethrower",
+            "thunderbolt",
+            "dragon-breath"
+          ]
+        },
+        {
+          "pokemon": "haxorus",
+          "level": 63,
+          "moves": [
+            "poison-jab",
+            "iron-tail",
+            "outrage",
+            "earthquake"
+          ]
+        },
+        {
+          "pokemon": "seismitoad",
+          "level": 64,
+          "moves": [
+            "toxic",
+            "drain-punch",
+            "liquidation",
+            "earthquake"
+          ]
+        },
+        {
+          "pokemon": "cinderace",
+          "level": 64,
+          "moves": [
+            "pyro-ball",
+            "feint",
+            "acrobatics",
+            "quick-attack"
+          ]
+        },
+        {
+          "pokemon": "charizard",
+          "level": 65,
+          "moves": [
+            "fire-blast",
+            "air-slash",
+            "solar-beam",
+            "ancient-power"
+          ],
+          "ace": true,
+          "dynamax": true,
+          "gmax": true
+        }
+      ]
+    },
+    {
+      "id": "leon-scorbunny",
+      "name": "Leon",
+      "title": "Champion Cup, Wyndon Stadium",
+      "category": "champion",
+      "levelCap": 65,
+      "variant": "If you chose Scorbunny",
+      "team": [
+        {
+          "pokemon": "aegislash-shield",
+          "level": 62,
+          "moves": [
+            "kings-shield",
+            "shadow-ball",
+            "sacred-sword",
+            "flash-cannon"
+          ]
+        },
+        {
+          "pokemon": "dragapult",
+          "level": 62,
+          "moves": [
+            "shadow-ball",
+            "flamethrower",
+            "thunderbolt",
+            "dragon-breath"
+          ]
+        },
+        {
+          "pokemon": "haxorus",
+          "level": 63,
+          "moves": [
+            "poison-jab",
+            "iron-tail",
+            "outrage",
+            "earthquake"
+          ]
+        },
+        {
+          "pokemon": "mr-rime",
+          "level": 64,
+          "moves": [
+            "teeter-dance",
+            "psychic",
+            "freeze-dry",
+            "thunderbolt"
+          ]
+        },
+        {
+          "pokemon": "inteleon",
+          "level": 64,
+          "moves": [
+            "snipe-shot",
+            "dark-pulse",
+            "mud-shot",
+            "tearful-look"
+          ]
+        },
+        {
+          "pokemon": "charizard",
+          "level": 65,
+          "moves": [
+            "fire-blast",
+            "air-slash",
+            "solar-beam",
+            "ancient-power"
+          ],
+          "ace": true,
+          "dynamax": true,
+          "gmax": true
+        }
+      ]
+    },
+    {
+      "id": "leon-sobble",
+      "name": "Leon",
+      "title": "Champion Cup, Wyndon Stadium",
+      "category": "champion",
+      "levelCap": 65,
+      "variant": "If you chose Sobble",
+      "team": [
+        {
+          "pokemon": "aegislash-shield",
+          "level": 62,
+          "moves": [
+            "kings-shield",
+            "shadow-ball",
+            "sacred-sword",
+            "flash-cannon"
+          ]
+        },
+        {
+          "pokemon": "dragapult",
+          "level": 62,
+          "moves": [
+            "shadow-ball",
+            "flamethrower",
+            "thunderbolt",
+            "dragon-breath"
+          ]
+        },
+        {
+          "pokemon": "haxorus",
+          "level": 63,
+          "moves": [
+            "poison-jab",
+            "iron-tail",
+            "outrage",
+            "earthquake"
+          ]
+        },
+        {
+          "pokemon": "rhyperior",
+          "level": 64,
+          "moves": [
+            "earthquake",
+            "stone-edge",
+            "megahorn",
+            "heat-crash"
+          ]
+        },
+        {
+          "pokemon": "rillaboom",
+          "level": 64,
+          "moves": [
+            "drum-beating",
+            "knock-off",
+            "high-horsepower",
+            "endeavor"
+          ]
+        },
+        {
+          "pokemon": "charizard",
+          "level": 65,
+          "moves": [
+            "fire-blast",
+            "air-slash",
+            "solar-beam",
+            "ancient-power"
+          ],
+          "ace": true,
+          "dynamax": true,
+          "gmax": true
+        }
+      ]
+    }
+  ]
+}

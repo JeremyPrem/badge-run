@@ -1,0 +1,1303 @@
+{
+  "versionGroup": "yellow",
+  "battles": [
+    {
+      "id": "brock",
+      "name": "Brock",
+      "title": "Pewter City Gym",
+      "category": "gym",
+      "type": "rock",
+      "badge": "Boulder Badge",
+      "levelCap": 12,
+      "team": [
+        {
+          "pokemon": "geodude",
+          "level": 10,
+          "moves": [
+            "tackle"
+          ]
+        },
+        {
+          "pokemon": "onix",
+          "level": 12,
+          "moves": [
+            "tackle",
+            "screech",
+            "bind",
+            "bide"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "rival-cerulean",
+      "name": "Blue",
+      "title": "Rival battle: Cerulean City (Nugget Bridge)",
+      "category": "rival",
+      "levelCap": 18,
+      "team": [
+        {
+          "pokemon": "spearow",
+          "level": 18,
+          "moves": [
+            "peck",
+            "growl",
+            "leer",
+            "fury-attack"
+          ]
+        },
+        {
+          "pokemon": "sandshrew",
+          "level": 15,
+          "moves": [
+            "scratch",
+            "sand-attack"
+          ]
+        },
+        {
+          "pokemon": "rattata",
+          "level": 15,
+          "moves": [
+            "tackle",
+            "tail-whip",
+            "quick-attack",
+            "hyper-fang"
+          ]
+        },
+        {
+          "pokemon": "eevee",
+          "level": 17,
+          "moves": [
+            "tackle",
+            "tail-whip",
+            "sand-attack",
+            "growl"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "misty",
+      "name": "Misty",
+      "title": "Cerulean City Gym",
+      "category": "gym",
+      "type": "water",
+      "badge": "Cascade Badge",
+      "levelCap": 21,
+      "team": [
+        {
+          "pokemon": "staryu",
+          "level": 18,
+          "moves": [
+            "tackle",
+            "water-gun"
+          ]
+        },
+        {
+          "pokemon": "starmie",
+          "level": 21,
+          "moves": [
+            "tackle",
+            "water-gun",
+            "harden",
+            "bubble-beam"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "lt-surge",
+      "name": "Lt. Surge",
+      "title": "Vermilion City Gym",
+      "category": "gym",
+      "type": "electric",
+      "badge": "Thunder Badge",
+      "levelCap": 28,
+      "team": [
+        {
+          "pokemon": "raichu",
+          "level": 28,
+          "moves": [
+            "thunderbolt",
+            "mega-punch",
+            "mega-kick",
+            "growl"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "erika",
+      "name": "Erika",
+      "title": "Celadon City Gym",
+      "category": "gym",
+      "type": "grass",
+      "badge": "Rainbow Badge",
+      "levelCap": 32,
+      "team": [
+        {
+          "pokemon": "tangela",
+          "level": 30,
+          "moves": [
+            "constrict",
+            "bind",
+            "mega-drain",
+            "vine-whip"
+          ]
+        },
+        {
+          "pokemon": "weepinbell",
+          "level": 32,
+          "moves": [
+            "razor-leaf",
+            "sleep-powder",
+            "stun-spore",
+            "acid"
+          ]
+        },
+        {
+          "pokemon": "gloom",
+          "level": 32,
+          "moves": [
+            "petal-dance",
+            "stun-spore",
+            "sleep-powder",
+            "acid"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "giovanni-rocket-hideout",
+      "name": "Giovanni",
+      "title": "Team Rocket Boss: Rocket Hideout B4F",
+      "category": "villain",
+      "levelCap": 29,
+      "team": [
+        {
+          "pokemon": "onix",
+          "level": 25,
+          "moves": [
+            "screech",
+            "bind",
+            "rock-throw",
+            "rage"
+          ]
+        },
+        {
+          "pokemon": "rhyhorn",
+          "level": 24,
+          "moves": [
+            "horn-attack"
+          ]
+        },
+        {
+          "pokemon": "persian",
+          "level": 29,
+          "moves": [
+            "growl",
+            "bite",
+            "screech",
+            "pay-day"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "koga",
+      "name": "Koga",
+      "title": "Fuchsia City Gym",
+      "category": "gym",
+      "type": "poison",
+      "badge": "Soul Badge",
+      "levelCap": 50,
+      "team": [
+        {
+          "pokemon": "venonat",
+          "level": 44,
+          "moves": [
+            "toxic",
+            "tackle",
+            "sleep-powder",
+            "psychic"
+          ]
+        },
+        {
+          "pokemon": "venonat",
+          "level": 46,
+          "moves": [
+            "toxic",
+            "psybeam",
+            "supersonic",
+            "psychic"
+          ]
+        },
+        {
+          "pokemon": "venonat",
+          "level": 48,
+          "moves": [
+            "toxic",
+            "double-edge",
+            "sleep-powder",
+            "psychic"
+          ]
+        },
+        {
+          "pokemon": "venomoth",
+          "level": 50,
+          "moves": [
+            "leech-life",
+            "double-team",
+            "psychic",
+            "toxic"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "rival-silph-jolteon",
+      "name": "Blue",
+      "title": "Rival battle: Silph Co. 7F",
+      "category": "rival",
+      "levelCap": 40,
+      "variant": "If the rival's Eevee evolved into Jolteon",
+      "team": [
+        {
+          "pokemon": "sandslash",
+          "level": 38,
+          "moves": [
+            "sand-attack",
+            "slash",
+            "poison-sting",
+            "swift"
+          ]
+        },
+        {
+          "pokemon": "ninetales",
+          "level": 35,
+          "moves": [
+            "ember",
+            "tail-whip",
+            "quick-attack",
+            "roar"
+          ]
+        },
+        {
+          "pokemon": "cloyster",
+          "level": 37,
+          "moves": [
+            "withdraw",
+            "supersonic",
+            "clamp",
+            "aurora-beam"
+          ]
+        },
+        {
+          "pokemon": "kadabra",
+          "level": 35,
+          "moves": [
+            "confusion",
+            "disable",
+            "psybeam",
+            "recover"
+          ]
+        },
+        {
+          "pokemon": "jolteon",
+          "level": 40,
+          "moves": [
+            "thunder-shock",
+            "sand-attack",
+            "double-kick",
+            "pin-missile"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rival-silph-flareon",
+      "name": "Blue",
+      "title": "Rival battle: Silph Co. 7F",
+      "category": "rival",
+      "levelCap": 40,
+      "variant": "If the rival's Eevee evolved into Flareon",
+      "team": [
+        {
+          "pokemon": "sandslash",
+          "level": 38,
+          "moves": [
+            "sand-attack",
+            "slash",
+            "poison-sting",
+            "swift"
+          ]
+        },
+        {
+          "pokemon": "cloyster",
+          "level": 35,
+          "moves": [
+            "withdraw",
+            "supersonic",
+            "clamp",
+            "aurora-beam"
+          ]
+        },
+        {
+          "pokemon": "magneton",
+          "level": 37,
+          "moves": [
+            "tackle",
+            "sonic-boom",
+            "thunder-shock",
+            "supersonic"
+          ]
+        },
+        {
+          "pokemon": "kadabra",
+          "level": 35,
+          "moves": [
+            "confusion",
+            "disable",
+            "psybeam",
+            "recover"
+          ]
+        },
+        {
+          "pokemon": "flareon",
+          "level": 40,
+          "moves": [
+            "ember",
+            "sand-attack",
+            "bite",
+            "fire-spin"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rival-silph-vaporeon",
+      "name": "Blue",
+      "title": "Rival battle: Silph Co. 7F",
+      "category": "rival",
+      "levelCap": 40,
+      "variant": "If the rival's Eevee evolved into Vaporeon",
+      "team": [
+        {
+          "pokemon": "sandslash",
+          "level": 38,
+          "moves": [
+            "sand-attack",
+            "slash",
+            "poison-sting",
+            "swift"
+          ]
+        },
+        {
+          "pokemon": "magneton",
+          "level": 35,
+          "moves": [
+            "tackle",
+            "sonic-boom",
+            "thunder-shock",
+            "supersonic"
+          ]
+        },
+        {
+          "pokemon": "ninetales",
+          "level": 37,
+          "moves": [
+            "ember",
+            "tail-whip",
+            "quick-attack",
+            "roar"
+          ]
+        },
+        {
+          "pokemon": "kadabra",
+          "level": 35,
+          "moves": [
+            "confusion",
+            "disable",
+            "psybeam",
+            "recover"
+          ]
+        },
+        {
+          "pokemon": "vaporeon",
+          "level": 40,
+          "moves": [
+            "water-gun",
+            "sand-attack",
+            "bite",
+            "aurora-beam"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "giovanni-silph-co",
+      "name": "Giovanni",
+      "title": "Team Rocket Boss: Silph Co. 11F",
+      "category": "villain",
+      "levelCap": 41,
+      "team": [
+        {
+          "pokemon": "nidorino",
+          "level": 37,
+          "moves": [
+            "double-kick",
+            "poison-sting",
+            "focus-energy",
+            "fury-attack"
+          ]
+        },
+        {
+          "pokemon": "persian",
+          "level": 35,
+          "moves": [
+            "growl",
+            "bite",
+            "screech",
+            "pay-day"
+          ]
+        },
+        {
+          "pokemon": "rhyhorn",
+          "level": 37,
+          "moves": [
+            "horn-attack",
+            "stomp",
+            "tail-whip"
+          ]
+        },
+        {
+          "pokemon": "nidoqueen",
+          "level": 41,
+          "moves": [
+            "scratch",
+            "tail-whip",
+            "body-slam",
+            "double-kick"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "sabrina",
+      "name": "Sabrina",
+      "title": "Saffron City Gym",
+      "category": "gym",
+      "type": "psychic",
+      "badge": "Marsh Badge",
+      "levelCap": 50,
+      "team": [
+        {
+          "pokemon": "abra",
+          "level": 50,
+          "moves": [
+            "flash"
+          ]
+        },
+        {
+          "pokemon": "kadabra",
+          "level": 50,
+          "moves": [
+            "kinesis",
+            "recover",
+            "psychic",
+            "psywave"
+          ]
+        },
+        {
+          "pokemon": "alakazam",
+          "level": 50,
+          "moves": [
+            "psywave",
+            "recover",
+            "psychic",
+            "reflect"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "blaine",
+      "name": "Blaine",
+      "title": "Cinnabar Island Gym",
+      "category": "gym",
+      "type": "fire",
+      "badge": "Volcano Badge",
+      "levelCap": 54,
+      "team": [
+        {
+          "pokemon": "ninetales",
+          "level": 48,
+          "moves": [
+            "flamethrower",
+            "tail-whip",
+            "quick-attack",
+            "confuse-ray"
+          ]
+        },
+        {
+          "pokemon": "rapidash",
+          "level": 50,
+          "moves": [
+            "stomp",
+            "growl",
+            "fire-spin",
+            "take-down"
+          ]
+        },
+        {
+          "pokemon": "arcanine",
+          "level": 54,
+          "moves": [
+            "flamethrower",
+            "fire-blast",
+            "reflect",
+            "take-down"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "giovanni",
+      "name": "Giovanni",
+      "title": "Viridian City Gym",
+      "category": "gym",
+      "type": "ground",
+      "badge": "Earth Badge",
+      "levelCap": 55,
+      "team": [
+        {
+          "pokemon": "dugtrio",
+          "level": 50,
+          "moves": [
+            "dig",
+            "sand-attack",
+            "fissure",
+            "earthquake"
+          ]
+        },
+        {
+          "pokemon": "persian",
+          "level": 53,
+          "moves": [
+            "screech",
+            "double-team",
+            "fury-swipes",
+            "slash"
+          ]
+        },
+        {
+          "pokemon": "nidoqueen",
+          "level": 53,
+          "moves": [
+            "earthquake",
+            "tail-whip",
+            "thunder",
+            "double-kick"
+          ]
+        },
+        {
+          "pokemon": "nidoking",
+          "level": 55,
+          "moves": [
+            "earthquake",
+            "leer",
+            "thunder",
+            "double-kick"
+          ]
+        },
+        {
+          "pokemon": "rhydon",
+          "level": 55,
+          "moves": [
+            "rock-slide",
+            "tail-whip",
+            "horn-drill",
+            "earthquake"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "rival-route-22-jolteon",
+      "name": "Blue",
+      "title": "Rival battle: Route 22 (before Victory Road)",
+      "category": "rival",
+      "levelCap": 53,
+      "variant": "If the rival's Eevee evolved into Jolteon",
+      "team": [
+        {
+          "pokemon": "sandslash",
+          "level": 47,
+          "moves": [
+            "slash",
+            "poison-sting",
+            "swift",
+            "fury-swipes"
+          ]
+        },
+        {
+          "pokemon": "exeggcute",
+          "level": 45,
+          "moves": [
+            "leech-seed",
+            "stun-spore",
+            "poison-powder",
+            "solar-beam"
+          ]
+        },
+        {
+          "pokemon": "ninetales",
+          "level": 45,
+          "moves": [
+            "ember",
+            "tail-whip",
+            "quick-attack",
+            "roar"
+          ]
+        },
+        {
+          "pokemon": "cloyster",
+          "level": 47,
+          "moves": [
+            "withdraw",
+            "supersonic",
+            "clamp",
+            "aurora-beam"
+          ]
+        },
+        {
+          "pokemon": "kadabra",
+          "level": 50,
+          "moves": [
+            "psybeam",
+            "recover",
+            "psychic",
+            "reflect"
+          ]
+        },
+        {
+          "pokemon": "jolteon",
+          "level": 53,
+          "moves": [
+            "pin-missile",
+            "thunder-wave",
+            "agility",
+            "thunder"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rival-route-22-flareon",
+      "name": "Blue",
+      "title": "Rival battle: Route 22 (before Victory Road)",
+      "category": "rival",
+      "levelCap": 53,
+      "variant": "If the rival's Eevee evolved into Flareon",
+      "team": [
+        {
+          "pokemon": "sandslash",
+          "level": 47,
+          "moves": [
+            "slash",
+            "poison-sting",
+            "swift",
+            "fury-swipes"
+          ]
+        },
+        {
+          "pokemon": "exeggcute",
+          "level": 45,
+          "moves": [
+            "leech-seed",
+            "stun-spore",
+            "poison-powder",
+            "solar-beam"
+          ]
+        },
+        {
+          "pokemon": "cloyster",
+          "level": 45,
+          "moves": [
+            "withdraw",
+            "supersonic",
+            "clamp",
+            "aurora-beam"
+          ]
+        },
+        {
+          "pokemon": "magneton",
+          "level": 47,
+          "moves": [
+            "thunder-shock",
+            "supersonic",
+            "thunder-wave",
+            "swift"
+          ]
+        },
+        {
+          "pokemon": "kadabra",
+          "level": 50,
+          "moves": [
+            "psybeam",
+            "recover",
+            "psychic",
+            "reflect"
+          ]
+        },
+        {
+          "pokemon": "flareon",
+          "level": 53,
+          "moves": [
+            "fire-spin",
+            "smog",
+            "leer",
+            "flamethrower"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rival-route-22-vaporeon",
+      "name": "Blue",
+      "title": "Rival battle: Route 22 (before Victory Road)",
+      "category": "rival",
+      "levelCap": 53,
+      "variant": "If the rival's Eevee evolved into Vaporeon",
+      "team": [
+        {
+          "pokemon": "sandslash",
+          "level": 47,
+          "moves": [
+            "slash",
+            "poison-sting",
+            "swift",
+            "fury-swipes"
+          ]
+        },
+        {
+          "pokemon": "exeggcute",
+          "level": 45,
+          "moves": [
+            "leech-seed",
+            "stun-spore",
+            "poison-powder",
+            "solar-beam"
+          ]
+        },
+        {
+          "pokemon": "magneton",
+          "level": 45,
+          "moves": [
+            "sonic-boom",
+            "thunder-shock",
+            "supersonic",
+            "thunder-wave"
+          ]
+        },
+        {
+          "pokemon": "ninetales",
+          "level": 47,
+          "moves": [
+            "ember",
+            "tail-whip",
+            "quick-attack",
+            "roar"
+          ]
+        },
+        {
+          "pokemon": "kadabra",
+          "level": 50,
+          "moves": [
+            "psybeam",
+            "recover",
+            "psychic",
+            "reflect"
+          ]
+        },
+        {
+          "pokemon": "vaporeon",
+          "level": 53,
+          "moves": [
+            "haze",
+            "mist",
+            "acid-armor",
+            "hydro-pump"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lorelei",
+      "name": "Lorelei",
+      "title": "Elite Four",
+      "category": "elite4",
+      "type": "ice",
+      "levelCap": 56,
+      "team": [
+        {
+          "pokemon": "dewgong",
+          "level": 54,
+          "moves": [
+            "bubble-beam",
+            "aurora-beam",
+            "rest",
+            "take-down"
+          ]
+        },
+        {
+          "pokemon": "cloyster",
+          "level": 53,
+          "moves": [
+            "supersonic",
+            "clamp",
+            "ice-beam",
+            "spike-cannon"
+          ]
+        },
+        {
+          "pokemon": "slowbro",
+          "level": 54,
+          "moves": [
+            "psychic",
+            "surf",
+            "withdraw",
+            "amnesia"
+          ]
+        },
+        {
+          "pokemon": "jynx",
+          "level": 56,
+          "moves": [
+            "double-slap",
+            "ice-punch",
+            "lovely-kiss",
+            "thrash"
+          ]
+        },
+        {
+          "pokemon": "lapras",
+          "level": 56,
+          "moves": [
+            "body-slam",
+            "confuse-ray",
+            "blizzard",
+            "hydro-pump"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "bruno",
+      "name": "Bruno",
+      "title": "Elite Four",
+      "category": "elite4",
+      "type": "fighting",
+      "levelCap": 58,
+      "team": [
+        {
+          "pokemon": "onix",
+          "level": 53,
+          "moves": [
+            "rock-slide",
+            "screech",
+            "slam",
+            "dig"
+          ]
+        },
+        {
+          "pokemon": "hitmonchan",
+          "level": 55,
+          "moves": [
+            "ice-punch",
+            "thunder-punch",
+            "fire-punch",
+            "double-team"
+          ]
+        },
+        {
+          "pokemon": "hitmonlee",
+          "level": 55,
+          "moves": [
+            "double-kick",
+            "mega-kick",
+            "high-jump-kick",
+            "double-team"
+          ]
+        },
+        {
+          "pokemon": "onix",
+          "level": 56,
+          "moves": [
+            "rock-slide",
+            "screech",
+            "slam",
+            "earthquake"
+          ]
+        },
+        {
+          "pokemon": "machamp",
+          "level": 58,
+          "moves": [
+            "leer",
+            "karate-chop",
+            "strength",
+            "submission"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "agatha",
+      "name": "Agatha",
+      "title": "Elite Four",
+      "category": "elite4",
+      "type": "ghost",
+      "levelCap": 60,
+      "team": [
+        {
+          "pokemon": "gengar",
+          "level": 56,
+          "moves": [
+            "confuse-ray",
+            "substitute",
+            "lick",
+            "mega-drain"
+          ]
+        },
+        {
+          "pokemon": "golbat",
+          "level": 56,
+          "moves": [
+            "supersonic",
+            "toxic",
+            "wing-attack",
+            "leech-life"
+          ]
+        },
+        {
+          "pokemon": "haunter",
+          "level": 55,
+          "moves": [
+            "confuse-ray",
+            "lick",
+            "hypnosis",
+            "dream-eater"
+          ]
+        },
+        {
+          "pokemon": "arbok",
+          "level": 58,
+          "moves": [
+            "wrap",
+            "glare",
+            "screech",
+            "acid"
+          ]
+        },
+        {
+          "pokemon": "gengar",
+          "level": 60,
+          "moves": [
+            "confuse-ray",
+            "psychic",
+            "hypnosis",
+            "dream-eater"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "lance",
+      "name": "Lance",
+      "title": "Elite Four",
+      "category": "elite4",
+      "type": "dragon",
+      "levelCap": 62,
+      "team": [
+        {
+          "pokemon": "gyarados",
+          "level": 58,
+          "moves": [
+            "dragon-rage",
+            "leer",
+            "hydro-pump",
+            "hyper-beam"
+          ]
+        },
+        {
+          "pokemon": "dragonair",
+          "level": 56,
+          "moves": [
+            "thunder-wave",
+            "slam",
+            "thunderbolt",
+            "hyper-beam"
+          ]
+        },
+        {
+          "pokemon": "dragonair",
+          "level": 56,
+          "moves": [
+            "bubble-beam",
+            "wrap",
+            "ice-beam",
+            "hyper-beam"
+          ]
+        },
+        {
+          "pokemon": "aerodactyl",
+          "level": 60,
+          "moves": [
+            "wing-attack",
+            "swift",
+            "fly",
+            "hyper-beam"
+          ]
+        },
+        {
+          "pokemon": "dragonite",
+          "level": 62,
+          "moves": [
+            "blizzard",
+            "fire-blast",
+            "thunder",
+            "hyper-beam"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "champion-jolteon",
+      "name": "Blue",
+      "title": "Pokémon League Champion",
+      "category": "champion",
+      "levelCap": 65,
+      "variant": "If the rival's Eevee evolved into Jolteon",
+      "team": [
+        {
+          "pokemon": "sandslash",
+          "level": 61,
+          "moves": [
+            "slash",
+            "poison-sting",
+            "earthquake",
+            "fury-swipes"
+          ]
+        },
+        {
+          "pokemon": "alakazam",
+          "level": 59,
+          "moves": [
+            "psybeam",
+            "recover",
+            "psychic",
+            "kinesis"
+          ]
+        },
+        {
+          "pokemon": "exeggutor",
+          "level": 61,
+          "moves": [
+            "barrage",
+            "hypnosis",
+            "stomp",
+            "leech-seed"
+          ]
+        },
+        {
+          "pokemon": "cloyster",
+          "level": 61,
+          "moves": [
+            "ice-beam",
+            "clamp",
+            "aurora-beam",
+            "spike-cannon"
+          ]
+        },
+        {
+          "pokemon": "ninetales",
+          "level": 63,
+          "moves": [
+            "confuse-ray",
+            "tail-whip",
+            "quick-attack",
+            "fire-spin"
+          ]
+        },
+        {
+          "pokemon": "jolteon",
+          "level": 65,
+          "moves": [
+            "pin-missile",
+            "thunder-wave",
+            "quick-attack",
+            "thunder"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "champion-flareon",
+      "name": "Blue",
+      "title": "Pokémon League Champion",
+      "category": "champion",
+      "levelCap": 65,
+      "variant": "If the rival's Eevee evolved into Flareon",
+      "team": [
+        {
+          "pokemon": "sandslash",
+          "level": 61,
+          "moves": [
+            "slash",
+            "poison-sting",
+            "earthquake",
+            "fury-swipes"
+          ]
+        },
+        {
+          "pokemon": "alakazam",
+          "level": 59,
+          "moves": [
+            "psybeam",
+            "recover",
+            "psychic",
+            "kinesis"
+          ]
+        },
+        {
+          "pokemon": "exeggutor",
+          "level": 61,
+          "moves": [
+            "barrage",
+            "hypnosis",
+            "stomp",
+            "leech-seed"
+          ]
+        },
+        {
+          "pokemon": "magneton",
+          "level": 61,
+          "moves": [
+            "thunderbolt",
+            "thunder-wave",
+            "swift",
+            "screech"
+          ]
+        },
+        {
+          "pokemon": "cloyster",
+          "level": 63,
+          "moves": [
+            "ice-beam",
+            "clamp",
+            "aurora-beam",
+            "spike-cannon"
+          ]
+        },
+        {
+          "pokemon": "flareon",
+          "level": 65,
+          "moves": [
+            "fire-spin",
+            "reflect",
+            "quick-attack",
+            "flamethrower"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "champion-vaporeon",
+      "name": "Blue",
+      "title": "Pokémon League Champion",
+      "category": "champion",
+      "levelCap": 65,
+      "variant": "If the rival's Eevee evolved into Vaporeon",
+      "team": [
+        {
+          "pokemon": "sandslash",
+          "level": 61,
+          "moves": [
+            "slash",
+            "poison-sting",
+            "earthquake",
+            "fury-swipes"
+          ]
+        },
+        {
+          "pokemon": "alakazam",
+          "level": 59,
+          "moves": [
+            "psybeam",
+            "recover",
+            "psychic",
+            "kinesis"
+          ]
+        },
+        {
+          "pokemon": "exeggutor",
+          "level": 61,
+          "moves": [
+            "barrage",
+            "hypnosis",
+            "stomp",
+            "leech-seed"
+          ]
+        },
+        {
+          "pokemon": "ninetales",
+          "level": 61,
+          "moves": [
+            "confuse-ray",
+            "tail-whip",
+            "quick-attack",
+            "fire-spin"
+          ]
+        },
+        {
+          "pokemon": "magneton",
+          "level": 63,
+          "moves": [
+            "thunderbolt",
+            "thunder-wave",
+            "swift",
+            "screech"
+          ]
+        },
+        {
+          "pokemon": "vaporeon",
+          "level": 65,
+          "moves": [
+            "aurora-beam",
+            "mist",
+            "quick-attack",
+            "hydro-pump"
+          ],
+          "ace": true
+        }
+      ]
+    }
+  ]
+}

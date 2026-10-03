@@ -1,0 +1,1679 @@
+{
+  "versionGroup": "heartgold-soulsilver",
+  "battles": [
+    {
+      "id": "rival-cherrygrove-chikorita",
+      "name": "Rival (Silver)",
+      "title": "Route 29 / Cherrygrove City",
+      "category": "rival",
+      "levelCap": 5,
+      "variant": "If you chose Chikorita",
+      "team": [
+        {
+          "pokemon": "cyndaquil",
+          "level": 5,
+          "moves": [
+            "tackle",
+            "leer"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "rival-cherrygrove-cyndaquil",
+      "name": "Rival (Silver)",
+      "title": "Route 29 / Cherrygrove City",
+      "category": "rival",
+      "levelCap": 5,
+      "variant": "If you chose Cyndaquil",
+      "team": [
+        {
+          "pokemon": "totodile",
+          "level": 5,
+          "moves": [
+            "scratch",
+            "leer"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "rival-cherrygrove-totodile",
+      "name": "Rival (Silver)",
+      "title": "Route 29 / Cherrygrove City",
+      "category": "rival",
+      "levelCap": 5,
+      "variant": "If you chose Totodile",
+      "team": [
+        {
+          "pokemon": "chikorita",
+          "level": 5,
+          "moves": [
+            "tackle",
+            "growl"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "falkner",
+      "name": "Falkner",
+      "title": "Violet City Gym",
+      "category": "gym",
+      "type": "flying",
+      "badge": "Zephyr Badge",
+      "levelCap": 13,
+      "team": [
+        {
+          "pokemon": "pidgey",
+          "level": 9,
+          "moves": [
+            "tackle",
+            "sand-attack"
+          ]
+        },
+        {
+          "pokemon": "pidgeotto",
+          "level": 13,
+          "moves": [
+            "tackle",
+            "roost",
+            "gust"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "bugsy",
+      "name": "Bugsy",
+      "title": "Azalea Town Gym",
+      "category": "gym",
+      "type": "bug",
+      "badge": "Hive Badge",
+      "levelCap": 17,
+      "team": [
+        {
+          "pokemon": "scyther",
+          "level": 17,
+          "item": "Sitrus Berry",
+          "moves": [
+            "quick-attack",
+            "leer",
+            "u-turn",
+            "focus-energy"
+          ],
+          "ace": true
+        },
+        {
+          "pokemon": "kakuna",
+          "level": 15,
+          "moves": [
+            "poison-sting"
+          ]
+        },
+        {
+          "pokemon": "metapod",
+          "level": 15,
+          "moves": [
+            "tackle"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "whitney",
+      "name": "Whitney",
+      "title": "Goldenrod City Gym",
+      "category": "gym",
+      "type": "normal",
+      "badge": "Plain Badge",
+      "levelCap": 19,
+      "team": [
+        {
+          "pokemon": "clefairy",
+          "level": 17,
+          "moves": [
+            "double-slap",
+            "mimic",
+            "encore",
+            "metronome"
+          ]
+        },
+        {
+          "pokemon": "miltank",
+          "level": 19,
+          "item": "Lum Berry",
+          "moves": [
+            "rollout",
+            "attract",
+            "stomp",
+            "milk-drink"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "rival-burned-tower-chikorita",
+      "name": "Rival (Silver)",
+      "title": "Burned Tower, Ecruteak City",
+      "category": "rival",
+      "levelCap": 22,
+      "variant": "If you chose Chikorita",
+      "team": [
+        {
+          "pokemon": "gastly",
+          "level": 20,
+          "moves": [
+            "lick",
+            "confuse-ray",
+            "mean-look",
+            "curse"
+          ]
+        },
+        {
+          "pokemon": "magnemite",
+          "level": 18,
+          "moves": [
+            "thunder-wave",
+            "thunder-shock",
+            "supersonic",
+            "sonic-boom"
+          ]
+        },
+        {
+          "pokemon": "zubat",
+          "level": 20,
+          "moves": [
+            "astonish",
+            "supersonic",
+            "bite",
+            "wing-attack"
+          ]
+        },
+        {
+          "pokemon": "quilava",
+          "level": 22,
+          "moves": [
+            "flame-wheel",
+            "smokescreen",
+            "ember",
+            "quick-attack"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "rival-burned-tower-cyndaquil",
+      "name": "Rival (Silver)",
+      "title": "Burned Tower, Ecruteak City",
+      "category": "rival",
+      "levelCap": 22,
+      "variant": "If you chose Cyndaquil",
+      "team": [
+        {
+          "pokemon": "gastly",
+          "level": 20,
+          "moves": [
+            "lick",
+            "confuse-ray",
+            "mean-look",
+            "curse"
+          ]
+        },
+        {
+          "pokemon": "magnemite",
+          "level": 18,
+          "moves": [
+            "thunder-wave",
+            "thunder-shock",
+            "supersonic",
+            "sonic-boom"
+          ]
+        },
+        {
+          "pokemon": "zubat",
+          "level": 20,
+          "moves": [
+            "astonish",
+            "supersonic",
+            "bite",
+            "wing-attack"
+          ]
+        },
+        {
+          "pokemon": "croconaw",
+          "level": 22,
+          "moves": [
+            "scary-face",
+            "ice-fang",
+            "water-gun",
+            "bite"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "rival-burned-tower-totodile",
+      "name": "Rival (Silver)",
+      "title": "Burned Tower, Ecruteak City",
+      "category": "rival",
+      "levelCap": 22,
+      "variant": "If you chose Totodile",
+      "team": [
+        {
+          "pokemon": "gastly",
+          "level": 20,
+          "moves": [
+            "lick",
+            "confuse-ray",
+            "mean-look",
+            "curse"
+          ]
+        },
+        {
+          "pokemon": "magnemite",
+          "level": 18,
+          "moves": [
+            "thunder-wave",
+            "thunder-shock",
+            "supersonic",
+            "sonic-boom"
+          ]
+        },
+        {
+          "pokemon": "zubat",
+          "level": 20,
+          "moves": [
+            "astonish",
+            "supersonic",
+            "bite",
+            "wing-attack"
+          ]
+        },
+        {
+          "pokemon": "bayleef",
+          "level": 22,
+          "moves": [
+            "synthesis",
+            "reflect",
+            "magical-leaf",
+            "poison-powder"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "morty",
+      "name": "Morty",
+      "title": "Ecruteak City Gym",
+      "category": "gym",
+      "type": "ghost",
+      "badge": "Fog Badge",
+      "levelCap": 25,
+      "team": [
+        {
+          "pokemon": "gastly",
+          "level": 21,
+          "moves": [
+            "lick",
+            "spite",
+            "mean-look",
+            "curse"
+          ]
+        },
+        {
+          "pokemon": "haunter",
+          "level": 21,
+          "moves": [
+            "hypnosis",
+            "dream-eater",
+            "curse",
+            "nightmare"
+          ]
+        },
+        {
+          "pokemon": "gengar",
+          "level": 25,
+          "item": "Sitrus Berry",
+          "moves": [
+            "hypnosis",
+            "shadow-ball",
+            "mean-look",
+            "sucker-punch"
+          ],
+          "ace": true
+        },
+        {
+          "pokemon": "haunter",
+          "level": 23,
+          "moves": [
+            "curse",
+            "mean-look",
+            "sucker-punch",
+            "night-shade"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chuck",
+      "name": "Chuck",
+      "title": "Cianwood City Gym",
+      "category": "gym",
+      "type": "fighting",
+      "badge": "Storm Badge",
+      "levelCap": 31,
+      "team": [
+        {
+          "pokemon": "primeape",
+          "level": 29,
+          "moves": [
+            "leer",
+            "double-team",
+            "focus-punch",
+            "rock-slide"
+          ]
+        },
+        {
+          "pokemon": "poliwrath",
+          "level": 31,
+          "item": "Sitrus Berry",
+          "moves": [
+            "hypnosis",
+            "surf",
+            "focus-punch",
+            "body-slam"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "jasmine",
+      "name": "Jasmine",
+      "title": "Olivine City Gym",
+      "category": "gym",
+      "type": "steel",
+      "badge": "Mineral Badge",
+      "levelCap": 35,
+      "team": [
+        {
+          "pokemon": "magnemite",
+          "level": 30,
+          "moves": [
+            "thunderbolt",
+            "supersonic",
+            "sonic-boom",
+            "thunder-wave"
+          ]
+        },
+        {
+          "pokemon": "magnemite",
+          "level": 30,
+          "moves": [
+            "thunderbolt",
+            "supersonic",
+            "sonic-boom",
+            "thunder-wave"
+          ]
+        },
+        {
+          "pokemon": "steelix",
+          "level": 35,
+          "item": "Sitrus Berry",
+          "moves": [
+            "screech",
+            "sandstorm",
+            "rock-throw",
+            "iron-tail"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "pryce",
+      "name": "Pryce",
+      "title": "Mahogany Town Gym",
+      "category": "gym",
+      "type": "ice",
+      "badge": "Glacier Badge",
+      "levelCap": 34,
+      "team": [
+        {
+          "pokemon": "seel",
+          "level": 30,
+          "moves": [
+            "snore",
+            "hail",
+            "icy-wind",
+            "rest"
+          ]
+        },
+        {
+          "pokemon": "dewgong",
+          "level": 32,
+          "moves": [
+            "sleep-talk",
+            "ice-shard",
+            "aurora-beam",
+            "rest"
+          ]
+        },
+        {
+          "pokemon": "piloswine",
+          "level": 34,
+          "item": "Sitrus Berry",
+          "moves": [
+            "hail",
+            "ice-fang",
+            "mud-bomb",
+            "blizzard"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "ariana",
+      "name": "Ariana",
+      "title": "Radio Tower 4F, Goldenrod City",
+      "category": "villain",
+      "levelCap": 32,
+      "team": [
+        {
+          "pokemon": "arbok",
+          "level": 32,
+          "moves": [
+            "wrap",
+            "poison-sting",
+            "crunch",
+            "glare"
+          ]
+        },
+        {
+          "pokemon": "vileplume",
+          "level": 32,
+          "moves": [
+            "mega-drain",
+            "sweet-scent",
+            "sleep-powder",
+            "acid"
+          ]
+        },
+        {
+          "pokemon": "murkrow",
+          "level": 32,
+          "moves": [
+            "wing-attack",
+            "pursuit",
+            "astonish",
+            "night-shade"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "archer",
+      "name": "Archer",
+      "title": "Radio Tower 5F, Goldenrod City",
+      "category": "villain",
+      "levelCap": 38,
+      "team": [
+        {
+          "pokemon": "houndour",
+          "level": 35,
+          "moves": [
+            "fire-fang",
+            "roar",
+            "bite",
+            "feint-attack"
+          ]
+        },
+        {
+          "pokemon": "koffing",
+          "level": 35,
+          "moves": [
+            "tackle",
+            "sludge",
+            "smokescreen",
+            "haze"
+          ]
+        },
+        {
+          "pokemon": "houndoom",
+          "level": 38,
+          "moves": [
+            "fire-fang",
+            "smog",
+            "bite",
+            "feint-attack"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "clair",
+      "name": "Clair",
+      "title": "Blackthorn City Gym",
+      "category": "gym",
+      "type": "dragon",
+      "badge": "Rising Badge",
+      "levelCap": 41,
+      "team": [
+        {
+          "pokemon": "gyarados",
+          "level": 38,
+          "moves": [
+            "twister",
+            "dragon-rage",
+            "bite",
+            "dragon-pulse"
+          ]
+        },
+        {
+          "pokemon": "dragonair",
+          "level": 38,
+          "moves": [
+            "thunder-wave",
+            "fire-blast",
+            "slam",
+            "dragon-pulse"
+          ]
+        },
+        {
+          "pokemon": "dragonair",
+          "level": 38,
+          "moves": [
+            "thunder-wave",
+            "aqua-tail",
+            "slam",
+            "dragon-pulse"
+          ]
+        },
+        {
+          "pokemon": "kingdra",
+          "level": 41,
+          "item": "Sitrus Berry",
+          "moves": [
+            "smokescreen",
+            "hydro-pump",
+            "hyper-beam",
+            "dragon-pulse"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "rival-victory-road-chikorita",
+      "name": "Rival (Silver)",
+      "title": "Victory Road",
+      "category": "rival",
+      "levelCap": 40,
+      "variant": "If you chose Chikorita",
+      "team": [
+        {
+          "pokemon": "sneasel",
+          "level": 36,
+          "moves": [
+            "quick-attack",
+            "icy-wind",
+            "feint-attack",
+            "fury-swipes"
+          ]
+        },
+        {
+          "pokemon": "golbat",
+          "level": 38,
+          "moves": [
+            "astonish",
+            "bite",
+            "confuse-ray",
+            "air-cutter"
+          ]
+        },
+        {
+          "pokemon": "magneton",
+          "level": 37,
+          "moves": [
+            "spark",
+            "supersonic",
+            "thunder-wave",
+            "magnet-bomb"
+          ]
+        },
+        {
+          "pokemon": "haunter",
+          "level": 37,
+          "moves": [
+            "mean-look",
+            "curse",
+            "shadow-ball",
+            "confuse-ray"
+          ]
+        },
+        {
+          "pokemon": "kadabra",
+          "level": 37,
+          "moves": [
+            "disable",
+            "psybeam",
+            "recover",
+            "reflect"
+          ]
+        },
+        {
+          "pokemon": "typhlosion",
+          "level": 40,
+          "moves": [
+            "lava-plume",
+            "swift",
+            "quick-attack",
+            "flame-wheel"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "rival-victory-road-cyndaquil",
+      "name": "Rival (Silver)",
+      "title": "Victory Road",
+      "category": "rival",
+      "levelCap": 40,
+      "variant": "If you chose Cyndaquil",
+      "team": [
+        {
+          "pokemon": "sneasel",
+          "level": 36,
+          "moves": [
+            "quick-attack",
+            "icy-wind",
+            "feint-attack",
+            "fury-swipes"
+          ]
+        },
+        {
+          "pokemon": "golbat",
+          "level": 38,
+          "moves": [
+            "astonish",
+            "bite",
+            "confuse-ray",
+            "air-cutter"
+          ]
+        },
+        {
+          "pokemon": "magneton",
+          "level": 37,
+          "moves": [
+            "spark",
+            "supersonic",
+            "thunder-wave",
+            "magnet-bomb"
+          ]
+        },
+        {
+          "pokemon": "haunter",
+          "level": 37,
+          "moves": [
+            "mean-look",
+            "curse",
+            "shadow-ball",
+            "confuse-ray"
+          ]
+        },
+        {
+          "pokemon": "kadabra",
+          "level": 37,
+          "moves": [
+            "disable",
+            "psybeam",
+            "recover",
+            "reflect"
+          ]
+        },
+        {
+          "pokemon": "feraligatr",
+          "level": 40,
+          "moves": [
+            "waterfall",
+            "ice-fang",
+            "crunch",
+            "slash"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "rival-victory-road-totodile",
+      "name": "Rival (Silver)",
+      "title": "Victory Road",
+      "category": "rival",
+      "levelCap": 40,
+      "variant": "If you chose Totodile",
+      "team": [
+        {
+          "pokemon": "sneasel",
+          "level": 36,
+          "moves": [
+            "quick-attack",
+            "icy-wind",
+            "feint-attack",
+            "fury-swipes"
+          ]
+        },
+        {
+          "pokemon": "golbat",
+          "level": 38,
+          "moves": [
+            "astonish",
+            "bite",
+            "confuse-ray",
+            "air-cutter"
+          ]
+        },
+        {
+          "pokemon": "magneton",
+          "level": 37,
+          "moves": [
+            "spark",
+            "supersonic",
+            "thunder-wave",
+            "magnet-bomb"
+          ]
+        },
+        {
+          "pokemon": "haunter",
+          "level": 37,
+          "moves": [
+            "mean-look",
+            "curse",
+            "shadow-ball",
+            "confuse-ray"
+          ]
+        },
+        {
+          "pokemon": "kadabra",
+          "level": 37,
+          "moves": [
+            "disable",
+            "psybeam",
+            "recover",
+            "reflect"
+          ]
+        },
+        {
+          "pokemon": "meganium",
+          "level": 40,
+          "moves": [
+            "reflect",
+            "petal-dance",
+            "poison-powder",
+            "synthesis"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "will",
+      "name": "Will",
+      "title": "Elite Four",
+      "category": "elite4",
+      "type": "psychic",
+      "levelCap": 42,
+      "team": [
+        {
+          "pokemon": "xatu",
+          "level": 40,
+          "moves": [
+            "u-turn",
+            "me-first",
+            "confuse-ray",
+            "psychic"
+          ]
+        },
+        {
+          "pokemon": "jynx",
+          "level": 41,
+          "moves": [
+            "double-slap",
+            "lovely-kiss",
+            "ice-punch",
+            "psychic"
+          ]
+        },
+        {
+          "pokemon": "exeggutor",
+          "level": 41,
+          "moves": [
+            "reflect",
+            "hypnosis",
+            "egg-bomb",
+            "psychic"
+          ]
+        },
+        {
+          "pokemon": "slowbro",
+          "level": 41,
+          "moves": [
+            "curse",
+            "amnesia",
+            "water-pulse",
+            "psychic"
+          ]
+        },
+        {
+          "pokemon": "xatu",
+          "level": 42,
+          "item": "Sitrus Berry",
+          "moves": [
+            "aerial-ace",
+            "ominous-wind",
+            "confuse-ray",
+            "psychic"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "koga",
+      "name": "Koga",
+      "title": "Elite Four",
+      "category": "elite4",
+      "type": "poison",
+      "levelCap": 44,
+      "team": [
+        {
+          "pokemon": "ariados",
+          "level": 40,
+          "moves": [
+            "poison-jab",
+            "spider-web",
+            "baton-pass",
+            "giga-drain"
+          ]
+        },
+        {
+          "pokemon": "venomoth",
+          "level": 41,
+          "moves": [
+            "supersonic",
+            "gust",
+            "psychic",
+            "toxic"
+          ]
+        },
+        {
+          "pokemon": "forretress",
+          "level": 43,
+          "moves": [
+            "protect",
+            "swift",
+            "explosion",
+            "toxic-spikes"
+          ]
+        },
+        {
+          "pokemon": "muk",
+          "level": 42,
+          "item": "Black Sludge",
+          "moves": [
+            "minimize",
+            "screech",
+            "gunk-shot",
+            "toxic"
+          ]
+        },
+        {
+          "pokemon": "crobat",
+          "level": 44,
+          "item": "Sitrus Berry",
+          "moves": [
+            "double-team",
+            "quick-attack",
+            "wing-attack",
+            "poison-fang"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "bruno",
+      "name": "Bruno",
+      "title": "Elite Four",
+      "category": "elite4",
+      "type": "fighting",
+      "levelCap": 46,
+      "team": [
+        {
+          "pokemon": "hitmontop",
+          "level": 42,
+          "moves": [
+            "counter",
+            "quick-attack",
+            "dig",
+            "triple-kick"
+          ]
+        },
+        {
+          "pokemon": "hitmonlee",
+          "level": 42,
+          "moves": [
+            "swagger",
+            "focus-energy",
+            "high-jump-kick",
+            "blaze-kick"
+          ]
+        },
+        {
+          "pokemon": "hitmonchan",
+          "level": 42,
+          "moves": [
+            "thunder-punch",
+            "ice-punch",
+            "fire-punch",
+            "bullet-punch"
+          ]
+        },
+        {
+          "pokemon": "onix",
+          "level": 43,
+          "moves": [
+            "dragon-breath",
+            "earthquake",
+            "sandstorm",
+            "rock-slide"
+          ]
+        },
+        {
+          "pokemon": "machamp",
+          "level": 46,
+          "item": "Sitrus Berry",
+          "moves": [
+            "rock-slide",
+            "foresight",
+            "revenge",
+            "cross-chop"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "karen",
+      "name": "Karen",
+      "title": "Elite Four",
+      "category": "elite4",
+      "type": "dark",
+      "levelCap": 47,
+      "team": [
+        {
+          "pokemon": "umbreon",
+          "level": 42,
+          "moves": [
+            "double-team",
+            "confuse-ray",
+            "feint-attack",
+            "payback"
+          ]
+        },
+        {
+          "pokemon": "vileplume",
+          "level": 42,
+          "moves": [
+            "stun-spore",
+            "acid",
+            "moonlight",
+            "petal-dance"
+          ]
+        },
+        {
+          "pokemon": "gengar",
+          "level": 45,
+          "moves": [
+            "lick",
+            "spite",
+            "focus-blast",
+            "destiny-bond"
+          ]
+        },
+        {
+          "pokemon": "murkrow",
+          "level": 44,
+          "moves": [
+            "pluck",
+            "whirlwind",
+            "sucker-punch",
+            "feint-attack"
+          ]
+        },
+        {
+          "pokemon": "houndoom",
+          "level": 47,
+          "item": "Sitrus Berry",
+          "moves": [
+            "nasty-plot",
+            "dark-pulse",
+            "flamethrower",
+            "crunch"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "lance",
+      "name": "Lance",
+      "title": "Champion, Indigo Plateau",
+      "category": "champion",
+      "type": "dragon",
+      "levelCap": 50,
+      "team": [
+        {
+          "pokemon": "gyarados",
+          "level": 46,
+          "moves": [
+            "flail",
+            "dragon-pulse",
+            "waterfall",
+            "ice-fang"
+          ]
+        },
+        {
+          "pokemon": "dragonite",
+          "level": 49,
+          "moves": [
+            "thunder-wave",
+            "dragon-rush",
+            "thunder",
+            "hyper-beam"
+          ]
+        },
+        {
+          "pokemon": "dragonite",
+          "level": 49,
+          "moves": [
+            "thunder-wave",
+            "dragon-rush",
+            "blizzard",
+            "hyper-beam"
+          ]
+        },
+        {
+          "pokemon": "aerodactyl",
+          "level": 48,
+          "moves": [
+            "aerial-ace",
+            "crunch",
+            "rock-slide",
+            "thunder-fang"
+          ]
+        },
+        {
+          "pokemon": "charizard",
+          "level": 48,
+          "moves": [
+            "shadow-claw",
+            "air-slash",
+            "dragon-claw",
+            "fire-fang"
+          ]
+        },
+        {
+          "pokemon": "dragonite",
+          "level": 50,
+          "item": "Sitrus Berry",
+          "moves": [
+            "fire-blast",
+            "safeguard",
+            "outrage",
+            "hyper-beam"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "lt-surge",
+      "name": "Lt. Surge",
+      "title": "Vermilion City Gym",
+      "category": "gym",
+      "type": "electric",
+      "badge": "Thunder Badge",
+      "levelCap": 53,
+      "team": [
+        {
+          "pokemon": "raichu",
+          "level": 51,
+          "moves": [
+            "thunder-wave",
+            "quick-attack",
+            "shock-wave",
+            "double-team"
+          ]
+        },
+        {
+          "pokemon": "electrode",
+          "level": 47,
+          "moves": [
+            "thunder-wave",
+            "double-team",
+            "shock-wave",
+            "light-screen"
+          ]
+        },
+        {
+          "pokemon": "magneton",
+          "level": 47,
+          "moves": [
+            "supersonic",
+            "double-team",
+            "shock-wave",
+            "mirror-shot"
+          ]
+        },
+        {
+          "pokemon": "electrode",
+          "level": 47,
+          "moves": [
+            "screech",
+            "double-team",
+            "self-destruct",
+            "charge-beam"
+          ]
+        },
+        {
+          "pokemon": "electabuzz",
+          "level": 53,
+          "item": "Sitrus Berry",
+          "moves": [
+            "quick-attack",
+            "shock-wave",
+            "light-screen",
+            "low-kick"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "sabrina",
+      "name": "Sabrina",
+      "title": "Saffron City Gym",
+      "category": "gym",
+      "type": "psychic",
+      "badge": "Marsh Badge",
+      "levelCap": 55,
+      "team": [
+        {
+          "pokemon": "espeon",
+          "level": 53,
+          "moves": [
+            "shadow-ball",
+            "skill-swap",
+            "calm-mind",
+            "psychic"
+          ]
+        },
+        {
+          "pokemon": "mr-mime",
+          "level": 53,
+          "moves": [
+            "mimic",
+            "light-screen",
+            "skill-swap",
+            "psychic"
+          ]
+        },
+        {
+          "pokemon": "alakazam",
+          "level": 55,
+          "item": "Sitrus Berry",
+          "moves": [
+            "skill-swap",
+            "psychic",
+            "energy-ball",
+            "reflect"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "misty",
+      "name": "Misty",
+      "title": "Cerulean City Gym",
+      "category": "gym",
+      "type": "water",
+      "badge": "Cascade Badge",
+      "levelCap": 54,
+      "team": [
+        {
+          "pokemon": "golduck",
+          "level": 49,
+          "moves": [
+            "water-pulse",
+            "disable",
+            "psych-up",
+            "psychic"
+          ]
+        },
+        {
+          "pokemon": "quagsire",
+          "level": 49,
+          "moves": [
+            "water-pulse",
+            "amnesia",
+            "earthquake",
+            "rain-dance"
+          ]
+        },
+        {
+          "pokemon": "lapras",
+          "level": 52,
+          "moves": [
+            "water-pulse",
+            "sing",
+            "ice-beam",
+            "body-slam"
+          ]
+        },
+        {
+          "pokemon": "starmie",
+          "level": 54,
+          "item": "Sitrus Berry",
+          "moves": [
+            "water-pulse",
+            "confuse-ray",
+            "recover",
+            "ice-beam"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "erika",
+      "name": "Erika",
+      "title": "Celadon City Gym",
+      "category": "gym",
+      "type": "grass",
+      "badge": "Rainbow Badge",
+      "levelCap": 56,
+      "team": [
+        {
+          "pokemon": "jumpluff",
+          "level": 51,
+          "moves": [
+            "u-turn",
+            "leech-seed",
+            "sunny-day",
+            "giga-drain"
+          ]
+        },
+        {
+          "pokemon": "tangela",
+          "level": 52,
+          "moves": [
+            "ancient-power",
+            "wring-out",
+            "giga-drain",
+            "sleep-powder"
+          ]
+        },
+        {
+          "pokemon": "victreebel",
+          "level": 56,
+          "moves": [
+            "sunny-day",
+            "synthesis",
+            "grass-knot",
+            "leaf-storm"
+          ]
+        },
+        {
+          "pokemon": "bellossom",
+          "level": 56,
+          "item": "Sitrus Berry",
+          "moves": [
+            "sunny-day",
+            "synthesis",
+            "giga-drain",
+            "solar-beam"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "janine",
+      "name": "Janine",
+      "title": "Fuchsia City Gym",
+      "category": "gym",
+      "type": "poison",
+      "badge": "Soul Badge",
+      "levelCap": 50,
+      "team": [
+        {
+          "pokemon": "crobat",
+          "level": 47,
+          "moves": [
+            "screech",
+            "supersonic",
+            "confuse-ray",
+            "wing-attack"
+          ]
+        },
+        {
+          "pokemon": "weezing",
+          "level": 44,
+          "moves": [
+            "double-hit",
+            "sludge-bomb",
+            "toxic",
+            "explosion"
+          ]
+        },
+        {
+          "pokemon": "ariados",
+          "level": 47,
+          "moves": [
+            "scary-face",
+            "poison-jab",
+            "pin-missile",
+            "psychic"
+          ]
+        },
+        {
+          "pokemon": "ariados",
+          "level": 47,
+          "moves": [
+            "pin-missile",
+            "poison-jab",
+            "swagger",
+            "night-shade"
+          ]
+        },
+        {
+          "pokemon": "venomoth",
+          "level": 50,
+          "item": "Sitrus Berry",
+          "moves": [
+            "sludge-bomb",
+            "double-team",
+            "signal-beam",
+            "psychic"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "brock",
+      "name": "Brock",
+      "title": "Pewter City Gym",
+      "category": "gym",
+      "type": "rock",
+      "badge": "Boulder Badge",
+      "levelCap": 54,
+      "team": [
+        {
+          "pokemon": "graveler",
+          "level": 51,
+          "moves": [
+            "defense-curl",
+            "rock-slide",
+            "rollout",
+            "earthquake"
+          ]
+        },
+        {
+          "pokemon": "rhyhorn",
+          "level": 51,
+          "moves": [
+            "sandstorm",
+            "scary-face",
+            "earthquake",
+            "horn-drill"
+          ]
+        },
+        {
+          "pokemon": "omastar",
+          "level": 53,
+          "moves": [
+            "ancient-power",
+            "brine",
+            "protect",
+            "spike-cannon"
+          ]
+        },
+        {
+          "pokemon": "onix",
+          "level": 54,
+          "item": "Sitrus Berry",
+          "moves": [
+            "iron-tail",
+            "rock-slide",
+            "screech",
+            "sandstorm"
+          ],
+          "ace": true
+        },
+        {
+          "pokemon": "kabutops",
+          "level": 52,
+          "moves": [
+            "rock-slide",
+            "aqua-jet",
+            "endure",
+            "giga-drain"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "blaine",
+      "name": "Blaine",
+      "title": "Seafoam Islands Gym",
+      "category": "gym",
+      "type": "fire",
+      "badge": "Volcano Badge",
+      "levelCap": 59,
+      "team": [
+        {
+          "pokemon": "magcargo",
+          "level": 54,
+          "item": "White Herb",
+          "moves": [
+            "sunny-day",
+            "smog",
+            "overheat",
+            "rock-slide"
+          ]
+        },
+        {
+          "pokemon": "magmar",
+          "level": 54,
+          "item": "White Herb",
+          "moves": [
+            "thunder-punch",
+            "overheat",
+            "sunny-day",
+            "confuse-ray"
+          ]
+        },
+        {
+          "pokemon": "rapidash",
+          "level": 59,
+          "item": "White Herb",
+          "moves": [
+            "quick-attack",
+            "flare-blitz",
+            "bounce",
+            "overheat"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "blue",
+      "name": "Blue",
+      "title": "Viridian City Gym",
+      "category": "gym",
+      "badge": "Earth Badge",
+      "levelCap": 60,
+      "team": [
+        {
+          "pokemon": "exeggutor",
+          "level": 55,
+          "moves": [
+            "leaf-storm",
+            "psychic",
+            "hypnosis",
+            "trick-room"
+          ]
+        },
+        {
+          "pokemon": "arcanine",
+          "level": 58,
+          "moves": [
+            "roar",
+            "dragon-pulse",
+            "flare-blitz",
+            "extreme-speed"
+          ]
+        },
+        {
+          "pokemon": "rhydon",
+          "level": 58,
+          "moves": [
+            "megahorn",
+            "stone-edge",
+            "thunder-fang",
+            "earthquake"
+          ]
+        },
+        {
+          "pokemon": "gyarados",
+          "level": 52,
+          "moves": [
+            "ice-fang",
+            "waterfall",
+            "dragon-dance",
+            "return"
+          ]
+        },
+        {
+          "pokemon": "machamp",
+          "level": 56,
+          "moves": [
+            "dynamic-punch",
+            "earthquake",
+            "stone-edge",
+            "thunder-punch"
+          ]
+        },
+        {
+          "pokemon": "pidgeot",
+          "level": 60,
+          "item": "Sitrus Berry",
+          "moves": [
+            "return",
+            "whirlwind",
+            "air-slash",
+            "mirror-move"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "red",
+      "name": "Red",
+      "title": "Mt. Silver",
+      "category": "postgame",
+      "levelCap": 88,
+      "team": [
+        {
+          "pokemon": "pikachu",
+          "level": 88,
+          "item": "Light Ball",
+          "moves": [
+            "volt-tackle",
+            "iron-tail",
+            "quick-attack",
+            "thunderbolt"
+          ],
+          "ace": true
+        },
+        {
+          "pokemon": "lapras",
+          "level": 80,
+          "moves": [
+            "blizzard",
+            "brine",
+            "psychic",
+            "body-slam"
+          ]
+        },
+        {
+          "pokemon": "snorlax",
+          "level": 82,
+          "moves": [
+            "shadow-ball",
+            "crunch",
+            "blizzard",
+            "giga-impact"
+          ]
+        },
+        {
+          "pokemon": "venusaur",
+          "level": 84,
+          "moves": [
+            "sludge-bomb",
+            "giga-drain",
+            "sleep-powder",
+            "frenzy-plant"
+          ]
+        },
+        {
+          "pokemon": "charizard",
+          "level": 84,
+          "moves": [
+            "flare-blitz",
+            "air-slash",
+            "blast-burn",
+            "dragon-pulse"
+          ]
+        },
+        {
+          "pokemon": "blastoise",
+          "level": 84,
+          "moves": [
+            "focus-blast",
+            "hydro-cannon",
+            "blizzard",
+            "flash-cannon"
+          ]
+        }
+      ]
+    }
+  ]
+}

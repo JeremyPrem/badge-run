@@ -1,0 +1,1435 @@
+{
+  "versionGroup": "sun-moon",
+  "battles": [
+    {
+      "id": "totem-gumshoos",
+      "name": "Totem Gumshoos",
+      "title": "Verdant Cavern trial (Ilima)",
+      "category": "trial",
+      "type": "normal",
+      "levelCap": 12,
+      "versions": [
+        "sun"
+      ],
+      "team": [
+        {
+          "pokemon": "gumshoos-totem",
+          "level": 12,
+          "moves": [
+            "super-fang",
+            "bite",
+            "leer",
+            "scary-face"
+          ],
+          "item": "Pecha Berry",
+          "ace": true
+        },
+        {
+          "pokemon": "yungoos",
+          "level": 10,
+          "moves": [
+            "leer",
+            "tackle",
+            "pursuit",
+            "bide"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "totem-raticate",
+      "name": "Totem Raticate",
+      "title": "Verdant Cavern trial (Ilima)",
+      "category": "trial",
+      "type": "normal",
+      "levelCap": 12,
+      "versions": [
+        "moon"
+      ],
+      "team": [
+        {
+          "pokemon": "raticate-totem-alola",
+          "level": 12,
+          "moves": [
+            "bite",
+            "tail-whip",
+            "scary-face",
+            "tackle"
+          ],
+          "item": "Pecha Berry",
+          "ace": true
+        },
+        {
+          "pokemon": "rattata-alola",
+          "level": 10,
+          "moves": [
+            "tackle",
+            "focus-energy",
+            "quick-attack",
+            "tail-whip"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hala",
+      "name": "Hala",
+      "title": "Melemele grand trial",
+      "category": "gym",
+      "type": "fighting",
+      "levelCap": 15,
+      "team": [
+        {
+          "pokemon": "mankey",
+          "level": 14,
+          "moves": [
+            "karate-chop",
+            "focus-energy",
+            "pursuit"
+          ]
+        },
+        {
+          "pokemon": "makuhita",
+          "level": 14,
+          "moves": [
+            "fake-out",
+            "sand-attack",
+            "arm-thrust"
+          ]
+        },
+        {
+          "pokemon": "crabrawler",
+          "level": 15,
+          "moves": [
+            "power-up-punch",
+            "pursuit",
+            "leer"
+          ],
+          "item": "Fightinium Z",
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "hau-paniola-rowlet",
+      "name": "Hau",
+      "title": "Paniola Town",
+      "category": "rival",
+      "levelCap": 17,
+      "variant": "If you chose Rowlet",
+      "team": [
+        {
+          "pokemon": "pikachu",
+          "level": 16,
+          "moves": [
+            "electro-ball",
+            "quick-attack"
+          ]
+        },
+        {
+          "pokemon": "torracat",
+          "level": 17,
+          "moves": [
+            "fire-fang",
+            "lick",
+            "scratch"
+          ],
+          "item": "Normalium Z",
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "hau-paniola-litten",
+      "name": "Hau",
+      "title": "Paniola Town",
+      "category": "rival",
+      "levelCap": 17,
+      "variant": "If you chose Litten",
+      "team": [
+        {
+          "pokemon": "pikachu",
+          "level": 16,
+          "moves": [
+            "electro-ball",
+            "quick-attack"
+          ]
+        },
+        {
+          "pokemon": "brionne",
+          "level": 17,
+          "moves": [
+            "aqua-jet",
+            "disarming-voice",
+            "pound"
+          ],
+          "item": "Normalium Z",
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "hau-paniola-popplio",
+      "name": "Hau",
+      "title": "Paniola Town",
+      "category": "rival",
+      "levelCap": 17,
+      "variant": "If you chose Popplio",
+      "team": [
+        {
+          "pokemon": "pikachu",
+          "level": 16,
+          "moves": [
+            "electro-ball",
+            "quick-attack"
+          ]
+        },
+        {
+          "pokemon": "dartrix",
+          "level": 17,
+          "moves": [
+            "razor-leaf",
+            "peck",
+            "tackle"
+          ],
+          "item": "Normalium Z",
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "totem-wishiwashi",
+      "name": "Totem Wishiwashi",
+      "title": "Brooklet Hill trial (Lana)",
+      "category": "trial",
+      "type": "water",
+      "levelCap": 20,
+      "team": [
+        {
+          "pokemon": "wishiwashi-school",
+          "level": 20,
+          "moves": [
+            "water-gun",
+            "growl",
+            "rain-dance",
+            "soak"
+          ],
+          "item": "Sitrus Berry",
+          "ace": true
+        },
+        {
+          "pokemon": "wishiwashi-solo",
+          "level": 18,
+          "moves": [
+            "helping-hand",
+            "feint-attack",
+            "brine",
+            "aqua-ring"
+          ]
+        },
+        {
+          "pokemon": "alomomola",
+          "level": 18,
+          "moves": [
+            "helping-hand",
+            "double-slap",
+            "heal-pulse",
+            "water-gun"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "totem-salazzle",
+      "name": "Totem Salazzle",
+      "title": "Wela Volcano Park trial (Kiawe)",
+      "category": "trial",
+      "type": "fire",
+      "levelCap": 22,
+      "team": [
+        {
+          "pokemon": "salazzle-totem",
+          "level": 22,
+          "moves": [
+            "torment",
+            "venom-drench",
+            "toxic",
+            "flame-burst"
+          ],
+          "item": "Petaya Berry",
+          "ace": true
+        },
+        {
+          "pokemon": "salandit",
+          "level": 20,
+          "moves": [
+            "poison-gas",
+            "venoshock",
+            "taunt",
+            "scratch"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "totem-lurantis",
+      "name": "Totem Lurantis",
+      "title": "Lush Jungle trial (Mallow)",
+      "category": "trial",
+      "type": "grass",
+      "levelCap": 24,
+      "team": [
+        {
+          "pokemon": "lurantis-totem",
+          "level": 24,
+          "moves": [
+            "razor-leaf",
+            "x-scissor",
+            "solar-blade",
+            "synthesis"
+          ],
+          "item": "Power Herb",
+          "ace": true
+        },
+        {
+          "pokemon": "trumbeak",
+          "level": 22,
+          "moves": [
+            "rock-blast",
+            "pluck",
+            "supersonic",
+            "screech"
+          ]
+        },
+        {
+          "pokemon": "castform",
+          "level": 22,
+          "moves": [
+            "sunny-day",
+            "water-gun",
+            "headbutt",
+            "weather-ball"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "olivia",
+      "name": "Olivia",
+      "title": "Akala grand trial",
+      "category": "gym",
+      "type": "rock",
+      "levelCap": 27,
+      "team": [
+        {
+          "pokemon": "nosepass",
+          "level": 26,
+          "moves": [
+            "rock-slide",
+            "spark",
+            "thunder-wave"
+          ]
+        },
+        {
+          "pokemon": "boldore",
+          "level": 26,
+          "moves": [
+            "rock-blast",
+            "mud-slap",
+            "headbutt"
+          ]
+        },
+        {
+          "pokemon": "lycanroc-midnight",
+          "level": 27,
+          "moves": [
+            "bite",
+            "rock-throw"
+          ],
+          "item": "Rockium Z",
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "guzma-1",
+      "name": "Guzma",
+      "title": "Malie Garden",
+      "category": "villain",
+      "type": "bug",
+      "levelCap": 31,
+      "team": [
+        {
+          "pokemon": "golisopod",
+          "level": 31,
+          "moves": [
+            "first-impression",
+            "razor-shell",
+            "swords-dance"
+          ],
+          "ace": true
+        },
+        {
+          "pokemon": "ariados",
+          "level": 30,
+          "moves": [
+            "fell-stinger",
+            "sucker-punch",
+            "shadow-sneak",
+            "infestation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "totem-vikavolt",
+      "name": "Totem Vikavolt",
+      "title": "Hokulani Observatory trial (Sophocles)",
+      "category": "trial",
+      "type": "electric",
+      "levelCap": 29,
+      "team": [
+        {
+          "pokemon": "vikavolt-totem",
+          "level": 29,
+          "moves": [
+            "vice-grip",
+            "charge",
+            "bug-bite",
+            "spark"
+          ],
+          "item": "Occa Berry",
+          "ace": true
+        },
+        {
+          "pokemon": "charjabug",
+          "level": 28,
+          "moves": [
+            "string-shot",
+            "vice-grip",
+            "mud-slap",
+            "thunder-wave"
+          ]
+        },
+        {
+          "pokemon": "charjabug",
+          "level": 28,
+          "moves": [
+            "bite",
+            "thunder-wave",
+            "mud-slap",
+            "spark"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "totem-mimikyu",
+      "name": "Totem Mimikyu",
+      "title": "Thrifty Megamart trial (Acerola)",
+      "category": "trial",
+      "type": "ghost",
+      "levelCap": 33,
+      "team": [
+        {
+          "pokemon": "mimikyu-totem-disguised",
+          "level": 33,
+          "moves": [
+            "play-rough",
+            "shadow-claw",
+            "astonish",
+            "mimic"
+          ],
+          "item": "Lum Berry",
+          "ace": true
+        },
+        {
+          "pokemon": "haunter",
+          "level": 27,
+          "moves": [
+            "hypnosis",
+            "sucker-punch",
+            "night-shade",
+            "lick"
+          ]
+        },
+        {
+          "pokemon": "gengar",
+          "level": 27,
+          "moves": [
+            "shadow-ball",
+            "hypnosis",
+            "night-shade",
+            "shadow-punch"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "guzma-2",
+      "name": "Guzma",
+      "title": "Shady House, Po Town",
+      "category": "villain",
+      "type": "bug",
+      "levelCap": 37,
+      "team": [
+        {
+          "pokemon": "golisopod",
+          "level": 37,
+          "moves": [
+            "first-impression",
+            "razor-shell",
+            "swords-dance"
+          ],
+          "ace": true
+        },
+        {
+          "pokemon": "ariados",
+          "level": 36,
+          "moves": [
+            "fell-stinger",
+            "sucker-punch",
+            "shadow-sneak",
+            "infestation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nanu",
+      "name": "Nanu",
+      "title": "Ula'ula grand trial",
+      "category": "gym",
+      "type": "dark",
+      "levelCap": 39,
+      "team": [
+        {
+          "pokemon": "sableye",
+          "level": 38,
+          "moves": [
+            "power-gem",
+            "shadow-ball",
+            "fake-out"
+          ]
+        },
+        {
+          "pokemon": "krokorok",
+          "level": 38,
+          "moves": [
+            "crunch",
+            "assurance",
+            "swagger",
+            "earthquake"
+          ]
+        },
+        {
+          "pokemon": "persian-alola",
+          "level": 39,
+          "moves": [
+            "power-gem",
+            "fake-out",
+            "dark-pulse"
+          ],
+          "item": "Darkinium Z",
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "gladion-aether-house",
+      "name": "Gladion",
+      "title": "Aether House",
+      "category": "rival",
+      "levelCap": 38,
+      "team": [
+        {
+          "pokemon": "golbat",
+          "level": 37,
+          "moves": [
+            "acrobatics",
+            "poison-fang"
+          ]
+        },
+        {
+          "pokemon": "sneasel",
+          "level": 37,
+          "moves": [
+            "icy-wind",
+            "metal-claw",
+            "feint-attack",
+            "quick-attack"
+          ]
+        },
+        {
+          "pokemon": "type-null",
+          "level": 38,
+          "moves": [
+            "pursuit",
+            "crush-claw",
+            "x-scissor"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "guzma-3",
+      "name": "Guzma",
+      "title": "Aether Paradise",
+      "category": "villain",
+      "type": "bug",
+      "levelCap": 41,
+      "team": [
+        {
+          "pokemon": "golisopod",
+          "level": 41,
+          "moves": [
+            "first-impression",
+            "razor-shell",
+            "swords-dance"
+          ],
+          "ace": true
+        },
+        {
+          "pokemon": "ariados",
+          "level": 40,
+          "moves": [
+            "fell-stinger",
+            "sucker-punch",
+            "shadow-sneak"
+          ]
+        },
+        {
+          "pokemon": "masquerain",
+          "level": 40,
+          "moves": [
+            "bug-buzz",
+            "air-slash"
+          ]
+        },
+        {
+          "pokemon": "pinsir",
+          "level": 40,
+          "moves": [
+            "x-scissor",
+            "brick-break",
+            "double-hit"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lusamine-1",
+      "name": "Lusamine",
+      "title": "Aether Paradise",
+      "category": "villain",
+      "levelCap": 41,
+      "team": [
+        {
+          "pokemon": "clefable",
+          "level": 41,
+          "moves": [
+            "cosmic-power",
+            "metronome",
+            "moonblast"
+          ]
+        },
+        {
+          "pokemon": "lilligant",
+          "level": 41,
+          "moves": [
+            "petal-dance",
+            "teeter-dance",
+            "stun-spore"
+          ]
+        },
+        {
+          "pokemon": "mismagius",
+          "level": 41,
+          "moves": [
+            "mystical-fire",
+            "shadow-ball",
+            "power-gem"
+          ]
+        },
+        {
+          "pokemon": "milotic",
+          "level": 41,
+          "moves": [
+            "hydro-pump",
+            "flail",
+            "safeguard"
+          ]
+        },
+        {
+          "pokemon": "bewear",
+          "level": 41,
+          "moves": [
+            "baby-doll-eyes",
+            "take-down",
+            "hammer-arm"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "hapu",
+      "name": "Hapu",
+      "title": "Poni grand trial (Vast Poni Canyon)",
+      "category": "gym",
+      "type": "ground",
+      "levelCap": 48,
+      "team": [
+        {
+          "pokemon": "dugtrio-alola",
+          "level": 47,
+          "moves": [
+            "iron-head",
+            "earthquake",
+            "sucker-punch",
+            "sandstorm"
+          ]
+        },
+        {
+          "pokemon": "gastrodon",
+          "level": 47,
+          "moves": [
+            "muddy-water",
+            "mud-bomb",
+            "recover"
+          ]
+        },
+        {
+          "pokemon": "flygon",
+          "level": 47,
+          "moves": [
+            "earth-power",
+            "dragon-breath"
+          ]
+        },
+        {
+          "pokemon": "mudsdale",
+          "level": 48,
+          "moves": [
+            "heavy-slam",
+            "earthquake",
+            "double-kick",
+            "counter"
+          ],
+          "item": "Groundium Z",
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "totem-kommo-o",
+      "name": "Totem Kommo-o",
+      "title": "Vast Poni Canyon trial",
+      "category": "trial",
+      "type": "dragon",
+      "levelCap": 45,
+      "team": [
+        {
+          "pokemon": "kommo-o-totem",
+          "level": 45,
+          "moves": [
+            "clanging-scales",
+            "sky-uppercut",
+            "flash-cannon",
+            "protect"
+          ],
+          "item": "Mental Herb",
+          "ace": true
+        },
+        {
+          "pokemon": "hakamo-o",
+          "level": 32,
+          "moves": [
+            "sky-uppercut",
+            "autotomize",
+            "work-up",
+            "bide"
+          ]
+        },
+        {
+          "pokemon": "scizor",
+          "level": 32,
+          "moves": [
+            "metal-claw",
+            "pursuit",
+            "leer",
+            "fury-cutter"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lusamine-2",
+      "name": "Lusamine",
+      "title": "Ultra Deep Sea (Ultra Space)",
+      "category": "villain",
+      "levelCap": 50,
+      "team": [
+        {
+          "pokemon": "clefable",
+          "level": 50,
+          "moves": [
+            "moonblast",
+            "cosmic-power",
+            "metronome",
+            "moonlight"
+          ]
+        },
+        {
+          "pokemon": "lilligant",
+          "level": 50,
+          "moves": [
+            "leech-seed",
+            "petal-dance",
+            "teeter-dance",
+            "stun-spore"
+          ]
+        },
+        {
+          "pokemon": "mismagius",
+          "level": 50,
+          "moves": [
+            "shadow-ball",
+            "power-gem",
+            "mystical-fire",
+            "pain-split"
+          ]
+        },
+        {
+          "pokemon": "milotic",
+          "level": 50,
+          "moves": [
+            "hydro-pump",
+            "recover",
+            "safeguard",
+            "flail"
+          ]
+        },
+        {
+          "pokemon": "bewear",
+          "level": 50,
+          "moves": [
+            "baby-doll-eyes",
+            "hammer-arm",
+            "take-down",
+            "pain-split"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "hau-lanakila-rowlet",
+      "name": "Hau",
+      "title": "Mount Lanakila",
+      "category": "rival",
+      "levelCap": 54,
+      "variant": "If you chose Rowlet",
+      "team": [
+        {
+          "pokemon": "raichu-alola",
+          "level": 53,
+          "moves": [
+            "thunderbolt",
+            "quick-attack",
+            "psychic",
+            "focus-blast"
+          ]
+        },
+        {
+          "pokemon": "leafeon",
+          "level": 53,
+          "moves": [
+            "leaf-blade",
+            "quick-attack",
+            "charm",
+            "baby-doll-eyes"
+          ]
+        },
+        {
+          "pokemon": "komala",
+          "level": 53,
+          "moves": [
+            "wood-hammer",
+            "sucker-punch",
+            "earthquake",
+            "shadow-claw"
+          ]
+        },
+        {
+          "pokemon": "incineroar",
+          "level": 54,
+          "moves": [
+            "darkest-lariat",
+            "flare-blitz",
+            "earthquake"
+          ],
+          "item": "Firium Z",
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "hau-lanakila-litten",
+      "name": "Hau",
+      "title": "Mount Lanakila",
+      "category": "rival",
+      "levelCap": 54,
+      "variant": "If you chose Litten",
+      "team": [
+        {
+          "pokemon": "raichu-alola",
+          "level": 53,
+          "moves": [
+            "thunderbolt",
+            "quick-attack",
+            "psychic",
+            "focus-blast"
+          ]
+        },
+        {
+          "pokemon": "flareon",
+          "level": 53,
+          "moves": [
+            "flare-blitz",
+            "quick-attack",
+            "charm",
+            "baby-doll-eyes"
+          ]
+        },
+        {
+          "pokemon": "komala",
+          "level": 53,
+          "moves": [
+            "wood-hammer",
+            "sucker-punch",
+            "earthquake",
+            "shadow-claw"
+          ]
+        },
+        {
+          "pokemon": "primarina",
+          "level": 54,
+          "moves": [
+            "sparkling-aria",
+            "moonblast",
+            "hyper-voice"
+          ],
+          "item": "Waterium Z",
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "hau-lanakila-popplio",
+      "name": "Hau",
+      "title": "Mount Lanakila",
+      "category": "rival",
+      "levelCap": 54,
+      "variant": "If you chose Popplio",
+      "team": [
+        {
+          "pokemon": "raichu-alola",
+          "level": 53,
+          "moves": [
+            "thunderbolt",
+            "quick-attack",
+            "psychic",
+            "focus-blast"
+          ]
+        },
+        {
+          "pokemon": "vaporeon",
+          "level": 53,
+          "moves": [
+            "hydro-pump",
+            "quick-attack",
+            "charm",
+            "baby-doll-eyes"
+          ]
+        },
+        {
+          "pokemon": "komala",
+          "level": 53,
+          "moves": [
+            "wood-hammer",
+            "sucker-punch",
+            "earthquake",
+            "shadow-claw"
+          ]
+        },
+        {
+          "pokemon": "decidueye",
+          "level": 54,
+          "moves": [
+            "spirit-shackle",
+            "leaf-blade",
+            "smack-down"
+          ],
+          "item": "Grassium Z",
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "hala-e4",
+      "name": "Hala",
+      "title": "Elite Four",
+      "category": "elite4",
+      "type": "fighting",
+      "levelCap": 55,
+      "team": [
+        {
+          "pokemon": "hariyama",
+          "level": 54,
+          "moves": [
+            "fake-out",
+            "close-combat",
+            "knock-off"
+          ]
+        },
+        {
+          "pokemon": "primeape",
+          "level": 54,
+          "moves": [
+            "cross-chop",
+            "outrage",
+            "punishment",
+            "pursuit"
+          ]
+        },
+        {
+          "pokemon": "bewear",
+          "level": 54,
+          "moves": [
+            "hammer-arm",
+            "brutal-swing"
+          ]
+        },
+        {
+          "pokemon": "poliwrath",
+          "level": 54,
+          "moves": [
+            "waterfall",
+            "submission"
+          ]
+        },
+        {
+          "pokemon": "crabominable",
+          "level": 55,
+          "moves": [
+            "ice-hammer",
+            "close-combat"
+          ],
+          "item": "Fightinium Z",
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "olivia-e4",
+      "name": "Olivia",
+      "title": "Elite Four",
+      "category": "elite4",
+      "type": "rock",
+      "levelCap": 55,
+      "team": [
+        {
+          "pokemon": "relicanth",
+          "level": 54,
+          "moves": [
+            "hydro-pump",
+            "ancient-power",
+            "yawn"
+          ]
+        },
+        {
+          "pokemon": "carbink",
+          "level": 54,
+          "moves": [
+            "power-gem",
+            "moonblast",
+            "reflect"
+          ]
+        },
+        {
+          "pokemon": "golem-alola",
+          "level": 54,
+          "moves": [
+            "thunder-punch",
+            "rock-blast",
+            "steamroller"
+          ]
+        },
+        {
+          "pokemon": "probopass",
+          "level": 54,
+          "moves": [
+            "earth-power",
+            "power-gem",
+            "thunder-wave",
+            "sandstorm"
+          ]
+        },
+        {
+          "pokemon": "lycanroc-midnight",
+          "level": 55,
+          "moves": [
+            "crunch",
+            "stone-edge",
+            "counter",
+            "rock-climb"
+          ],
+          "item": "Rockium Z",
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "acerola-e4",
+      "name": "Acerola",
+      "title": "Elite Four",
+      "category": "elite4",
+      "type": "ghost",
+      "levelCap": 55,
+      "team": [
+        {
+          "pokemon": "sableye",
+          "level": 54,
+          "moves": [
+            "shadow-claw",
+            "zen-headbutt",
+            "confuse-ray",
+            "fake-out"
+          ]
+        },
+        {
+          "pokemon": "drifblim",
+          "level": 54,
+          "moves": [
+            "ominous-wind",
+            "focus-energy",
+            "amnesia",
+            "baton-pass"
+          ]
+        },
+        {
+          "pokemon": "dhelmise",
+          "level": 54,
+          "moves": [
+            "slam",
+            "shadow-ball",
+            "energy-ball",
+            "whirlpool"
+          ]
+        },
+        {
+          "pokemon": "froslass",
+          "level": 54,
+          "moves": [
+            "blizzard",
+            "shadow-ball",
+            "confuse-ray",
+            "ice-shard"
+          ]
+        },
+        {
+          "pokemon": "palossand",
+          "level": 55,
+          "moves": [
+            "shadow-ball",
+            "earth-power",
+            "giga-drain",
+            "iron-defense"
+          ],
+          "item": "Ghostium Z",
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "kahili-e4",
+      "name": "Kahili",
+      "title": "Elite Four",
+      "category": "elite4",
+      "type": "flying",
+      "levelCap": 55,
+      "team": [
+        {
+          "pokemon": "skarmory",
+          "level": 54,
+          "moves": [
+            "slash",
+            "steel-wing",
+            "feint",
+            "spikes"
+          ]
+        },
+        {
+          "pokemon": "crobat",
+          "level": 54,
+          "moves": [
+            "air-slash",
+            "swift",
+            "supersonic",
+            "poison-fang"
+          ]
+        },
+        {
+          "pokemon": "oricorio-baile",
+          "level": 54,
+          "moves": [
+            "revelation-dance",
+            "teeter-dance",
+            "air-slash",
+            "feather-dance"
+          ]
+        },
+        {
+          "pokemon": "mandibuzz",
+          "level": 54,
+          "moves": [
+            "bone-rush",
+            "brave-bird",
+            "punishment",
+            "flatter"
+          ]
+        },
+        {
+          "pokemon": "toucannon",
+          "level": 55,
+          "moves": [
+            "bullet-seed",
+            "rock-blast",
+            "beak-blast",
+            "screech"
+          ],
+          "item": "Flyinium Z",
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "kukui-rowlet",
+      "name": "Professor Kukui",
+      "title": "Champion (Pokémon League)",
+      "category": "champion",
+      "levelCap": 58,
+      "variant": "If you chose Rowlet",
+      "team": [
+        {
+          "pokemon": "lycanroc-midday",
+          "level": 57,
+          "moves": [
+            "stone-edge",
+            "accelerock",
+            "crunch",
+            "stealth-rock"
+          ]
+        },
+        {
+          "pokemon": "ninetales-alola",
+          "level": 56,
+          "moves": [
+            "dazzling-gleam",
+            "blizzard",
+            "ice-shard",
+            "safeguard"
+          ]
+        },
+        {
+          "pokemon": "braviary",
+          "level": 56,
+          "moves": [
+            "crush-claw",
+            "brave-bird",
+            "tailwind",
+            "whirlwind"
+          ]
+        },
+        {
+          "pokemon": "magnezone",
+          "level": 56,
+          "moves": [
+            "thunderbolt",
+            "flash-cannon",
+            "thunder-wave",
+            "mirror-coat"
+          ]
+        },
+        {
+          "pokemon": "snorlax",
+          "level": 56,
+          "moves": [
+            "body-slam",
+            "crunch",
+            "heavy-slam",
+            "high-horsepower"
+          ]
+        },
+        {
+          "pokemon": "incineroar",
+          "level": 58,
+          "moves": [
+            "flare-blitz",
+            "darkest-lariat",
+            "outrage",
+            "cross-chop"
+          ],
+          "item": "Firium Z",
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "kukui-litten",
+      "name": "Professor Kukui",
+      "title": "Champion (Pokémon League)",
+      "category": "champion",
+      "levelCap": 58,
+      "variant": "If you chose Litten",
+      "team": [
+        {
+          "pokemon": "lycanroc-midday",
+          "level": 57,
+          "moves": [
+            "stone-edge",
+            "accelerock",
+            "crunch",
+            "stealth-rock"
+          ]
+        },
+        {
+          "pokemon": "ninetales-alola",
+          "level": 56,
+          "moves": [
+            "dazzling-gleam",
+            "blizzard",
+            "ice-shard",
+            "safeguard"
+          ]
+        },
+        {
+          "pokemon": "braviary",
+          "level": 56,
+          "moves": [
+            "crush-claw",
+            "brave-bird",
+            "tailwind",
+            "whirlwind"
+          ]
+        },
+        {
+          "pokemon": "magnezone",
+          "level": 56,
+          "moves": [
+            "thunderbolt",
+            "flash-cannon",
+            "thunder-wave",
+            "mirror-coat"
+          ]
+        },
+        {
+          "pokemon": "snorlax",
+          "level": 56,
+          "moves": [
+            "body-slam",
+            "crunch",
+            "heavy-slam",
+            "high-horsepower"
+          ]
+        },
+        {
+          "pokemon": "primarina",
+          "level": 58,
+          "moves": [
+            "sparkling-aria",
+            "moonblast",
+            "aqua-jet",
+            "hyper-voice"
+          ],
+          "item": "Waterium Z",
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "kukui-popplio",
+      "name": "Professor Kukui",
+      "title": "Champion (Pokémon League)",
+      "category": "champion",
+      "levelCap": 58,
+      "variant": "If you chose Popplio",
+      "team": [
+        {
+          "pokemon": "lycanroc-midday",
+          "level": 57,
+          "moves": [
+            "stone-edge",
+            "accelerock",
+            "crunch",
+            "stealth-rock"
+          ]
+        },
+        {
+          "pokemon": "ninetales-alola",
+          "level": 56,
+          "moves": [
+            "dazzling-gleam",
+            "blizzard",
+            "ice-shard",
+            "safeguard"
+          ]
+        },
+        {
+          "pokemon": "braviary",
+          "level": 56,
+          "moves": [
+            "crush-claw",
+            "brave-bird",
+            "tailwind",
+            "whirlwind"
+          ]
+        },
+        {
+          "pokemon": "magnezone",
+          "level": 56,
+          "moves": [
+            "thunderbolt",
+            "flash-cannon",
+            "thunder-wave",
+            "mirror-coat"
+          ]
+        },
+        {
+          "pokemon": "snorlax",
+          "level": 56,
+          "moves": [
+            "body-slam",
+            "crunch",
+            "heavy-slam",
+            "high-horsepower"
+          ]
+        },
+        {
+          "pokemon": "decidueye",
+          "level": 58,
+          "moves": [
+            "leaf-blade",
+            "spirit-shackle",
+            "brave-bird",
+            "sucker-punch"
+          ],
+          "item": "Grassium Z",
+          "ace": true
+        }
+      ]
+    }
+  ]
+}

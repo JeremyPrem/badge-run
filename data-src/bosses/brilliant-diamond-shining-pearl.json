@@ -1,0 +1,1539 @@
+{
+  "versionGroup": "brilliant-diamond-shining-pearl",
+  "battles": [
+    {
+      "id": "roark",
+      "name": "Roark",
+      "title": "Oreburgh City Gym",
+      "category": "gym",
+      "type": "rock",
+      "badge": "Coal Badge",
+      "levelCap": 14,
+      "team": [
+        {
+          "pokemon": "geodude",
+          "level": 12,
+          "moves": [
+            "stealth-rock",
+            "defense-curl",
+            "rollout"
+          ]
+        },
+        {
+          "pokemon": "onix",
+          "level": 12,
+          "moves": [
+            "stealth-rock",
+            "rock-throw",
+            "bind"
+          ]
+        },
+        {
+          "pokemon": "cranidos",
+          "level": 14,
+          "moves": [
+            "headbutt",
+            "bulldoze",
+            "leer"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "gardenia",
+      "name": "Gardenia",
+      "title": "Eterna City Gym",
+      "category": "gym",
+      "type": "grass",
+      "badge": "Forest Badge",
+      "levelCap": 22,
+      "team": [
+        {
+          "pokemon": "cherubi",
+          "level": 19,
+          "moves": [
+            "grass-knot",
+            "growth",
+            "dazzling-gleam",
+            "safeguard"
+          ]
+        },
+        {
+          "pokemon": "turtwig",
+          "level": 19,
+          "moves": [
+            "grass-knot",
+            "razor-leaf",
+            "reflect",
+            "work-up"
+          ],
+          "item": "Miracle Seed"
+        },
+        {
+          "pokemon": "roserade",
+          "level": 22,
+          "moves": [
+            "grass-knot",
+            "petal-blizzard",
+            "poison-sting",
+            "stun-spore"
+          ],
+          "item": "Sitrus Berry",
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "barry-hearthome-turtwig",
+      "name": "Barry",
+      "title": "Hearthome City",
+      "category": "rival",
+      "levelCap": 21,
+      "variant": "If you chose Turtwig",
+      "team": [
+        {
+          "pokemon": "starly",
+          "level": 19,
+          "moves": [
+            "quick-attack",
+            "double-team",
+            "endeavor",
+            "pluck"
+          ]
+        },
+        {
+          "pokemon": "buizel",
+          "level": 20,
+          "moves": [
+            "tail-whip",
+            "quick-attack",
+            "water-gun",
+            "bite"
+          ]
+        },
+        {
+          "pokemon": "roselia",
+          "level": 20,
+          "moves": [
+            "poison-sting",
+            "mega-drain",
+            "leech-seed",
+            "grass-knot"
+          ]
+        },
+        {
+          "pokemon": "monferno",
+          "level": 21,
+          "moves": [
+            "mach-punch",
+            "leer",
+            "flame-wheel",
+            "stealth-rock"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "barry-hearthome-chimchar",
+      "name": "Barry",
+      "title": "Hearthome City",
+      "category": "rival",
+      "levelCap": 21,
+      "variant": "If you chose Chimchar",
+      "team": [
+        {
+          "pokemon": "starly",
+          "level": 19,
+          "moves": [
+            "quick-attack",
+            "double-team",
+            "endeavor",
+            "pluck"
+          ]
+        },
+        {
+          "pokemon": "ponyta",
+          "level": 20,
+          "moves": [
+            "tackle",
+            "growl",
+            "flame-charge",
+            "agility"
+          ]
+        },
+        {
+          "pokemon": "roselia",
+          "level": 20,
+          "moves": [
+            "poison-sting",
+            "mega-drain",
+            "leech-seed",
+            "grass-knot"
+          ]
+        },
+        {
+          "pokemon": "prinplup",
+          "level": 21,
+          "moves": [
+            "metal-claw",
+            "bubble-beam",
+            "stealth-rock",
+            "grass-knot"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "barry-hearthome-piplup",
+      "name": "Barry",
+      "title": "Hearthome City",
+      "category": "rival",
+      "levelCap": 21,
+      "variant": "If you chose Piplup",
+      "team": [
+        {
+          "pokemon": "starly",
+          "level": 19,
+          "moves": [
+            "quick-attack",
+            "double-team",
+            "endeavor",
+            "pluck"
+          ]
+        },
+        {
+          "pokemon": "buizel",
+          "level": 20,
+          "moves": [
+            "tail-whip",
+            "quick-attack",
+            "water-gun",
+            "bite"
+          ]
+        },
+        {
+          "pokemon": "ponyta",
+          "level": 20,
+          "moves": [
+            "tackle",
+            "tail-whip",
+            "flame-charge",
+            "agility"
+          ]
+        },
+        {
+          "pokemon": "grotle",
+          "level": 21,
+          "moves": [
+            "absorb",
+            "razor-leaf",
+            "curse",
+            "stealth-rock"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "maylene",
+      "name": "Maylene",
+      "title": "Veilstone City Gym",
+      "category": "gym",
+      "type": "fighting",
+      "badge": "Cobble Badge",
+      "levelCap": 30,
+      "team": [
+        {
+          "pokemon": "meditite",
+          "level": 27,
+          "moves": [
+            "drain-punch",
+            "light-screen",
+            "flash",
+            "bulk-up"
+          ],
+          "item": "Light Clay"
+        },
+        {
+          "pokemon": "machoke",
+          "level": 27,
+          "moves": [
+            "low-sweep",
+            "knock-off",
+            "rock-tomb",
+            "bulldoze"
+          ],
+          "item": "Expert Belt"
+        },
+        {
+          "pokemon": "lucario",
+          "level": 30,
+          "moves": [
+            "drain-punch",
+            "screech",
+            "metal-claw",
+            "bulk-up"
+          ],
+          "item": "Big Root",
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "crasher-wake",
+      "name": "Crasher Wake",
+      "title": "Pastoria City Gym",
+      "category": "gym",
+      "type": "water",
+      "badge": "Fen Badge",
+      "levelCap": 30,
+      "team": [
+        {
+          "pokemon": "gyarados",
+          "level": 27,
+          "moves": [
+            "brine",
+            "ice-fang",
+            "crunch",
+            "flail"
+          ],
+          "item": "Wide Lens"
+        },
+        {
+          "pokemon": "quagsire",
+          "level": 27,
+          "moves": [
+            "rain-dance",
+            "haze",
+            "mud-shot",
+            "scald"
+          ],
+          "item": "Damp Rock"
+        },
+        {
+          "pokemon": "floatzel",
+          "level": 30,
+          "moves": [
+            "brine",
+            "ice-fang",
+            "bite",
+            "aqua-jet"
+          ],
+          "item": "Sitrus Berry",
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "fantina",
+      "name": "Fantina",
+      "title": "Hearthome City Gym",
+      "category": "gym",
+      "type": "ghost",
+      "badge": "Relic Badge",
+      "levelCap": 36,
+      "team": [
+        {
+          "pokemon": "drifblim",
+          "level": 32,
+          "moves": [
+            "strength-sap",
+            "hex",
+            "fly",
+            "will-o-wisp"
+          ],
+          "item": "Zoom Lens"
+        },
+        {
+          "pokemon": "gengar",
+          "level": 34,
+          "moves": [
+            "shadow-claw",
+            "confuse-ray",
+            "sludge-bomb",
+            "dazzling-gleam"
+          ],
+          "item": "Colbur Berry"
+        },
+        {
+          "pokemon": "mismagius",
+          "level": 36,
+          "moves": [
+            "confuse-ray",
+            "phantom-force",
+            "magical-leaf",
+            "dazzling-gleam"
+          ],
+          "item": "Expert Belt",
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "barry-canalave-turtwig",
+      "name": "Barry",
+      "title": "Canalave City",
+      "category": "rival",
+      "levelCap": 37,
+      "variant": "If you chose Turtwig",
+      "team": [
+        {
+          "pokemon": "staravia",
+          "level": 32,
+          "moves": [
+            "quick-attack",
+            "double-team",
+            "endeavor",
+            "pluck"
+          ],
+          "item": "Quick Claw"
+        },
+        {
+          "pokemon": "buizel",
+          "level": 33,
+          "moves": [
+            "tail-whip",
+            "bite",
+            "swift",
+            "brine"
+          ],
+          "item": "Sea Incense"
+        },
+        {
+          "pokemon": "heracross",
+          "level": 32,
+          "moves": [
+            "leer",
+            "aerial-ace",
+            "brick-break",
+            "thief"
+          ]
+        },
+        {
+          "pokemon": "roselia",
+          "level": 34,
+          "moves": [
+            "poison-sting",
+            "sweet-scent",
+            "giga-drain",
+            "grass-knot"
+          ],
+          "item": "Big Root"
+        },
+        {
+          "pokemon": "monferno",
+          "level": 37,
+          "moves": [
+            "mach-punch",
+            "power-up-punch",
+            "flame-wheel",
+            "shadow-claw"
+          ],
+          "item": "Shell Bell",
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "barry-canalave-chimchar",
+      "name": "Barry",
+      "title": "Canalave City",
+      "category": "rival",
+      "levelCap": 37,
+      "variant": "If you chose Chimchar",
+      "team": [
+        {
+          "pokemon": "staravia",
+          "level": 32,
+          "moves": [
+            "quick-attack",
+            "double-team",
+            "endeavor",
+            "pluck"
+          ],
+          "item": "Quick Claw"
+        },
+        {
+          "pokemon": "roselia",
+          "level": 34,
+          "moves": [
+            "poison-sting",
+            "sweet-scent",
+            "giga-drain",
+            "grass-knot"
+          ],
+          "item": "Big Root"
+        },
+        {
+          "pokemon": "heracross",
+          "level": 32,
+          "moves": [
+            "leer",
+            "aerial-ace",
+            "brick-break",
+            "thief"
+          ]
+        },
+        {
+          "pokemon": "ponyta",
+          "level": 34,
+          "moves": [
+            "tail-whip",
+            "agility",
+            "flame-wheel",
+            "stomp"
+          ],
+          "item": "Shell Bell"
+        },
+        {
+          "pokemon": "prinplup",
+          "level": 37,
+          "moves": [
+            "metal-claw",
+            "charm",
+            "grass-knot",
+            "brine"
+          ],
+          "item": "Sea Incense",
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "barry-canalave-piplup",
+      "name": "Barry",
+      "title": "Canalave City",
+      "category": "rival",
+      "levelCap": 37,
+      "variant": "If you chose Piplup",
+      "team": [
+        {
+          "pokemon": "staravia",
+          "level": 32,
+          "moves": [
+            "quick-attack",
+            "double-team",
+            "endeavor",
+            "pluck"
+          ],
+          "item": "Quick Claw"
+        },
+        {
+          "pokemon": "buizel",
+          "level": 33,
+          "moves": [
+            "tail-whip",
+            "bite",
+            "swift",
+            "brine"
+          ],
+          "item": "Sea Incense"
+        },
+        {
+          "pokemon": "heracross",
+          "level": 32,
+          "moves": [
+            "leer",
+            "aerial-ace",
+            "brick-break",
+            "thief"
+          ]
+        },
+        {
+          "pokemon": "ponyta",
+          "level": 34,
+          "moves": [
+            "tail-whip",
+            "agility",
+            "flame-wheel",
+            "stomp"
+          ],
+          "item": "Shell Bell"
+        },
+        {
+          "pokemon": "grotle",
+          "level": 37,
+          "moves": [
+            "razor-leaf",
+            "bite",
+            "leech-seed",
+            "stealth-rock"
+          ],
+          "item": "Big Root",
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "byron",
+      "name": "Byron",
+      "title": "Canalave City Gym",
+      "category": "gym",
+      "type": "steel",
+      "badge": "Mine Badge",
+      "levelCap": 39,
+      "team": [
+        {
+          "pokemon": "bronzor",
+          "level": 36,
+          "moves": [
+            "confuse-ray",
+            "sandstorm",
+            "trick-room",
+            "flash-cannon"
+          ]
+        },
+        {
+          "pokemon": "steelix",
+          "level": 36,
+          "moves": [
+            "thunder-fang",
+            "earthquake",
+            "sandstorm",
+            "gyro-ball"
+          ],
+          "item": "Soft Sand"
+        },
+        {
+          "pokemon": "bastiodon",
+          "level": 39,
+          "moves": [
+            "iron-defense",
+            "thunderbolt",
+            "stone-edge",
+            "flash-cannon"
+          ],
+          "item": "Sitrus Berry",
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "candice",
+      "name": "Candice",
+      "title": "Snowpoint City Gym",
+      "category": "gym",
+      "type": "ice",
+      "badge": "Icicle Badge",
+      "levelCap": 42,
+      "team": [
+        {
+          "pokemon": "snover",
+          "level": 38,
+          "moves": [
+            "mist",
+            "razor-leaf",
+            "water-pulse",
+            "avalanche"
+          ],
+          "item": "Icy Rock"
+        },
+        {
+          "pokemon": "sneasel",
+          "level": 38,
+          "moves": [
+            "metal-claw",
+            "hone-claws",
+            "dig",
+            "avalanche"
+          ],
+          "item": "Chople Berry"
+        },
+        {
+          "pokemon": "medicham",
+          "level": 40,
+          "moves": [
+            "ice-punch",
+            "bulk-up",
+            "brick-break",
+            "rock-slide"
+          ],
+          "item": "Expert Belt"
+        },
+        {
+          "pokemon": "abomasnow",
+          "level": 42,
+          "moves": [
+            "aurora-veil",
+            "giga-drain",
+            "earthquake",
+            "blizzard"
+          ],
+          "item": "Sitrus Berry",
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "cyrus-galactic-hq",
+      "name": "Cyrus",
+      "title": "Team Galactic HQ",
+      "category": "villain",
+      "levelCap": 43,
+      "team": [
+        {
+          "pokemon": "murkrow",
+          "level": 40,
+          "moves": [
+            "wing-attack",
+            "night-shade",
+            "assurance",
+            "taunt"
+          ]
+        },
+        {
+          "pokemon": "golbat",
+          "level": 40,
+          "moves": [
+            "screech",
+            "poison-fang",
+            "air-cutter",
+            "bite"
+          ]
+        },
+        {
+          "pokemon": "sneasel",
+          "level": 43,
+          "moves": [
+            "metal-claw",
+            "icy-wind",
+            "hone-claws",
+            "beat-up"
+          ],
+          "item": "Sitrus Berry",
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "cyrus-spear-pillar",
+      "name": "Cyrus",
+      "title": "Spear Pillar",
+      "category": "villain",
+      "levelCap": 48,
+      "team": [
+        {
+          "pokemon": "honchkrow",
+          "level": 45,
+          "moves": [
+            "air-cutter",
+            "night-slash",
+            "steel-wing",
+            "defog"
+          ],
+          "item": "Scope Lens"
+        },
+        {
+          "pokemon": "crobat",
+          "level": 46,
+          "moves": [
+            "cross-poison",
+            "tailwind",
+            "air-cutter",
+            "u-turn"
+          ],
+          "item": "Quick Claw"
+        },
+        {
+          "pokemon": "gyarados",
+          "level": 45,
+          "moves": [
+            "ice-fang",
+            "waterfall",
+            "crunch",
+            "earthquake"
+          ],
+          "item": "Wacan Berry"
+        },
+        {
+          "pokemon": "weavile",
+          "level": 48,
+          "moves": [
+            "metal-claw",
+            "fling",
+            "dig",
+            "aerial-ace"
+          ],
+          "item": "Chople Berry",
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "volkner",
+      "name": "Volkner",
+      "title": "Sunyshore City Gym",
+      "category": "gym",
+      "type": "electric",
+      "badge": "Beacon Badge",
+      "levelCap": 49,
+      "team": [
+        {
+          "pokemon": "raichu",
+          "level": 46,
+          "moves": [
+            "nuzzle",
+            "volt-switch",
+            "surf",
+            "charge-beam"
+          ],
+          "item": "Shuca Berry"
+        },
+        {
+          "pokemon": "ambipom",
+          "level": 47,
+          "moves": [
+            "fake-out",
+            "thunderbolt",
+            "double-hit",
+            "last-resort"
+          ],
+          "item": "Chople Berry"
+        },
+        {
+          "pokemon": "octillery",
+          "level": 47,
+          "moves": [
+            "octazooka",
+            "focus-energy",
+            "aurora-beam",
+            "charge-beam"
+          ],
+          "item": "Expert Belt"
+        },
+        {
+          "pokemon": "luxray",
+          "level": 49,
+          "moves": [
+            "thunder-fang",
+            "ice-fang",
+            "crunch",
+            "iron-tail"
+          ],
+          "item": "Sitrus Berry",
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "barry-pokemon-league-turtwig",
+      "name": "Barry",
+      "title": "Pokémon League",
+      "category": "rival",
+      "levelCap": 55,
+      "variant": "If you chose Turtwig",
+      "team": [
+        {
+          "pokemon": "staraptor",
+          "level": 49,
+          "moves": [
+            "close-combat",
+            "pluck",
+            "steel-wing",
+            "u-turn"
+          ],
+          "item": "Focus Sash"
+        },
+        {
+          "pokemon": "floatzel",
+          "level": 49,
+          "moves": [
+            "ice-fang",
+            "crunch",
+            "swift",
+            "brine"
+          ],
+          "item": "Quick Claw"
+        },
+        {
+          "pokemon": "heracross",
+          "level": 51,
+          "moves": [
+            "pin-missile",
+            "swords-dance",
+            "rock-slide",
+            "thief"
+          ]
+        },
+        {
+          "pokemon": "roserade",
+          "level": 49,
+          "moves": [
+            "grassy-terrain",
+            "giga-drain",
+            "toxic",
+            "grass-knot"
+          ],
+          "item": "Big Root"
+        },
+        {
+          "pokemon": "snorlax",
+          "level": 52,
+          "moves": [
+            "covet",
+            "yawn",
+            "crunch",
+            "hammer-arm"
+          ]
+        },
+        {
+          "pokemon": "infernape",
+          "level": 55,
+          "moves": [
+            "close-combat",
+            "flame-wheel",
+            "u-turn",
+            "shadow-claw"
+          ],
+          "item": "Expert Belt",
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "barry-pokemon-league-chimchar",
+      "name": "Barry",
+      "title": "Pokémon League",
+      "category": "rival",
+      "levelCap": 55,
+      "variant": "If you chose Chimchar",
+      "team": [
+        {
+          "pokemon": "staraptor",
+          "level": 49,
+          "moves": [
+            "close-combat",
+            "pluck",
+            "rain-dance",
+            "u-turn"
+          ],
+          "item": "Focus Sash"
+        },
+        {
+          "pokemon": "roserade",
+          "level": 49,
+          "moves": [
+            "grassy-terrain",
+            "giga-drain",
+            "toxic",
+            "grass-knot"
+          ],
+          "item": "Big Root"
+        },
+        {
+          "pokemon": "heracross",
+          "level": 51,
+          "moves": [
+            "pin-missile",
+            "swords-dance",
+            "rock-slide",
+            "thief"
+          ]
+        },
+        {
+          "pokemon": "rapidash",
+          "level": 49,
+          "moves": [
+            "smart-strike",
+            "megahorn",
+            "poison-jab",
+            "flame-wheel"
+          ],
+          "item": "Expert Belt"
+        },
+        {
+          "pokemon": "snorlax",
+          "level": 52,
+          "moves": [
+            "covet",
+            "yawn",
+            "crunch",
+            "high-horsepower"
+          ]
+        },
+        {
+          "pokemon": "empoleon",
+          "level": 55,
+          "moves": [
+            "charm",
+            "grass-knot",
+            "brine",
+            "flash-cannon"
+          ],
+          "item": "Quick Claw",
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "barry-pokemon-league-piplup",
+      "name": "Barry",
+      "title": "Pokémon League",
+      "category": "rival",
+      "levelCap": 55,
+      "variant": "If you chose Piplup",
+      "team": [
+        {
+          "pokemon": "staraptor",
+          "level": 49,
+          "moves": [
+            "close-combat",
+            "pluck",
+            "sunny-day",
+            "u-turn"
+          ],
+          "item": "Focus Sash"
+        },
+        {
+          "pokemon": "floatzel",
+          "level": 49,
+          "moves": [
+            "ice-fang",
+            "crunch",
+            "swift",
+            "brine"
+          ],
+          "item": "Quick Claw"
+        },
+        {
+          "pokemon": "heracross",
+          "level": 51,
+          "moves": [
+            "pin-missile",
+            "swords-dance",
+            "rock-slide",
+            "thief"
+          ]
+        },
+        {
+          "pokemon": "rapidash",
+          "level": 49,
+          "moves": [
+            "smart-strike",
+            "megahorn",
+            "poison-jab",
+            "flame-wheel"
+          ],
+          "item": "Expert Belt"
+        },
+        {
+          "pokemon": "snorlax",
+          "level": 52,
+          "moves": [
+            "covet",
+            "yawn",
+            "crunch",
+            "high-horsepower"
+          ]
+        },
+        {
+          "pokemon": "torterra",
+          "level": 55,
+          "moves": [
+            "earthquake",
+            "wood-hammer",
+            "roar",
+            "stealth-rock"
+          ],
+          "item": "Leftovers",
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "aaron",
+      "name": "Aaron",
+      "title": "Elite Four (Pokémon League)",
+      "category": "elite4",
+      "type": "bug",
+      "levelCap": 57,
+      "team": [
+        {
+          "pokemon": "dustox",
+          "level": 53,
+          "moves": [
+            "toxic",
+            "bug-buzz",
+            "moonlight",
+            "light-screen"
+          ],
+          "item": "Black Sludge"
+        },
+        {
+          "pokemon": "beautifly",
+          "level": 53,
+          "moves": [
+            "bug-buzz",
+            "shadow-ball",
+            "psychic",
+            "quiver-dance"
+          ],
+          "item": "Wise Glasses"
+        },
+        {
+          "pokemon": "vespiquen",
+          "level": 54,
+          "moves": [
+            "acrobatics",
+            "attack-order",
+            "aerial-ace",
+            "defend-order"
+          ],
+          "item": "Sitrus Berry"
+        },
+        {
+          "pokemon": "heracross",
+          "level": 54,
+          "moves": [
+            "earthquake",
+            "rock-slide",
+            "facade",
+            "brick-break"
+          ],
+          "item": "Flame Orb"
+        },
+        {
+          "pokemon": "drapion",
+          "level": 57,
+          "moves": [
+            "cross-poison",
+            "night-slash",
+            "earthquake",
+            "x-scissor"
+          ],
+          "item": "Scope Lens",
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "bertha",
+      "name": "Bertha",
+      "title": "Elite Four (Pokémon League)",
+      "category": "elite4",
+      "type": "ground",
+      "levelCap": 59,
+      "team": [
+        {
+          "pokemon": "quagsire",
+          "level": 55,
+          "moves": [
+            "recover",
+            "toxic",
+            "earthquake",
+            "surf"
+          ],
+          "item": "Leftovers"
+        },
+        {
+          "pokemon": "sudowoodo",
+          "level": 56,
+          "moves": [
+            "double-edge",
+            "head-smash",
+            "sucker-punch",
+            "low-kick"
+          ],
+          "item": "Sitrus Berry"
+        },
+        {
+          "pokemon": "golem",
+          "level": 56,
+          "moves": [
+            "rock-polish",
+            "heavy-slam",
+            "earthquake",
+            "stone-edge"
+          ],
+          "item": "Soft Sand"
+        },
+        {
+          "pokemon": "whiscash",
+          "level": 55,
+          "moves": [
+            "bulldoze",
+            "ice-beam",
+            "belch",
+            "hydro-pump"
+          ],
+          "item": "Rindo Berry"
+        },
+        {
+          "pokemon": "hippowdon",
+          "level": 59,
+          "moves": [
+            "ice-fang",
+            "earthquake",
+            "crunch",
+            "rest"
+          ],
+          "item": "Chesto Berry",
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "flint",
+      "name": "Flint",
+      "title": "Elite Four (Pokémon League)",
+      "category": "elite4",
+      "type": "fire",
+      "levelCap": 61,
+      "team": [
+        {
+          "pokemon": "rapidash",
+          "level": 58,
+          "moves": [
+            "flame-charge",
+            "iron-tail",
+            "poison-jab",
+            "hypnosis"
+          ],
+          "item": "Wide Lens"
+        },
+        {
+          "pokemon": "steelix",
+          "level": 57,
+          "moves": [
+            "thunder-fang",
+            "fire-fang",
+            "iron-tail",
+            "crunch"
+          ],
+          "item": "Life Orb"
+        },
+        {
+          "pokemon": "drifblim",
+          "level": 58,
+          "moves": [
+            "strength-sap",
+            "minimize",
+            "baton-pass",
+            "will-o-wisp"
+          ],
+          "item": "Sitrus Berry"
+        },
+        {
+          "pokemon": "lopunny",
+          "level": 57,
+          "moves": [
+            "mirror-coat",
+            "high-jump-kick",
+            "quick-attack",
+            "fire-punch"
+          ],
+          "item": "Leftovers"
+        },
+        {
+          "pokemon": "infernape",
+          "level": 61,
+          "moves": [
+            "fire-punch",
+            "thunder-punch",
+            "close-combat",
+            "mach-punch"
+          ],
+          "item": "Focus Sash",
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "lucian",
+      "name": "Lucian",
+      "title": "Elite Four (Pokémon League)",
+      "category": "elite4",
+      "type": "psychic",
+      "levelCap": 63,
+      "team": [
+        {
+          "pokemon": "mr-mime",
+          "level": 59,
+          "moves": [
+            "light-screen",
+            "reflect",
+            "psychic",
+            "dazzling-gleam"
+          ],
+          "item": "Light Clay"
+        },
+        {
+          "pokemon": "girafarig",
+          "level": 59,
+          "moves": [
+            "light-screen",
+            "psychic",
+            "thunderbolt",
+            "trick-room"
+          ],
+          "item": "Mental Herb"
+        },
+        {
+          "pokemon": "medicham",
+          "level": 60,
+          "moves": [
+            "zen-headbutt",
+            "high-jump-kick",
+            "thunder-punch",
+            "ice-punch"
+          ],
+          "item": "Muscle Band"
+        },
+        {
+          "pokemon": "alakazam",
+          "level": 60,
+          "moves": [
+            "nasty-plot",
+            "psychic",
+            "future-sight",
+            "shock-wave"
+          ],
+          "item": "Life Orb"
+        },
+        {
+          "pokemon": "bronzong",
+          "level": 63,
+          "moves": [
+            "gyro-ball",
+            "earthquake",
+            "payback",
+            "trick-room"
+          ],
+          "item": "Sitrus Berry",
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "cynthia",
+      "name": "Cynthia",
+      "title": "Pokémon League Champion",
+      "category": "champion",
+      "levelCap": 66,
+      "team": [
+        {
+          "pokemon": "spiritomb",
+          "level": 61,
+          "moves": [
+            "shadow-ball",
+            "dark-pulse",
+            "psychic",
+            "sucker-punch"
+          ],
+          "item": "Sitrus Berry"
+        },
+        {
+          "pokemon": "roserade",
+          "level": 60,
+          "moves": [
+            "dazzling-gleam",
+            "shadow-ball",
+            "sludge-bomb",
+            "energy-ball"
+          ],
+          "item": "Expert Belt"
+        },
+        {
+          "pokemon": "gastrodon",
+          "level": 60,
+          "moves": [
+            "scald",
+            "earthquake",
+            "sludge-bomb",
+            "rock-tomb"
+          ],
+          "item": "Leftovers"
+        },
+        {
+          "pokemon": "lucario",
+          "level": 63,
+          "moves": [
+            "aura-sphere",
+            "dragon-pulse",
+            "flash-cannon",
+            "nasty-plot"
+          ],
+          "item": "Wise Glasses"
+        },
+        {
+          "pokemon": "milotic",
+          "level": 63,
+          "moves": [
+            "recover",
+            "mirror-coat",
+            "ice-beam",
+            "scald"
+          ],
+          "item": "Flame Orb"
+        },
+        {
+          "pokemon": "garchomp",
+          "level": 66,
+          "moves": [
+            "dragon-claw",
+            "earthquake",
+            "swords-dance",
+            "poison-jab"
+          ],
+          "item": "Yache Berry",
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "cynthia-rematch",
+      "name": "Cynthia",
+      "title": "Pokémon League Champion rematch (before Stark Mountain)",
+      "category": "postgame",
+      "levelCap": 78,
+      "team": [
+        {
+          "pokemon": "spiritomb",
+          "level": 74,
+          "moves": [
+            "shadow-ball",
+            "dark-pulse",
+            "will-o-wisp",
+            "sucker-punch"
+          ],
+          "item": "Sitrus Berry"
+        },
+        {
+          "pokemon": "roserade",
+          "level": 74,
+          "moves": [
+            "dazzling-gleam",
+            "shadow-ball",
+            "sludge-bomb",
+            "energy-ball"
+          ],
+          "item": "Expert Belt"
+        },
+        {
+          "pokemon": "togekiss",
+          "level": 76,
+          "moves": [
+            "air-slash",
+            "dazzling-gleam",
+            "aura-sphere",
+            "thunder-wave"
+          ],
+          "item": "Leftovers"
+        },
+        {
+          "pokemon": "lucario",
+          "level": 76,
+          "moves": [
+            "aura-sphere",
+            "dragon-pulse",
+            "flash-cannon",
+            "psychic"
+          ],
+          "item": "Wise Glasses"
+        },
+        {
+          "pokemon": "milotic",
+          "level": 74,
+          "moves": [
+            "recover",
+            "mirror-coat",
+            "ice-beam",
+            "scald"
+          ],
+          "item": "Flame Orb"
+        },
+        {
+          "pokemon": "garchomp",
+          "level": 78,
+          "moves": [
+            "dragon-claw",
+            "earthquake",
+            "swords-dance",
+            "poison-jab"
+          ],
+          "item": "Yache Berry",
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "cynthia-rematch-final",
+      "name": "Cynthia",
+      "title": "Pokémon League Champion rematch (after Stark Mountain)",
+      "category": "postgame",
+      "levelCap": 88,
+      "team": [
+        {
+          "pokemon": "spiritomb",
+          "level": 84,
+          "moves": [
+            "shadow-ball",
+            "dark-pulse",
+            "will-o-wisp",
+            "sucker-punch"
+          ],
+          "item": "Sitrus Berry"
+        },
+        {
+          "pokemon": "porygon-z",
+          "level": 85,
+          "moves": [
+            "hyper-beam",
+            "shadow-ball",
+            "ice-beam",
+            "thunderbolt"
+          ],
+          "item": "Expert Belt"
+        },
+        {
+          "pokemon": "togekiss",
+          "level": 86,
+          "moves": [
+            "air-slash",
+            "dazzling-gleam",
+            "aura-sphere",
+            "thunder-wave"
+          ],
+          "item": "Leftovers"
+        },
+        {
+          "pokemon": "lucario",
+          "level": 86,
+          "moves": [
+            "close-combat",
+            "meteor-mash",
+            "earthquake",
+            "extreme-speed"
+          ],
+          "item": "Focus Sash"
+        },
+        {
+          "pokemon": "milotic",
+          "level": 84,
+          "moves": [
+            "recover",
+            "mirror-coat",
+            "ice-beam",
+            "scald"
+          ],
+          "item": "Flame Orb"
+        },
+        {
+          "pokemon": "garchomp",
+          "level": 88,
+          "moves": [
+            "dragon-claw",
+            "earthquake",
+            "swords-dance",
+            "poison-jab"
+          ],
+          "item": "Yache Berry",
+          "ace": true
+        }
+      ]
+    }
+  ]
+}

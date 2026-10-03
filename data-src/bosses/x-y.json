@@ -1,0 +1,1202 @@
+{
+  "versionGroup": "x-y",
+  "battles": [
+    {
+      "id": "viola",
+      "name": "Viola",
+      "title": "Santalune City Gym",
+      "category": "gym",
+      "type": "bug",
+      "badge": "Bug Badge",
+      "levelCap": 12,
+      "team": [
+        {
+          "pokemon": "surskit",
+          "level": 10,
+          "moves": [
+            "quick-attack",
+            "bubble",
+            "water-sport"
+          ]
+        },
+        {
+          "pokemon": "vivillon",
+          "level": 12,
+          "moves": [
+            "harden",
+            "infestation",
+            "tackle"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "grant",
+      "name": "Grant",
+      "title": "Cyllage City Gym",
+      "category": "gym",
+      "type": "rock",
+      "badge": "Cliff Badge",
+      "levelCap": 25,
+      "team": [
+        {
+          "pokemon": "amaura",
+          "level": 25,
+          "moves": [
+            "aurora-beam",
+            "rock-tomb",
+            "thunder-wave",
+            "take-down"
+          ]
+        },
+        {
+          "pokemon": "tyrunt",
+          "level": 25,
+          "moves": [
+            "rock-tomb",
+            "bite",
+            "stomp"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "korrina",
+      "name": "Korrina",
+      "title": "Shalour City Gym",
+      "category": "gym",
+      "type": "fighting",
+      "badge": "Rumble Badge",
+      "levelCap": 32,
+      "team": [
+        {
+          "pokemon": "mienfoo",
+          "level": 29,
+          "moves": [
+            "power-up-punch",
+            "fake-out",
+            "double-slap"
+          ]
+        },
+        {
+          "pokemon": "machoke",
+          "level": 28,
+          "moves": [
+            "power-up-punch",
+            "rock-tomb",
+            "leer"
+          ]
+        },
+        {
+          "pokemon": "hawlucha",
+          "level": 32,
+          "moves": [
+            "flying-press",
+            "hone-claws",
+            "power-up-punch"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "rival-tower-of-mastery-chespin",
+      "name": "Calem / Serena",
+      "title": "Tower of Mastery (Shalour City)",
+      "category": "rival",
+      "levelCap": 30,
+      "variant": "If you chose Chespin",
+      "team": [
+        {
+          "pokemon": "meowstic-male",
+          "level": 28,
+          "moves": [
+            "fake-out",
+            "light-screen",
+            "psybeam",
+            "disarming-voice"
+          ]
+        },
+        {
+          "pokemon": "absol",
+          "level": 28,
+          "moves": [
+            "bite",
+            "slash",
+            "quick-attack"
+          ]
+        },
+        {
+          "pokemon": "braixen",
+          "level": 30,
+          "moves": [
+            "psybeam",
+            "fire-spin"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "rival-tower-of-mastery-fennekin",
+      "name": "Calem / Serena",
+      "title": "Tower of Mastery (Shalour City)",
+      "category": "rival",
+      "levelCap": 30,
+      "variant": "If you chose Fennekin",
+      "team": [
+        {
+          "pokemon": "meowstic-male",
+          "level": 28,
+          "moves": [
+            "fake-out",
+            "light-screen",
+            "psybeam",
+            "disarming-voice"
+          ]
+        },
+        {
+          "pokemon": "absol",
+          "level": 28,
+          "moves": [
+            "bite",
+            "slash",
+            "quick-attack"
+          ]
+        },
+        {
+          "pokemon": "frogadier",
+          "level": 30,
+          "moves": [
+            "quick-attack",
+            "water-pulse"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "rival-tower-of-mastery-froakie",
+      "name": "Calem / Serena",
+      "title": "Tower of Mastery (Shalour City)",
+      "category": "rival",
+      "levelCap": 30,
+      "variant": "If you chose Froakie",
+      "team": [
+        {
+          "pokemon": "meowstic-male",
+          "level": 28,
+          "moves": [
+            "fake-out",
+            "light-screen",
+            "psybeam",
+            "disarming-voice"
+          ]
+        },
+        {
+          "pokemon": "absol",
+          "level": 28,
+          "moves": [
+            "bite",
+            "slash",
+            "quick-attack"
+          ]
+        },
+        {
+          "pokemon": "quilladin",
+          "level": 30,
+          "moves": [
+            "bite",
+            "needle-arm"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "ramos",
+      "name": "Ramos",
+      "title": "Coumarine City Gym",
+      "category": "gym",
+      "type": "grass",
+      "badge": "Plant Badge",
+      "levelCap": 34,
+      "team": [
+        {
+          "pokemon": "jumpluff",
+          "level": 30,
+          "moves": [
+            "grass-knot",
+            "acrobatics",
+            "leech-seed"
+          ]
+        },
+        {
+          "pokemon": "weepinbell",
+          "level": 31,
+          "moves": [
+            "grass-knot",
+            "acid",
+            "poison-powder",
+            "gastro-acid"
+          ]
+        },
+        {
+          "pokemon": "gogoat",
+          "level": 34,
+          "moves": [
+            "grass-knot",
+            "bulldoze",
+            "take-down"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "clemont",
+      "name": "Clemont",
+      "title": "Lumiose City Gym",
+      "category": "gym",
+      "type": "electric",
+      "badge": "Voltage Badge",
+      "levelCap": 37,
+      "team": [
+        {
+          "pokemon": "emolga",
+          "level": 35,
+          "moves": [
+            "volt-switch",
+            "quick-attack",
+            "aerial-ace"
+          ]
+        },
+        {
+          "pokemon": "magneton",
+          "level": 35,
+          "moves": [
+            "thunderbolt",
+            "electric-terrain",
+            "mirror-shot"
+          ]
+        },
+        {
+          "pokemon": "heliolisk",
+          "level": 37,
+          "moves": [
+            "thunderbolt",
+            "quick-attack",
+            "grass-knot"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "valerie",
+      "name": "Valerie",
+      "title": "Laverre City Gym",
+      "category": "gym",
+      "type": "fairy",
+      "badge": "Fairy Badge",
+      "levelCap": 42,
+      "team": [
+        {
+          "pokemon": "mawile",
+          "level": 38,
+          "moves": [
+            "feint-attack",
+            "crunch",
+            "iron-defense"
+          ]
+        },
+        {
+          "pokemon": "mr-mime",
+          "level": 39,
+          "moves": [
+            "light-screen",
+            "reflect",
+            "psychic",
+            "dazzling-gleam"
+          ]
+        },
+        {
+          "pokemon": "sylveon",
+          "level": 42,
+          "moves": [
+            "dazzling-gleam",
+            "quick-attack",
+            "swift",
+            "charm"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "rival-anistar-chespin",
+      "name": "Calem / Serena",
+      "title": "Anistar City",
+      "category": "rival",
+      "levelCap": 46,
+      "variant": "If you chose Chespin",
+      "team": [
+        {
+          "pokemon": "meowstic-male",
+          "level": 44,
+          "moves": [
+            "fake-out",
+            "psychic",
+            "disarming-voice",
+            "shadow-ball"
+          ]
+        },
+        {
+          "pokemon": "absol",
+          "level": 44,
+          "moves": [
+            "swords-dance",
+            "slash",
+            "night-slash",
+            "quick-attack"
+          ]
+        },
+        {
+          "pokemon": "jolteon",
+          "level": 44,
+          "moves": [
+            "discharge",
+            "quick-attack",
+            "double-kick"
+          ]
+        },
+        {
+          "pokemon": "delphox",
+          "level": 46,
+          "moves": [
+            "psychic",
+            "flamethrower"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "rival-anistar-fennekin",
+      "name": "Calem / Serena",
+      "title": "Anistar City",
+      "category": "rival",
+      "levelCap": 46,
+      "variant": "If you chose Fennekin",
+      "team": [
+        {
+          "pokemon": "meowstic-male",
+          "level": 44,
+          "moves": [
+            "fake-out",
+            "psychic",
+            "disarming-voice",
+            "shadow-ball"
+          ]
+        },
+        {
+          "pokemon": "absol",
+          "level": 44,
+          "moves": [
+            "swords-dance",
+            "slash",
+            "night-slash",
+            "quick-attack"
+          ]
+        },
+        {
+          "pokemon": "flareon",
+          "level": 44,
+          "moves": [
+            "quick-attack",
+            "lava-plume",
+            "bite"
+          ]
+        },
+        {
+          "pokemon": "greninja",
+          "level": 46,
+          "moves": [
+            "water-shuriken",
+            "dark-pulse"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "rival-anistar-froakie",
+      "name": "Calem / Serena",
+      "title": "Anistar City",
+      "category": "rival",
+      "levelCap": 46,
+      "variant": "If you chose Froakie",
+      "team": [
+        {
+          "pokemon": "meowstic-male",
+          "level": 44,
+          "moves": [
+            "fake-out",
+            "psychic",
+            "disarming-voice",
+            "shadow-ball"
+          ]
+        },
+        {
+          "pokemon": "absol",
+          "level": 44,
+          "moves": [
+            "swords-dance",
+            "slash",
+            "night-slash",
+            "quick-attack"
+          ]
+        },
+        {
+          "pokemon": "vaporeon",
+          "level": 44,
+          "moves": [
+            "aurora-beam",
+            "muddy-water",
+            "quick-attack"
+          ]
+        },
+        {
+          "pokemon": "chesnaught",
+          "level": 46,
+          "moves": [
+            "seed-bomb",
+            "brick-break"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "olympia",
+      "name": "Olympia",
+      "title": "Anistar City Gym",
+      "category": "gym",
+      "type": "psychic",
+      "badge": "Psychic Badge",
+      "levelCap": 48,
+      "team": [
+        {
+          "pokemon": "sigilyph",
+          "level": 44,
+          "moves": [
+            "psychic",
+            "air-slash",
+            "light-screen",
+            "reflect"
+          ]
+        },
+        {
+          "pokemon": "slowking",
+          "level": 45,
+          "moves": [
+            "psychic",
+            "calm-mind",
+            "power-gem",
+            "yawn"
+          ]
+        },
+        {
+          "pokemon": "meowstic-female",
+          "level": 48,
+          "moves": [
+            "psychic",
+            "calm-mind",
+            "fake-out",
+            "shadow-ball"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "lysandre-1",
+      "name": "Lysandre",
+      "title": "Lysandre Labs",
+      "category": "villain",
+      "levelCap": 49,
+      "team": [
+        {
+          "pokemon": "mienfoo",
+          "level": 45,
+          "moves": [
+            "swords-dance",
+            "high-jump-kick",
+            "acrobatics"
+          ]
+        },
+        {
+          "pokemon": "murkrow",
+          "level": 45,
+          "moves": [
+            "foul-play",
+            "aerial-ace",
+            "retaliate",
+            "steel-wing"
+          ]
+        },
+        {
+          "pokemon": "pyroar-male",
+          "level": 47,
+          "moves": [
+            "hyper-voice",
+            "fire-blast",
+            "dark-pulse"
+          ]
+        },
+        {
+          "pokemon": "gyarados",
+          "level": 49,
+          "moves": [
+            "aqua-tail",
+            "earthquake",
+            "iron-head",
+            "outrage"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "lysandre-2",
+      "name": "Lysandre",
+      "title": "Team Flare Secret HQ",
+      "category": "villain",
+      "levelCap": 51,
+      "team": [
+        {
+          "pokemon": "mienshao",
+          "level": 47,
+          "moves": [
+            "swords-dance",
+            "high-jump-kick",
+            "acrobatics"
+          ]
+        },
+        {
+          "pokemon": "honchkrow",
+          "level": 47,
+          "moves": [
+            "night-slash",
+            "aerial-ace",
+            "retaliate",
+            "steel-wing"
+          ]
+        },
+        {
+          "pokemon": "pyroar-male",
+          "level": 49,
+          "moves": [
+            "hyper-voice",
+            "fire-blast",
+            "dark-pulse"
+          ]
+        },
+        {
+          "pokemon": "gyarados",
+          "level": 51,
+          "moves": [
+            "aqua-tail",
+            "earthquake",
+            "iron-head",
+            "outrage"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "lysandre-3",
+      "name": "Lysandre",
+      "title": "Team Flare Secret HQ (final battle)",
+      "category": "villain",
+      "levelCap": 53,
+      "team": [
+        {
+          "pokemon": "mienshao",
+          "level": 49,
+          "moves": [
+            "swords-dance",
+            "high-jump-kick",
+            "acrobatics"
+          ]
+        },
+        {
+          "pokemon": "honchkrow",
+          "level": 49,
+          "moves": [
+            "night-slash",
+            "aerial-ace",
+            "retaliate",
+            "steel-wing"
+          ]
+        },
+        {
+          "pokemon": "pyroar-male",
+          "level": 51,
+          "moves": [
+            "hyper-voice",
+            "fire-blast",
+            "dark-pulse"
+          ]
+        },
+        {
+          "pokemon": "gyarados",
+          "level": 53,
+          "item": "Gyaradosite",
+          "mega": true,
+          "moves": [
+            "aqua-tail",
+            "earthquake",
+            "iron-head",
+            "outrage"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "wulfric",
+      "name": "Wulfric",
+      "title": "Snowbelle City Gym",
+      "category": "gym",
+      "type": "ice",
+      "badge": "Iceberg Badge",
+      "levelCap": 59,
+      "team": [
+        {
+          "pokemon": "abomasnow",
+          "level": 56,
+          "moves": [
+            "ice-beam",
+            "ice-shard",
+            "energy-ball"
+          ]
+        },
+        {
+          "pokemon": "cryogonal",
+          "level": 55,
+          "moves": [
+            "ice-beam",
+            "confuse-ray",
+            "flash-cannon",
+            "hail"
+          ]
+        },
+        {
+          "pokemon": "avalugg",
+          "level": 59,
+          "moves": [
+            "avalanche",
+            "crunch",
+            "curse",
+            "gyro-ball"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "rival-victory-road-chespin",
+      "name": "Calem / Serena",
+      "title": "Victory Road",
+      "category": "rival",
+      "levelCap": 61,
+      "variant": "If you chose Chespin",
+      "team": [
+        {
+          "pokemon": "meowstic-male",
+          "level": 57,
+          "moves": [
+            "psychic",
+            "fake-out",
+            "disarming-voice",
+            "shadow-ball"
+          ]
+        },
+        {
+          "pokemon": "jolteon",
+          "level": 57,
+          "moves": [
+            "discharge",
+            "quick-attack",
+            "double-kick"
+          ]
+        },
+        {
+          "pokemon": "altaria",
+          "level": 58,
+          "moves": [
+            "dragon-pulse",
+            "dazzling-gleam",
+            "confide"
+          ]
+        },
+        {
+          "pokemon": "absol",
+          "level": 59,
+          "moves": [
+            "night-slash",
+            "quick-attack",
+            "swords-dance",
+            "slash"
+          ]
+        },
+        {
+          "pokemon": "delphox",
+          "level": 61,
+          "moves": [
+            "psychic",
+            "shadow-ball",
+            "flamethrower"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "rival-victory-road-fennekin",
+      "name": "Calem / Serena",
+      "title": "Victory Road",
+      "category": "rival",
+      "levelCap": 61,
+      "variant": "If you chose Fennekin",
+      "team": [
+        {
+          "pokemon": "meowstic-male",
+          "level": 57,
+          "moves": [
+            "psychic",
+            "fake-out",
+            "disarming-voice",
+            "shadow-ball"
+          ]
+        },
+        {
+          "pokemon": "flareon",
+          "level": 57,
+          "moves": [
+            "bite",
+            "lava-plume",
+            "quick-attack"
+          ]
+        },
+        {
+          "pokemon": "altaria",
+          "level": 58,
+          "moves": [
+            "dragon-pulse",
+            "dazzling-gleam",
+            "confide"
+          ]
+        },
+        {
+          "pokemon": "absol",
+          "level": 59,
+          "moves": [
+            "night-slash",
+            "quick-attack",
+            "swords-dance",
+            "slash"
+          ]
+        },
+        {
+          "pokemon": "greninja",
+          "level": 61,
+          "moves": [
+            "dark-pulse",
+            "ice-beam",
+            "water-shuriken"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "rival-victory-road-froakie",
+      "name": "Calem / Serena",
+      "title": "Victory Road",
+      "category": "rival",
+      "levelCap": 61,
+      "variant": "If you chose Froakie",
+      "team": [
+        {
+          "pokemon": "meowstic-male",
+          "level": 57,
+          "moves": [
+            "psychic",
+            "fake-out",
+            "disarming-voice",
+            "shadow-ball"
+          ]
+        },
+        {
+          "pokemon": "vaporeon",
+          "level": 57,
+          "moves": [
+            "muddy-water",
+            "aurora-beam",
+            "quick-attack"
+          ]
+        },
+        {
+          "pokemon": "altaria",
+          "level": 58,
+          "moves": [
+            "dragon-pulse",
+            "dazzling-gleam",
+            "confide"
+          ]
+        },
+        {
+          "pokemon": "absol",
+          "level": 59,
+          "moves": [
+            "night-slash",
+            "quick-attack",
+            "swords-dance",
+            "slash"
+          ]
+        },
+        {
+          "pokemon": "chesnaught",
+          "level": 61,
+          "moves": [
+            "brick-break",
+            "seed-bomb",
+            "body-slam"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "malva",
+      "name": "Malva",
+      "title": "Elite Four",
+      "category": "elite4",
+      "type": "fire",
+      "levelCap": 65,
+      "team": [
+        {
+          "pokemon": "pyroar-male",
+          "level": 63,
+          "moves": [
+            "hyper-voice",
+            "flamethrower",
+            "wild-charge",
+            "noble-roar"
+          ]
+        },
+        {
+          "pokemon": "torkoal",
+          "level": 63,
+          "moves": [
+            "curse",
+            "earthquake",
+            "stone-edge",
+            "flame-wheel"
+          ]
+        },
+        {
+          "pokemon": "chandelure",
+          "level": 63,
+          "moves": [
+            "flamethrower",
+            "shadow-ball",
+            "confuse-ray",
+            "confide"
+          ]
+        },
+        {
+          "pokemon": "talonflame",
+          "level": 65,
+          "moves": [
+            "brave-bird",
+            "quick-attack",
+            "flare-blitz",
+            "flail"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "siebold",
+      "name": "Siebold",
+      "title": "Elite Four",
+      "category": "elite4",
+      "type": "water",
+      "levelCap": 65,
+      "team": [
+        {
+          "pokemon": "clawitzer",
+          "level": 63,
+          "moves": [
+            "water-pulse",
+            "dark-pulse",
+            "dragon-pulse",
+            "aura-sphere"
+          ]
+        },
+        {
+          "pokemon": "gyarados",
+          "level": 63,
+          "moves": [
+            "waterfall",
+            "ice-fang",
+            "earthquake",
+            "dragon-dance"
+          ]
+        },
+        {
+          "pokemon": "starmie",
+          "level": 63,
+          "moves": [
+            "dazzling-gleam",
+            "psychic",
+            "surf",
+            "light-screen"
+          ]
+        },
+        {
+          "pokemon": "barbaracle",
+          "level": 65,
+          "moves": [
+            "cross-chop",
+            "stone-edge",
+            "razor-shell",
+            "x-scissor"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "wikstrom",
+      "name": "Wikstrom",
+      "title": "Elite Four",
+      "category": "elite4",
+      "type": "steel",
+      "levelCap": 65,
+      "team": [
+        {
+          "pokemon": "klefki",
+          "level": 63,
+          "moves": [
+            "dazzling-gleam",
+            "flash-cannon",
+            "torment",
+            "spikes"
+          ]
+        },
+        {
+          "pokemon": "probopass",
+          "level": 63,
+          "moves": [
+            "earth-power",
+            "power-gem",
+            "discharge",
+            "flash-cannon"
+          ]
+        },
+        {
+          "pokemon": "scizor",
+          "level": 63,
+          "moves": [
+            "bullet-punch",
+            "x-scissor",
+            "iron-head",
+            "night-slash"
+          ]
+        },
+        {
+          "pokemon": "aegislash-shield",
+          "level": 65,
+          "moves": [
+            "kings-shield",
+            "sacred-sword",
+            "shadow-claw",
+            "iron-head"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "drasna",
+      "name": "Drasna",
+      "title": "Elite Four",
+      "category": "elite4",
+      "type": "dragon",
+      "levelCap": 65,
+      "team": [
+        {
+          "pokemon": "dragalge",
+          "level": 63,
+          "moves": [
+            "dragon-pulse",
+            "surf",
+            "sludge-bomb",
+            "thunderbolt"
+          ]
+        },
+        {
+          "pokemon": "druddigon",
+          "level": 63,
+          "moves": [
+            "dragon-tail",
+            "revenge",
+            "retaliate",
+            "chip-away"
+          ]
+        },
+        {
+          "pokemon": "altaria",
+          "level": 63,
+          "moves": [
+            "moonblast",
+            "dragon-pulse",
+            "cotton-guard",
+            "sing"
+          ]
+        },
+        {
+          "pokemon": "noivern",
+          "level": 65,
+          "moves": [
+            "air-slash",
+            "dragon-pulse",
+            "flamethrower",
+            "super-fang"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "diantha",
+      "name": "Diantha",
+      "title": "Champion",
+      "category": "champion",
+      "levelCap": 68,
+      "team": [
+        {
+          "pokemon": "hawlucha",
+          "level": 64,
+          "moves": [
+            "swords-dance",
+            "flying-press",
+            "x-scissor",
+            "poison-jab"
+          ]
+        },
+        {
+          "pokemon": "tyrantrum",
+          "level": 65,
+          "moves": [
+            "head-smash",
+            "earthquake",
+            "dragon-claw",
+            "crunch"
+          ]
+        },
+        {
+          "pokemon": "aurorus",
+          "level": 65,
+          "moves": [
+            "thunder",
+            "blizzard",
+            "light-screen",
+            "reflect"
+          ]
+        },
+        {
+          "pokemon": "gourgeist-average",
+          "level": 65,
+          "moves": [
+            "trick-or-treat",
+            "phantom-force",
+            "seed-bomb",
+            "shadow-sneak"
+          ]
+        },
+        {
+          "pokemon": "goodra",
+          "level": 66,
+          "moves": [
+            "dragon-pulse",
+            "muddy-water",
+            "fire-blast",
+            "focus-blast"
+          ]
+        },
+        {
+          "pokemon": "gardevoir",
+          "level": 68,
+          "item": "Gardevoirite",
+          "mega": true,
+          "moves": [
+            "moonblast",
+            "psychic",
+            "shadow-ball",
+            "thunderbolt"
+          ],
+          "ace": true
+        }
+      ]
+    },
+    {
+      "id": "az",
+      "name": "AZ",
+      "title": "Lumiose City (after the Hall of Fame)",
+      "category": "postgame",
+      "levelCap": 60,
+      "team": [
+        {
+          "pokemon": "torkoal",
+          "level": 60,
+          "moves": [
+            "lava-plume",
+            "stone-edge",
+            "body-slam",
+            "return"
+          ]
+        },
+        {
+          "pokemon": "golurk",
+          "level": 60,
+          "moves": [
+            "phantom-force",
+            "heavy-slam",
+            "mega-punch",
+            "return"
+          ]
+        },
+        {
+          "pokemon": "sigilyph",
+          "level": 60,
+          "moves": [
+            "psychic",
+            "air-slash",
+            "cosmic-power",
+            "return"
+          ],
+          "ace": true
+        }
+      ]
+    }
+  ]
+}
