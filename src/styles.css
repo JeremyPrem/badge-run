@@ -127,7 +127,10 @@ select, input[type="search"] {
 /* account */
 .account { display: flex; align-items: flex-end; padding-bottom: 2px; }
 .account:empty { display: none; }
-.account .btn svg { margin-right: 6px; }
+.account .btn svg { margin-right: 8px; }
+/* Google's sign-in button: neutral surface, not the accent color. */
+.btn.signin { background: var(--surface); color: var(--ink); border-color: var(--line); height: 36px; padding: 0 14px; }
+.btn.signin:hover { border-color: var(--ink-3); }
 .who { display: flex; align-items: center; gap: 8px; }
 .who img { border-radius: 50%; }
 .who strong { display: block; font-size: 13px; line-height: 1.2; }

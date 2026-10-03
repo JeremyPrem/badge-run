@@ -1,4 +1,4 @@
-/* Accounts and cloud saves via Supabase (GitHub sign-in + the `teams` table in supabase/schema.sql).
+/* Accounts and cloud saves via Supabase (Google sign-in + the `teams` table in supabase/schema.sql).
    Signed out, the site works exactly as before from browser storage. Signed in, every team edit is
    saved locally at once and upserted to Supabase about a second later. */
 
@@ -39,8 +39,17 @@ window.cloud = (() => {
 
     async signIn() {
       if (!client) return;
+      const provider = cfg.provider || 'google';
+      // Check the provider is switched on first; otherwise Supabase shows a raw JSON error page.
+      try {
+        const r = await fetch(`${cfg.supabaseUrl}/auth/v1/settings`, { headers: { apikey: cfg.supabaseKey } });
+        const settings = await r.json();
+        if (settings.external && !settings.external[provider]) {
+          return toast('Sign-in isn’t available yet. The site owner still needs to finish setting it up.');
+        }
+      } catch { /* settings check is best-effort; try signing in anyway */ }
       const { error } = await client.auth.signInWithOAuth({
-        provider: cfg.provider || 'github',
+        provider,
         options: { redirectTo: location.origin + location.pathname },
       });
       if (error) toast(`Sign-in failed: ${error.message}`);
@@ -131,7 +140,7 @@ window.cloud = (() => {
     const moved = adoptAnonymousTeams(lib);
     useLibrary(user.id, lib);
     if (moved) toast(`Added ${moved} team${moved === 1 ? '' : 's'} from this browser to your account`);
-    else toast(`Signed in as ${user.user_metadata?.user_name || user.email || 'you'}`);
+    else toast(`Signed in as ${user.user_metadata?.full_name || user.user_metadata?.name || user.email || 'you'}`);
     await api.flush();
   }
 

@@ -26,7 +26,7 @@ The site is fully static, with relative paths, so it runs from any subfolder. It
 
 ## Accounts and saved teams
 
-Signed out, teams are kept in the browser. Signing in with GitHub (via [Supabase](https://supabase.com)) saves them to your account:
+Signed out, teams are kept in the browser. Signing in with Google (via [Supabase](https://supabase.com)) saves them to your account:
 several named teams per game (New, Rename, Duplicate, Delete), autosave about a second after each change, and share links
 (`?team=<id>`) that open a copy of the team for anyone. Teams built before signing in are moved into the account the first time you sign in.
 
@@ -34,10 +34,15 @@ Setup, once per Supabase project:
 
 1. **Database:** in Supabase, open **SQL Editor → New query**, paste [`supabase/schema.sql`](supabase/schema.sql) and run it.
    It creates the `teams` table with row-level security: you can only read and write your own teams, and anyone can read a team you've shared.
-2. **GitHub sign-in:** on GitHub, open **Settings → Developer settings → OAuth Apps → New OAuth App**.
-   Use `https://jeremyprem.github.io/badge-run/` as the homepage, and the callback URL shown in Supabase under
-   **Authentication → Sign In / Providers → GitHub** (`https://<project-ref>.supabase.co/auth/v1/callback`).
-   Paste the app's Client ID and a new Client Secret into that Supabase GitHub provider and enable it.
+2. **Google sign-in:**
+   - In [Google Cloud Console](https://console.cloud.google.com/), create or pick a project, then open **APIs & Services → OAuth consent screen**
+     (in newer consoles: **Google Auth Platform → Branding / Audience**). Choose **External**, fill in the app name and support email,
+     add `supabase.co` under authorized domains, and **publish** the app (while it's in *Testing*, only listed test users can sign in).
+     The basic `openid`, `email` and `profile` scopes don't need Google verification.
+   - Open **APIs & Services → Credentials → Create credentials → OAuth client ID**, type **Web application**:
+     - Authorized JavaScript origins: `https://jeremyprem.github.io` and `http://localhost:5173`
+     - Authorized redirect URI: `https://buoclfrhwsxkpdjyzbqn.supabase.co/auth/v1/callback`
+   - In Supabase, open **Authentication → Sign In / Providers → Google**, enable it, paste the Client ID and Client Secret, and save.
 3. **Redirect URLs:** in Supabase, open **Authentication → URL Configuration**. Set **Site URL** to `https://jeremyprem.github.io/badge-run/`
    and add `http://localhost:5173/` under **Redirect URLs** for local testing.
 4. **Config:** put the project URL and publishable key in [`src/config.js`](src/config.js). The publishable key is designed to be public;
