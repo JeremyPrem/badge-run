@@ -59,6 +59,7 @@ Setup, once per Supabase project:
 | Build game data | `python tools/build_data.py` | `data/core.json`, `data/games/*.json` |
 | Sprite sheet | `python tools/build_sprites.py` (needs Pillow) | `data/sprites.png`, `data/sprites.json` |
 | Smoke test | `node tools/smoke_test.js` | renders every tab and battle for every game |
+| Cache-bust code | `python tools/stamp_version.py` (run before committing JS/CSS changes) | `?v=` stamps in `index.html` |
 | Artifact page | `python tools/make_artifact.py` | `artifact.html` |
 
 ## Known gaps
